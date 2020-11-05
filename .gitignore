@@ -1,0 +1,27 @@
+######################
+#忽略 ignore 目录
+ignore/
+
+######################
+# Logs and databases #
+*.log
+*/*.log
+# *.sql
+# *.sqlite
+
+######################
+# OS generated files #
+.DS_Store
+*/.DS_Store
+.DS_Store?
+*/.DS_Store?
+._*
+*/._*
+.Spotlight-V100
+*/.Spotlight-V100
+.Trashes
+*/.Trashes
+ehthumbs.db
+*/ehthumbs.db
+Thumbs.db
+*/Thumbs.db

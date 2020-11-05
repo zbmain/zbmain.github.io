@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>淘宝 ID转商品页</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var wareId;
+		function getWareItem(){
+			wareId = window.prompt("输入购买商品ID,将打开商品页",'550189462849');//默认输入了:袋鼠口罩ID
+			!wareId && getWareItem();
+			return;
+		}
+		getWareItem();
+		wareId && (window.location = 'https://detail.tmall.com/item.htm?id='+wareId);
+	</script>
+</body>
+</html>

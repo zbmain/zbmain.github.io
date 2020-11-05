@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>播放视频</title>
+	<script type="text/javascript">
+		var LocString = String(window.document.location.href);
+		function getQueryStr(str){
+			var rs = new RegExp("(^|)" + str + "=([^&]*)(&|$)", "gi").exec(LocString), tmp;
+			if(tmp = rs){
+				return tmp[2];
+			}
+			return "";
+		}
+		function getElement(key){
+			return document.getElementById(key);
+		}
+		function play(){
+			var mp4Url = getQueryStr('url');
+			console.log(mp4Url)
+			if(mp4Url)
+			{
+				getElement('videoPlayer').src = mp4Url;
+				getElement('videoPlayer').play()
+			}
+		}
+		window.onload = function(){
+			//执行
+			play();
+		}
+	</script>
+</head>
+<body>
+
+	<div style="text-align:center;">
+		<video id='videoPlayer' width="100%" height="100%" controls autoplay muted>Your browser does not support the video tag.</video>
+	</div>
+	
+</body>
+</html>

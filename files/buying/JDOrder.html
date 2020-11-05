@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京东 快捷下单</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var wareId;
+		function getWareId(){
+			wareId = window.prompt("输入购买商品ID(京东商品页:item.jd.com/ 与 .html 之间的数字)");
+			!wareId && getWareId();
+			return;
+		}
+		getWareId();
+		var wareNum = 1;
+		//wareNum = window.prompt("输入购买商品数量(不填写默认6件,6件口罩可达到京东免运费金额)");
+		//!wareNum && (wareNum = 6);
+		wareId && (window.location = 'https://p.m.jd.com/norder/order.action?wareId='+ wareId +'&wareNum='+wareNum+'&enterOrder=true');
+	</script>
+</body>
+</html>

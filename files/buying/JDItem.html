@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京东 ID转商品页</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var wareId;
+		function getWareItem(){
+			wareId = window.prompt("输入购买商品ID,将打开商品页",'100006480567');//默认输入了:优屹口罩ID
+			!wareId && getWareItem();
+			return;
+		}
+		getWareItem();
+		wareId && (window.location = 'https://item.jd.com/'+wareId+'.html');
+	</script>
+</body>
+</html>
