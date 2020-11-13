@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<title>network auth js</title>
+	<link href="../favicon.ico" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" />
+	<link href="../favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="../favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
+	<style type="text/css">
+		html *{ margin-bottom: 20px; padding:0 auto; text-align:center; }
+		textarea{
+            width: 100%;
+            min-height: 650px;
+			text-align: left;
+            background-color: #f5f5f5;
+            border: 2px solid #ccc;
+		}
+        input{
+            font-size: 30px; padding: 2px 50px;
+        }
+	</style>
+	<script type="text/javascript">
+		
+		window.onload = function () {
+        }
+        function copyCode(){
+            codeDiv = document.getElementById("textarea-div")
+            codeDiv.select(); // 选择对象
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            console.log("复制成功");
+        }        
+	</script>
+</head>
+<body>
+	<!-- <div style="font-size: 30px;color: Gainsboro;margin-top: 10px;">Refresh Itcast Network Auth</div> -->
+    <input type="button" name="" value="复 制" onclick="copyCode()">
+	<br>
+    <textarea id="textarea-div">
+// ==UserScript==
+// @name         zbmain
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        172.16.64.1/*
+// @include      172.16.64.1/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    // Your code here...
+
+    //设置自动授权的刷新间隔:单位(分钟)
+    let minute = 30;
+    console.log('itcast automation, refresh rate:'+minute+'min     from zbmain')
+
+    //授权链接
+    var auth_link = 'http://172.16.64.1/goform/formWebAuthUserSubmit?userName=HMAIJY04&userPasswd=62945748&userCommand=userAuth';
+    //
+    autoAuth();
+    //timeout间隔
+    var timeNum = minute * 60 * 1000;
+    //延迟刷新
+    setTimeout(function(){setHerf();},timeNum)
+
+    //自动验证是否登陆即授权
+    function autoAuth(){
+        window.location.pathname == '/WebAuth_auth.asp' && setHerf();
+    }
+    //刷新授权地址(用于延迟调用)
+    function setHerf(url){
+        url = url || auth_link;
+        window.location.href = url;
+    }
+})();
+    </textarea>
+</body>
+</html>
