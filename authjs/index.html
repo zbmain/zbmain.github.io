@@ -43,7 +43,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
-// @author       You
+// @author       ZB
 // @match        172.16.64.1/*
 // @include      172.16.64.1/*
 // @grant        none
@@ -54,7 +54,7 @@
     // Your code here...
 
     //设置自动授权的刷新间隔:单位(分钟)
-    let minute = 30;
+    let minute = 20;
     console.log('itcast automation, refresh rate:'+minute+'min     from zbmain')
 
     //授权链接
@@ -66,7 +66,7 @@
     //延迟刷新
     setTimeout(function(){setHerf();},timeNum)
 
-    //自动验证是否登陆即授权
+    //自动验证是否需要首次授权
     function autoAuth(){
         window.location.pathname == '/WebAuth_auth.asp' && setHerf();
     }
