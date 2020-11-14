@@ -1,18 +1,16 @@
 {
     "name":"zbmain",
-    "translate":[
-        {
-            "baidu":{
-                "appid":"20201114000616452",
-                "secretKey":"6hZuo_nwoqPeFQuGGRek"
-            },
-            "google":{
-                "appid":"",
-                "secretKey":""
-            },"youdao":{
-                "appid":"",
-                "secretKey":""
-            }
+    "translate":{
+        "baidu":{
+            "appid":"20201114000616452",
+            "secretKey":"6hZuo_nwoqPeFQuGGRek"
+        },
+        "google":{
+            "appid":"",
+            "secretKey":""
+        },"youdao":{
+            "appid":"",
+            "secretKey":""
         }
-    ]
+    }
 }
