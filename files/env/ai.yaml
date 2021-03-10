@@ -371,6 +371,5 @@ dependencies:
     - update==0.0.1
     - werobot==1.9.0
     - xmltodict==0.12.0
-    - zbmain==0.0.5
 prefix: /root/anaconda3
 
