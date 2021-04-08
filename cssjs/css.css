@@ -22,5 +22,7 @@ html *{
     color: darkgray;
     border: 5px solid #e7e7e7;
 }
-
 .button-gray:hover {background-color: #e7e7e7;color: black;}
+.nav div{
+    margin-top: 50px;
+}
