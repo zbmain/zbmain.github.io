@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+   <asset name="1.4TSI双离合器手自一体优雅版(18W)优雅版优雅版" code="superb0" configurationURL="assets/data/configurationTable/superb0.xml"/>
+   <asset name="1.4TSI双离合器手自一体优雅版1" code="superb1" configurationURL="assets/data/configurationTable/superb1.xml"/>
+   <asset name="1.4TSI双离合器手自一体优雅版2" code="superb2" configurationURL="assets/data/configurationTable/superb2.xml"/>
+   <asset name="1.4TSI双离合器手自一体优雅版" code="superb3" configurationURL="assets/data/configurationTable/superb0.xml"/>
+   <asset name="1.4TSI双离合器手自一体优雅版" code="superb4" configurationURL="assets/data/configurationTable/superb0.xml"/>
+   <asset name="1.4TSI双离合器手自一体优雅版" code="superb5" configurationURL="assets/data/configurationTable/superb0.xml"/>
+   <asset name="1.4TSI双离合器手自一体优雅版" code="superb6" configurationURL="assets/data/configurationTable/superb0.xml"/>
+   <asset name="1.4TSI双离合器手自一体优雅版" code="superb7" configurationURL="assets/data/configurationTable/superb0.xml"/>
+   <asset name="1.4TSI双离合器手自一体优雅版" code="superb8" configurationURL="assets/data/configurationTable/superb0.xml"/>
+</root>

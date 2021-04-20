@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<root>
+<CubeMaterial>
+    <asset name="cube0" >
+      <_positiveX_URL>asdasaaa.jpg</_positiveX_URL>
+      <_negativeX_URL>asdasaaa.jpg</_negativeX_URL>
+      <_positiveY_URL>guangtufanshe.jpg</_positiveY_URL>
+      <_negativeY_URL>EnvNegYGarage.jpg</_negativeY_URL>
+      <_positiveZ_URL>asdasaaa.jpg</_positiveZ_URL>
+      <_negativeZ_URL>asdasaaa.jpg</_negativeZ_URL>
+      <_name>cube0</_name>
+    </asset>
+	<asset name="cube1" >
+      <_positiveX_URL>EnvPosYGarage.jpg</_positiveX_URL>
+      <_negativeX_URL>EnvPosYGarage.jpg</_negativeX_URL>
+      <_positiveY_URL>EnvPosYGarage.jpg</_positiveY_URL>
+      <_negativeY_URL>EnvPosYGarage.jpg</_negativeY_URL>
+      <_positiveZ_URL>EnvPosYGarage.jpg</_positiveZ_URL>
+      <_negativeZ_URL>EnvPosYGarage.jpg</_negativeZ_URL>
+      <_name>cube1</_name>
+	</asset>  
+	
+	<asset name="cube2" >
+      <_positiveX_URL>dengfanshe.jpg</_positiveX_URL>
+      <_negativeX_URL>dengfanshe.jpg</_negativeX_URL>
+      <_positiveY_URL>dengfanshe.jpg</_positiveY_URL>
+      <_negativeY_URL>dengfanshe.jpg</_negativeY_URL>
+      <_positiveZ_URL>dengfanshe.jpg</_positiveZ_URL>
+      <_negativeZ_URL>dengfanshe.jpg</_negativeZ_URL>
+      <_name>cube2</_name>
+	</asset>  
+	
+	<asset name="cube3" >
+      <_positiveX_URL>未命名-2ss.jpg</_positiveX_URL>
+      <_negativeX_URL>未命名-2ss.jpg</_negativeX_URL>
+      <_positiveY_URL>未命名-2ss.jpg</_positiveY_URL>
+      <_negativeY_URL>未命名-2ss.jpg</_negativeY_URL>
+      <_positiveZ_URL>未命名-2ss.jpg</_positiveZ_URL>
+      <_negativeZ_URL>未命名-2ss.jpg</_negativeZ_URL>
+      <_name>cube3</_name>
+	</asset>  
+	
+	
+	<asset name="cube4" >
+	  <_positiveX_URL>fanzzz.jpg</_positiveX_URL>
+      <_negativeX_URL>fanzzz.jpg</_negativeX_URL>
+      <_positiveY_URL>fanzzz.jpg</_positiveY_URL>
+      <_negativeY_URL>fanzzz.jpg</_negativeY_URL>
+      <_positiveZ_URL>fanzzz.jpg</_positiveZ_URL>
+      <_negativeZ_URL>fanzzz.jpg</_negativeZ_URL>
+      <_name>cube4</_name>
+		  
+	</asset>  
+	
+</CubeMaterial>
+<ReflectionMethod>
+    <asset name="methods0" >
+      <_CubeTextureDataName>cube0</_CubeTextureDataName>
+      <_alpha>0.3</_alpha>
+      <_name>methods0</_name>
+    </asset>
+    <asset name="methods1" >
+      <_CubeTextureDataName>cube0</_CubeTextureDataName>
+      <_alpha>0.2</_alpha>
+      <_name>methods1</_name>
+    </asset>
+	<asset name="methods2" >
+      <_CubeTextureDataName>cube0</_CubeTextureDataName>
+      <_alpha>0.1</_alpha>
+      <_name>methods2</_name>
+    </asset>
+	<asset name="methods3" >
+      <_CubeTextureDataName>cube1</_CubeTextureDataName>
+      <_alpha>1</_alpha>
+      <_name>methods3</_name>
+    </asset>
+	<asset name="methods4" >
+      <_CubeTextureDataName>cube2</_CubeTextureDataName>
+      <_alpha>0.8</_alpha>
+      <_name>methods4</_name>
+    </asset>
+	
+	<asset name="methods5" >
+      <_CubeTextureDataName>cube1</_CubeTextureDataName>
+      <_alpha>0.7</_alpha>
+      <_name>methods5</_name>
+    </asset>
+	
+	<asset name="methods6" >
+      <_CubeTextureDataName>cube3</_CubeTextureDataName>
+      <_alpha>1</_alpha>
+      <_name>methods6</_name>
+    </asset>
+	
+	<asset name="methods7" >
+      <_CubeTextureDataName>cube4</_CubeTextureDataName>
+      <_alpha>0.2</_alpha>
+      <_name>methods7</_name>
+    </asset>
+	
+</ReflectionMethod>
+</root>

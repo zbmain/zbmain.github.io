@@ -1,0 +1,534 @@
+<!doctype html>
+<html style="font-size:100px;">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>大通</title>
+<link type="text/css" rel="stylesheet" href="style/jquery.mCustomScrollbar.min.css">
+<link type="text/css" rel="stylesheet" href="style/global.css">
+<link rel="stylesheet" type="text/css" href="style/swiper.3.1.7.min.css"/>
+<link type="text/css" rel="stylesheet" href="style/main.css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="js/swiper.3.1.7.min.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript">
+	var webSiteURL = "";
+</script>
+
+<script src="car/D90/unit.js"></script>
+		<script src="car/D90/js/controls/OrbitControls.js"></script>
+		<!-- NodeLibrary -->
+		<script src="car/D90/js/nodes/GLNode.js"></script>
+		<script src="car/D90/js/nodes/RawNode.js"></script>
+		<script src="car/D90/js/nodes/TempNode.js"></script>
+		<script src="car/D90/js/nodes/InputNode.js"></script>
+		<script src="car/D90/js/nodes/ConstNode.js"></script>
+		<script src="car/D90/js/nodes/FunctionNode.js"></script>
+		<script src="car/D90/js/nodes/FunctionCallNode.js"></script>
+		<script src="car/D90/js/nodes/BuilderNode.js"></script>
+		<script src="car/D90/js/nodes/NodeLib.js"></script>
+		<script src="car/D90/js/nodes/NodeMaterial.js"></script>
+		<!-- Accessors -->
+		<script src="car/D90/js/nodes/accessors/PositionNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/NormalNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/UVNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/ScreenUVNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/ColorsNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/CameraNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/ReflectNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/LightNode.js"></script>
+		<!-- Inputs -->
+		<script src="car/D90/js/nodes/inputs/IntNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/FloatNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/ColorNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/Vector2Node.js"></script>
+		<script src="car/D90/js/nodes/inputs/Vector3Node.js"></script>
+		<script src="car/D90/js/nodes/inputs/Vector4Node.js"></script>
+		<script src="car/D90/js/nodes/inputs/TextureNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/CubeTextureNode.js"></script>
+		<!-- Math -->
+		<script src="car/D90/js/nodes/math/Math1Node.js"></script>
+		<script src="car/D90/js/nodes/math/Math2Node.js"></script>
+		<script src="car/D90/js/nodes/math/Math3Node.js"></script>
+		<script src="car/D90/js/nodes/math/OperatorNode.js"></script>
+		<!-- Utils -->
+		<script src="car/D90/js/nodes/utils/SwitchNode.js"></script>
+		<script src="car/D90/js/nodes/utils/JoinNode.js"></script>
+		<script src="car/D90/js/nodes/utils/TimerNode.js"></script>
+		<script src="car/D90/js/nodes/utils/RoughnessToBlinnExponentNode.js"></script>
+		<script src="car/D90/js/nodes/utils/VelocityNode.js"></script>
+		<script src="car/D90/js/nodes/utils/LuminanceNode.js"></script>
+		<script src="car/D90/js/nodes/utils/ColorAdjustmentNode.js"></script>
+		<script src="car/D90/js/nodes/utils/NoiseNode.js"></script>
+		<script src="car/D90/js/nodes/utils/ResolutionNode.js"></script>
+		<!-- Phong Material -->
+		<script src="car/D90/js/nodes/materials/PhongNode.js"></script>
+		<script src="car/D90/js/nodes/materials/PhongNodeMaterial.js"></script>
+		<!-- Standard Material -->
+		<script src="car/D90/js/nodes/materials/StandardNode.js"></script>
+		<script src="car/D90/js/nodes/materials/StandardNodeMaterial.js"></script>
+		<script src="car/D90/js/renderers/Projector.js"></script>
+		
+		<script src="car/D90/js/loaders/AWDLoader.js"></script>
+		<script src="car/D90/js/Tween.js"></script>
+		<script type="text/javascript" src="car/D90/js/Detector.js"></script>
+
+</head>
+
+<body>
+<div class="wrapper">
+	<!--内容-start-->
+	<div class="carsFlash">
+		<div class="nav">
+			<a href="javascript:;" class="wg active">外观</a><a href="javascript:;" class="ns">内饰</a>
+		</div>
+    	<!-- <div id="container">
+    		<span onclick="showBox('popHighlights')">亮点</span>
+    	</div> -->
+    	<div class="carsPic">
+
+    		<div id="container"></div>
+			<div id="pano" style="width:100%;height:100%;display: none;">
+			<noscript><table style="width:100%;height:100%;"><tr style="vertical-align:middle;text-align:center;"><td>ERROR:<br><br>Javascript not activated<br><br></td></tr></table></noscript>
+			</div>
+
+
+			<div class="waveIcon2" id="dianD_Box001" style="visibility: hidden" onclick="showBoxImg('imageBox','images/highlightImg.png')"></div>
+			<div class="waveIcon2" id="dianD_Box002" style="visibility: hidden" onclick="showBoxImg('imageBox','images/noneBig.jpg')"></div>
+			<div class="waveIcon1" id="dianD_Box003" style="visibility: hidden" onclick="showBoxVideo('videoBox','video/video.mp4','LED科技尾灯','后尾采用了厚壁LED光导走线的尾灯兼具古建筑飞檐的精巧，犀利富有层次感。后保分色件处理则减少了车身色占比，')"></div>
+			<div class="waveIcon1" id="dianD_Box004" style="visibility: hidden" onclick="showBoxVideo('videoBox','video/video.mp4','LED科技未定1111','后尾采用了厚壁LED光导走线的尾灯兼具古建筑飞檐的精巧')"></div>
+			<div class="waveIcon1" id="dianD_Box005" style="visibility: hidden" onclick="showBoxVideo('videoBox')"></div>
+			<div class="waveIcon1" id="dianD_Box006" style="visibility: hidden" onclick="showBoxVideo('videoBox')"></div>
+			<div class="waveIcon1" id="dianD_Box007" style="visibility: hidden" onclick="showBoxVideo('videoBox')"></div>
+
+			<!--内饰-->
+			<!--<div class="waveIcon2" id="dianD_Int_Box0" style="visibility: hidden" onclick="showBoxVideo('popHighlights')"></div>
+			<div class="waveIcon1" id="dianD_Int_Box1" style="visibility: hidden" onclick="showBoxVideo('popHighlights')"></div>
+			<div class="waveIcon1" id="dianD_Int_Box2" style="visibility: hidden" onclick="showBoxVideo('popHighlights')"></div>
+			<div class="waveIcon1" id="dianD_Int_Box3" style="visibility: hidden" onclick="showBoxVideo('popHighlights')"></div>
+			<div class="waveIcon1" id="dianD_Int_Box4" style="visibility: hidden" onclick="showBoxVideo('popHighlights')"></div>
+			<div class="waveIcon1" id="dianD_Int_Box5" style="visibility: hidden" onclick="showBoxVideo('popHighlights')"></div>
+			<div class="waveIcon1" id="dianD_Int_Box6" style="visibility: hidden" onclick="showBoxVideo('popHighlights')"></div>-->
+
+    		
+    	</div>
+    	<!--<div class="waveIcon1"></div>-->
+		<!--<div class="waveIcon2"></div>-->
+    </div>
+	<div class="contWrap">
+		<div class="tabListWrap">
+			<!--外观-start-->
+			<div class="tabList tabListWG active">
+				<div class="firstFloorSwiper">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+						  	<div class="swiper-slide active">
+						    	颜色
+						    </div>
+						    <div class="swiper-slide">
+						    	轮毂
+						    </div>
+						    <div class="swiper-slide">
+						    	格栅
+						    </div>
+						</div>
+					</div>
+					<div class="swiper-button-prev swiper-button-prevA01"></div>
+					<div class="swiper-button-next swiper-button-nextA01"></div>
+				</div>
+				<div class="colorTab secondFloorSwiperWrap active">
+					<div class="text">
+						<span class="textSpan">宝石蓝</span>
+					</div>
+					<div class="secondFloorSwiper">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+							  	<div class="swiper-slide active">
+							  		<i class="iconSelect"></i>
+							    	<img src="images/ext/A001.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/ext/B001.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/ext/C001.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/ext/C002.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/ext/E002.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/ext/F081.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/ext/K003.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/ext/L001.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/ext/M001.png" alt="" />
+							    </div>
+							</div>
+						</div>
+						<div class="swiper-button-prev swiper-button-prevA1"></div>
+    					<div class="swiper-button-next swiper-button-nextA1"></div>
+					</div>
+				</div>
+				<div class="lgTab secondFloorSwiperWrap">
+					<div class="text">
+						<span class="textSpan">6幅战斧款轮毂<span>￥0</span></span>
+					</div>
+					<div class="secondFloorSwiper">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+							    <div class="swiper-slide active">
+									<i class="iconSelect"></i>
+							    	<img src="images/ext/J05E.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+									<i class="iconSelect"></i>
+							    	<img src="images/ext/J05F.png" alt="" />
+							    </div>
+							  	<div class="swiper-slide">
+									<i class="iconSelect"></i>
+							    	<img src="images/ext/J05G.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+									<i class="iconSelect"></i>
+							    	<img src="images/ext/J05H.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+									<i class="iconSelect"></i>
+							    	<img src="images/ext/J05K.png" alt="" />
+							    </div>
+
+							</div>
+						</div>
+						<div class="swiper-button-prev swiper-button-prevA2"></div>
+    					<div class="swiper-button-next swiper-button-nextA2"></div>
+					</div>
+				</div>
+				<div class="qlgsTab normalTab secondFloorSwiperWrap">
+					<div class="text">
+						<span class="textSpan">低配散热器格栅</span>
+					</div>
+					<div class="secondFloorSwiper">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+
+							  	<div class="swiper-slide">
+							  		<i class="iconSelect"></i>
+							    	<img src="images/ext/K15M.png" alt="" />
+							   </div>
+								<div class="swiper-slide active">
+									<i class="iconSelect"></i>
+									<img src="images/ext/K15N.png" alt="" />
+								</div>
+								<div class="swiper-slide">
+									<i class="iconSelect"></i>
+									<img src="images/ext/K15P.png" alt="" />
+								</div>
+								<div class="swiper-slide">
+									<i class="iconSelect"></i>
+									<img src="images/ext/K15Q.png" alt="" />
+								</div>
+
+							</div>
+						</div>
+						<div class="swiper-button-prev swiper-button-prevA3"></div>
+    					<div class="swiper-button-next swiper-button-nextA3"></div>
+					</div>
+				</div>
+			</div>
+			<!--外观-end-->
+			<!--内饰-start-->
+			<div class="tabList tabListNS">
+				<div class="firstFloorSwiper">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+						  	<div class="swiper-slide active">
+						    	内饰格调
+						    </div>
+						    <div class="swiper-slide">
+						    	座椅面料
+						    </div>
+						    <div class="swiper-slide">
+						    	IP内饰
+						    </div>
+						</div>
+					</div>
+					<div class="swiper-button-prev swiper-button-prevB01"></div>
+					<div class="swiper-button-next swiper-button-nextB01"></div>
+				</div>
+				<div class="NScolorTab normalTab secondFloorSwiperWrap active">
+					<div class="text">
+						<span class="textSpan">棕色内饰</span>
+					</div>
+					<div class="secondFloorSwiper">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+
+							  	<div class="swiper-slide">
+							  		<i class="iconSelect"></i>
+							    	<img src="images/int/A35B.png" alt="" />
+							    </div>
+							    <div class="swiper-slide active">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/int/A35E.png" alt="" />
+							    </div>
+							    <div class="swiper-slide">
+							    	<i class="iconSelect"></i>
+							    	<img src="images/int/A35F.png" alt="" />
+							    </div>
+							</div>
+						</div>
+						<div class="swiper-button-prev swiper-button-prevB1"></div>
+    					<div class="swiper-button-next swiper-button-nextB1"></div>
+					</div>
+				</div>
+				<div class="ZYTab normalTab secondFloorSwiperWrap">
+					<div class="text">
+						<span class="textSpan">普通纹路</span>
+					</div>
+					<div class="secondFloorSwiper">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+
+							  	<div class="swiper-slide">
+							  		<i class="iconSelect"></i>
+							    	<img src="images/int/N56A.png" alt="" />
+							    </div>
+								<div class="swiper-slide active">
+									<i class="iconSelect"></i>
+									<img src="images/int/N56B.png" alt="" />
+								</div>
+
+							</div>
+						</div>
+						<div class="swiper-button-prev swiper-button-prevB3"></div>
+    					<div class="swiper-button-next swiper-button-nextB3"></div>
+					</div>
+				</div>
+				<div class="ipnsTab normalTab secondFloorSwiperWrap">
+					<div class="text">
+						<span class="textSpan">喷漆</span>
+					</div>
+					<div class="secondFloorSwiper">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+
+							  	<div class="swiper-slide">
+							  		<i class="iconSelect"></i>
+							    	<img src="images/int/M76J.png" alt="" />
+							    </div>
+								<div class="swiper-slide">
+									<i class="iconSelect"></i>
+									<img src="images/int/M76L.png" alt="" />
+								</div>
+								<div class="swiper-slide">
+									<i class="iconSelect"></i>
+									<img src="images/int/M76N.png" alt="" />
+								</div>
+								<div class="swiper-slide active">
+									<i class="iconSelect"></i>
+									<img src="images/int/M76P.png" alt="" />
+								</div>
+								
+
+							</div>
+						</div>
+						<div class="swiper-button-prev swiper-button-prevB1"></div>
+    					<div class="swiper-button-next swiper-button-nextB1"></div>
+					</div>
+				</div>
+			</div>
+			<!--内饰-end-->
+		</div>
+        
+		<!--弹出-start-->
+        <div id="overlay"></div>
+        <div class="popBox videoBox">
+        	<a href="javascript:;" class="popClose" onclick="closeBox()"></a>
+            <div class="popBoxCont">
+            	<div class="highlightImg">
+            		<!--图片-start-->
+            		<!--<img src="images/highlightImg.png" alt="" />-->
+            		<!--图片-end-->
+            		<!--视频-start-->
+            		<video controls="controls">
+					  <source id="videoID" src="video/video.mp4" type="video/mp4">
+					</video>
+            		<!--视频-end-->
+            	</div>
+            	<div class="highlightText">
+            		<h1 id="h1ID">LED科技尾灯</h1>
+            		<p id="pID">后尾采用了厚壁LED光导走线的尾灯兼具古建筑飞檐的精巧，犀利富有层次感。后保分色件处理则减少了车身色占比，并采用了与前保主题相呼应的设计，体现开阔和强壮的视觉。同时，ski-panel整合雾灯、排气管设计也可根据用户喜好和需求任意挑选排气管设计也可根据用户喜好和需求任意挑选排气管设计也可根据用户喜好和需求任意挑选排气管设计也可根据用户喜好和需求任意挑选。“电镀双出或炮筒四出尾部？你说了算！”</p>
+            	</div>
+            </div>
+        </div>
+		<div class="popBox imageBox">
+			<a href="javascript:;" class="popClose" onclick="closeBox()"></a>
+			<div class="popBoxCont">
+				<div class="highlightImg">
+					<!--图片-start-->
+					<img id="imgID" src="images/highlightImg.png" alt="" />
+					<!--图片-end-->
+				</div>
+				<div class="highlightText">
+					<h1>LED科技尾灯</h1>
+					<p>后尾采用了厚壁LED光导走线的尾灯兼具古建筑飞檐的精巧，犀利富有层次感。后保分色件处理则减少了车身色占比，并采用了与前保主题相呼应的设计，体现开阔和强壮的视觉。同时，ski-panel整合雾灯、排气管设计也可根据用户喜好和需求任意挑选排气管设计也可根据用户喜好和需求任意挑选排气管设计也可根据用户喜好和需求任意挑选排气管设计也可根据用户喜好和需求任意挑选。“电镀双出或炮筒四出尾部？你说了算！”</p>
+				</div>
+			</div>
+		</div>
+        <!--弹出-end-->
+	</div>
+	<!--内容-end-->
+
+</div>    
+
+<script type="text/javascript">
+	var mySwiper01 = new Swiper('.tabListWG .firstFloorSwiper .swiper-container', {
+		slidesPerView : 3,
+		slidesPerGroup : 3,
+		prevButton:'.swiper-button-prevA01',
+		nextButton:'.swiper-button-nextA01',
+	});
+	var mySwiper02 = new Swiper('.tabListNS .firstFloorSwiper .swiper-container', {
+		slidesPerView : 3,
+		slidesPerGroup : 3,
+		prevButton:'.swiper-button-prevB01',
+		nextButton:'.swiper-button-nextB01',
+	});
+	var mySwiperA1 = new Swiper('.colorTab .swiper-container', {
+		slidesPerView : 'auto',
+		prevButton:'.swiper-button-prevA1',
+		nextButton:'.swiper-button-nextA1',
+	});
+	var mySwiperA2 = new Swiper('.lgTab .swiper-container', {
+		slidesPerView : 'auto',
+		prevButton:'.swiper-button-prevA2',
+		nextButton:'.swiper-button-nextA2',
+	});
+	/*var mySwiperB1 = new Swiper('.NScolorTab .swiper-container', {
+		slidesPerView : 'auto',
+		prevButton:'.swiper-button-prevB1',
+		nextButton:'.swiper-button-nextB1',
+	});*/
+    
+
+</script>
+</body>
+
+<script src="car/D90/js/YappamCar.js"></script>
+<script src="car/D90/js/D90Optional.js"></script>
+<script src="car/D90/js/DeviceTesting.js"></script>
+
+
+<script src="pano/krpano.js"></script>
+<script src="pano/YappamCarPano.js"></script>
+
+<script type="text/javascript">
+
+function carStartFunc()
+{
+	//$(".loader").hide();
+	if(_deviceType == "Windows")
+	{
+		onWindowResize2();
+	}else{
+	    onWindowResize3();
+	}
+	carTypeSelect(0);
+}
+
+function carExtLoading()
+{
+	//alert("开始加载-");
+}
+function carExtLoadingEnd()
+{
+	//alert("全部完毕-");
+}
+
+initCarStartFun();
+//initLoaderMode();
+addExt();
+
+//显示内饰
+function showPano(value)
+{
+	if(value)
+	{
+		meshVisible("Box001",false);
+		meshVisible("Box002",false);
+		meshVisible("Box003",false);
+		meshVisible("Box004",false);
+		meshVisible("Box005",false);
+		meshVisible("Box006",false);
+		meshVisible("Box007",false);
+
+		$("#pano").show();
+		if(!_panoBoo)
+		{
+			embedpano({swf:webSiteURL+"pano/krpano.swf", xml:webSiteURL+"pano/dt_pano/contextmenu.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true,onready: krpanoReady,id:"pano1"});
+		//	_panoBoo = true;
+			panoStart();
+
+			return ;
+		}
+		rootViweComplete();
+
+		
+		
+	}else{
+		$("#pano").hide();
+	}
+	
+}
+
+function panoReady()
+{
+
+	//alert(12);
+
+	if(_panoBoo)
+	{
+
+		return ;
+	}
+	//var intfeatureCodeList = ["M001", "J05F", "K15M", "S00E", "S35X", "K04E", "K50M", "K60D", "L14C", "C31C", "A35E", "M76L", "N50R", "M95D", "Q08X",  "J15F", "J17X", "H30H", "S25V", "C06C", "Q04X", "Q07X", "F05B", "F10J", "F15X", "S30X", "U13X", "T11B", "K20E", "K23X",  "S42X", "N00M", "N02A", "N06B", "M10F", "440M", "S21X", "S68X", "S54X", "U106", "E00P", "215D", "H18X", "N25B"];
+	//var intfeatureCodeList = ["A35E","E00P","S35U","F10J","K20M","F15A","Q08A","C06C","U13A","T11B","H30E","M76P","M10F","S30P","S08G","N25A","N56B","N50T"];
+	var intfeatureCodeList = ["A35E","E00P","S35U","F10J","K20M","F15A","Q08A","C06C","U13A","T11B","H30E","M76P","M10F","S30P","S08G","N25A","N56B","N50T","U00G","R01D","M20A","C09A","215E"];
+	setIntFeatureList(intfeatureCodeList);
+	_panoBoo = true;
+}
+
+
+/*
+//隐藏外观：
+$("#container").hide();
+setRenderOpen(false);
+//显示内饰：
+showPano(true);
+*/
+
+
+</script>
+
+</html>

@@ -1,0 +1,3523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2017-02-09T04:14:58Z</created>
+    <keywords></keywords>
+    <modified>2017-02-09T04:14:58Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="Material #1" name="Material #1">
+      <instance_effect url="#Material #1-fx"/>
+    </material>
+    <material id="_24 - Default" name="_24 - Default">
+      <instance_effect url="#_24 - Default-fx"/>
+    </material>
+    <material id="_19 - Default" name="_19 - Default">
+      <instance_effect url="#_19 - Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #1-fx" name="Material #1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588235  0.588235 0.588235 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_24 - Default-fx" name="_24 - Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588235  0.588235 0.588235 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_19 - Default-fx" name="_19 - Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588235  0.588235 0.588235 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Box001-lib" name="Box001Mesh">
+      <mesh>
+        <source id="Box001-POSITION">
+          <float_array id="Box001-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001-Normal0">
+          <float_array id="Box001-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001-UV0">
+          <float_array id="Box001-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box001-VERTEX">
+          <input semantic="POSITION" source="#Box001-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#Box001-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box001-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box001-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box002-lib" name="Box002Mesh">
+      <mesh>
+        <source id="Box002-POSITION">
+          <float_array id="Box002-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#Box002-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box002-Normal0">
+          <float_array id="Box002-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box002-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box002-UV0">
+          <float_array id="Box002-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box002-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box002-VERTEX">
+          <input semantic="POSITION" source="#Box002-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#Box002-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box002-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box002-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box005-lib" name="Box005Mesh">
+      <mesh>
+        <source id="Box005-POSITION">
+          <float_array id="Box005-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#Box005-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box005-Normal0">
+          <float_array id="Box005-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box005-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box005-UV0">
+          <float_array id="Box005-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box005-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box005-VERTEX">
+          <input semantic="POSITION" source="#Box005-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#Box005-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box005-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box005-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box007-lib" name="Box007Mesh">
+      <mesh>
+        <source id="Box007-POSITION">
+          <float_array id="Box007-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#Box007-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box007-Normal0">
+          <float_array id="Box007-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box007-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box007-UV0">
+          <float_array id="Box007-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box007-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box007-VERTEX">
+          <input semantic="POSITION" source="#Box007-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#Box007-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box007-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box007-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box008-lib" name="Box008Mesh">
+      <mesh>
+        <source id="Box008-POSITION">
+          <float_array id="Box008-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#Box008-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box008-Normal0">
+          <float_array id="Box008-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box008-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box008-UV0">
+          <float_array id="Box008-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box008-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box008-VERTEX">
+          <input semantic="POSITION" source="#Box008-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#Box008-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box008-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box008-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box009-lib" name="Box009Mesh">
+      <mesh>
+        <source id="Box009-POSITION">
+          <float_array id="Box009-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#Box009-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box009-Normal0">
+          <float_array id="Box009-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box009-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box009-UV0">
+          <float_array id="Box009-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box009-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box009-VERTEX">
+          <input semantic="POSITION" source="#Box009-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#Box009-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box009-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box009-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box010-lib" name="Box010Mesh">
+      <mesh>
+        <source id="Box010-POSITION">
+          <float_array id="Box010-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#Box010-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box010-Normal0">
+          <float_array id="Box010-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box010-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box010-UV0">
+          <float_array id="Box010-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box010-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box010-VERTEX">
+          <input semantic="POSITION" source="#Box010-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#Box010-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box010-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box010-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai001-lib" name="kai001Mesh">
+      <mesh>
+        <source id="kai001-POSITION">
+          <float_array id="kai001-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai001-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai001-Normal0">
+          <float_array id="kai001-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai001-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai001-UV0">
+          <float_array id="kai001-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai001-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai001-VERTEX">
+          <input semantic="POSITION" source="#kai001-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai001-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai001-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai001-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai002-lib" name="kai002Mesh">
+      <mesh>
+        <source id="kai002-POSITION">
+          <float_array id="kai002-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai002-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai002-Normal0">
+          <float_array id="kai002-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai002-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai002-UV0">
+          <float_array id="kai002-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai002-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai002-VERTEX">
+          <input semantic="POSITION" source="#kai002-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai002-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai002-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai002-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai003-lib" name="kai003Mesh">
+      <mesh>
+        <source id="kai003-POSITION">
+          <float_array id="kai003-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai003-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai003-Normal0">
+          <float_array id="kai003-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai003-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai003-UV0">
+          <float_array id="kai003-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai003-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai003-VERTEX">
+          <input semantic="POSITION" source="#kai003-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai003-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai003-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai003-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai004-lib" name="kai004Mesh">
+      <mesh>
+        <source id="kai004-POSITION">
+          <float_array id="kai004-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai004-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai004-Normal0">
+          <float_array id="kai004-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai004-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai004-UV0">
+          <float_array id="kai004-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai004-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai004-VERTEX">
+          <input semantic="POSITION" source="#kai004-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai004-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai004-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai004-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai005-lib" name="kai005Mesh">
+      <mesh>
+        <source id="kai005-POSITION">
+          <float_array id="kai005-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai005-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai005-Normal0">
+          <float_array id="kai005-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai005-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai005-UV0">
+          <float_array id="kai005-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai005-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai005-VERTEX">
+          <input semantic="POSITION" source="#kai005-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai005-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai005-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai005-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai006-lib" name="kai006Mesh">
+      <mesh>
+        <source id="kai006-POSITION">
+          <float_array id="kai006-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai006-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai006-Normal0">
+          <float_array id="kai006-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai006-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai006-UV0">
+          <float_array id="kai006-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai006-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai006-VERTEX">
+          <input semantic="POSITION" source="#kai006-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai006-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai006-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai006-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai007-lib" name="kai007Mesh">
+      <mesh>
+        <source id="kai007-POSITION">
+          <float_array id="kai007-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai007-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai007-Normal0">
+          <float_array id="kai007-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai007-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai007-UV0">
+          <float_array id="kai007-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai007-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai007-VERTEX">
+          <input semantic="POSITION" source="#kai007-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai007-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai007-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai007-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai008-lib" name="kai008Mesh">
+      <mesh>
+        <source id="kai008-POSITION">
+          <float_array id="kai008-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai008-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai008-Normal0">
+          <float_array id="kai008-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai008-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai008-UV0">
+          <float_array id="kai008-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai008-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai008-VERTEX">
+          <input semantic="POSITION" source="#kai008-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai008-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai008-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai008-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai012-lib" name="kai012Mesh">
+      <mesh>
+        <source id="kai012-POSITION">
+          <float_array id="kai012-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai012-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai012-Normal0">
+          <float_array id="kai012-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai012-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai012-UV0">
+          <float_array id="kai012-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai012-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai012-VERTEX">
+          <input semantic="POSITION" source="#kai012-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai012-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai012-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai012-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai009-lib" name="kai009Mesh">
+      <mesh>
+        <source id="kai009-POSITION">
+          <float_array id="kai009-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai009-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai009-Normal0">
+          <float_array id="kai009-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai009-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai009-UV0">
+          <float_array id="kai009-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai009-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai009-VERTEX">
+          <input semantic="POSITION" source="#kai009-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai009-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai009-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai009-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai011-lib" name="kai011Mesh">
+      <mesh>
+        <source id="kai011-POSITION">
+          <float_array id="kai011-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai011-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai011-Normal0">
+          <float_array id="kai011-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai011-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai011-UV0">
+          <float_array id="kai011-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai011-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai011-VERTEX">
+          <input semantic="POSITION" source="#kai011-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai011-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai011-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai011-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="kai010-lib" name="kai010Mesh">
+      <mesh>
+        <source id="kai010-POSITION">
+          <float_array id="kai010-POSITION-array" count="24">
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#kai010-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai010-Normal0">
+          <float_array id="kai010-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai010-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai010-UV0">
+          <float_array id="kai010-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#kai010-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kai010-VERTEX">
+          <input semantic="POSITION" source="#kai010-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_24 - Default">
+          <input semantic="VERTEX" offset="0" source="#kai010-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#kai010-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#kai010-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box003-lib" name="Box003Mesh">
+      <mesh>
+        <source id="Box003-POSITION">
+          <float_array id="Box003-POSITION-array" count="24">
+-0.455147 -0.456055 -0.476292
+0.461265 -0.456024 -0.478527
+-0.455155 0.456039 -0.476292
+0.461242 0.456055 -0.478535
+-0.461266 -0.456040 0.478527
+0.455063 -0.456024 0.476276
+-0.461266 0.456024 0.478535
+0.455055 0.456039 0.476276
+</float_array>
+          <technique_common>
+            <accessor source="#Box003-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box003-Normal0">
+          <float_array id="Box003-Normal0-array" count="108">
+-0.002443 -0.000004 -0.999997
+-0.002439 -0.000008 -0.999997
+-0.002443 -0.000004 -0.999997
+-0.002443 -0.000004 -0.999997
+-0.002448 0.000000 -0.999997
+-0.002443 -0.000004 -0.999997
+0.002460 -0.000004 0.999997
+0.002465 -0.000008 0.999997
+0.002460 -0.000004 0.999997
+0.002460 -0.000004 0.999997
+0.002456 0.000000 0.999997
+0.002460 -0.000004 0.999997
+0.000025 -1.000000 0.000008
+0.000017 -1.000000 0.000016
+0.000025 -1.000000 0.000008
+0.000025 -1.000000 0.000008
+0.000033 -1.000000 0.000000
+0.000025 -1.000000 0.000008
+0.999979 0.000017 0.006488
+0.999979 0.000008 0.006496
+0.999979 0.000017 0.006488
+0.999979 0.000017 0.006488
+0.999979 0.000025 0.006480
+0.999979 0.000017 0.006488
+-0.000017 1.000000 0.000016
+-0.000017 1.000000 0.000016
+-0.000017 1.000000 0.000016
+-0.000017 1.000000 0.000016
+-0.000017 1.000000 0.000016
+-0.000017 1.000000 0.000016
+-0.999979 -0.000004 -0.006404
+-0.999979 0.000000 -0.006400
+-0.999979 -0.000004 -0.006404
+-0.999979 -0.000004 -0.006404
+-0.999979 -0.000008 -0.006408
+-0.999979 -0.000004 -0.006404
+</float_array>
+          <technique_common>
+            <accessor source="#Box003-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box003-UV0">
+          <float_array id="Box003-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box003-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box003-VERTEX">
+          <input semantic="POSITION" source="#Box003-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_19 - Default">
+          <input semantic="VERTEX" offset="0" source="#Box003-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box003-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box003-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box004-lib" name="Box004Mesh">
+      <mesh>
+        <source id="Box004-POSITION">
+          <float_array id="Box004-POSITION-array" count="24">
+-0.455959 -0.456024 -0.476608
+0.460373 -0.456024 -0.478881
+-0.455956 0.456024 -0.476616
+0.460373 0.456055 -0.478881
+-0.460373 -0.456070 0.478882
+0.455875 -0.456024 0.476563
+-0.460373 0.456055 0.478882
+0.455868 0.456070 0.476563
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004-Normal0">
+          <float_array id="Box004-Normal0-array" count="108">
+-0.002477 -0.000004 -0.999997
+-0.002481 0.000000 -0.999997
+-0.002477 -0.000004 -0.999997
+-0.002477 -0.000004 -0.999997
+-0.002473 -0.000008 -0.999997
+-0.002477 -0.000004 -0.999997
+0.002531 0.000000 0.999997
+0.002531 0.000000 0.999997
+0.002531 0.000000 0.999997
+0.002531 0.000000 0.999997
+0.002531 0.000000 0.999997
+0.002531 0.000000 0.999997
+0.000026 -1.000000 -0.000024
+0.000050 -1.000000 -0.000048
+0.000024 -1.000000 -0.000023
+0.000024 -1.000000 -0.000023
+0.000000 -1.000000 0.000000
+0.000026 -1.000000 -0.000024
+0.999989 0.000004 0.004711
+0.999989 0.000008 0.004707
+0.999989 0.000004 0.004711
+0.999989 0.000004 0.004711
+0.999989 0.000000 0.004715
+0.999989 0.000004 0.004711
+-0.000025 1.000000 -0.000024
+-0.000017 1.000000 -0.000016
+-0.000025 1.000000 -0.000024
+-0.000025 1.000000 -0.000024
+-0.000033 1.000000 -0.000032
+-0.000025 1.000000 -0.000024
+-0.999989 0.000002 -0.004621
+-0.999989 0.000000 -0.004623
+-0.999989 0.000002 -0.004621
+-0.999989 0.000002 -0.004621
+-0.999989 0.000004 -0.004619
+-0.999989 0.000002 -0.004621
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004-UV0">
+          <float_array id="Box004-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box004-VERTEX">
+          <input semantic="POSITION" source="#Box004-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_19 - Default">
+          <input semantic="VERTEX" offset="0" source="#Box004-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box004-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box004-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box006-lib" name="Box006Mesh">
+      <mesh>
+        <source id="Box006-POSITION">
+          <float_array id="Box006-POSITION-array" count="24">
+-0.455246 -0.456055 -0.476329
+0.461029 -0.456039 -0.478626
+-0.455246 0.456054 -0.476306
+0.461037 0.456054 -0.478611
+-0.461037 -0.456039 0.478619
+0.455162 -0.456055 0.476300
+-0.461037 0.456039 0.478626
+0.455162 0.456054 0.476292
+</float_array>
+          <technique_common>
+            <accessor source="#Box006-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box006-Normal0">
+          <float_array id="Box006-Normal0-array" count="108">
+-0.002510 0.000021 -0.999997
+-0.002506 0.000017 -0.999997
+-0.002510 0.000021 -0.999997
+-0.002510 0.000021 -0.999997
+-0.002515 0.000025 -0.999997
+-0.002510 0.000021 -0.999997
+0.002540 0.000000 0.999997
+0.002548 -0.000008 0.999997
+0.002540 0.000000 0.999997
+0.002540 0.000000 0.999997
+0.002531 0.000008 0.999997
+0.002540 0.000000 0.999997
+0.000000 -1.000000 0.000000
+-0.000017 -1.000000 0.000016
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000017 -1.000000 -0.000016
+0.000000 -1.000000 0.000000
+0.999981 -0.000004 0.006148
+0.999981 0.000000 0.006144
+0.999981 -0.000004 0.006148
+0.999981 -0.000004 0.006148
+0.999981 -0.000008 0.006152
+0.999981 -0.000004 0.006148
+-0.000009 1.000000 0.000008
+-0.000017 1.000000 0.000000
+-0.000008 1.000000 0.000008
+-0.000008 1.000000 0.000008
+0.000000 1.000000 0.000016
+-0.000009 1.000000 0.000008
+-0.999982 0.000000 -0.006064
+-0.999982 0.000000 -0.006064
+-0.999982 0.000000 -0.006064
+-0.999982 0.000000 -0.006064
+-0.999982 0.000000 -0.006064
+-0.999982 0.000000 -0.006064
+</float_array>
+          <technique_common>
+            <accessor source="#Box006-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box006-UV0">
+          <float_array id="Box006-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box006-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box006-VERTEX">
+          <input semantic="POSITION" source="#Box006-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_19 - Default">
+          <input semantic="VERTEX" offset="0" source="#Box006-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box006-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box006-UV0"/>
+          <p> 3 0 10 1 1 8 0 2 9 0 3 9 2 4 11 3 5 10 7 6 11 6 7 10 4 8 8 4 9 8 5 10 9 7 11 11 5 12 7 4 13 6 0 14 4 0 15 4 1 16 5 5 17 7 7 18 3 5 19 2 1 20 0 1 21 0 3 22 1 7 23 3 6 24 7 7 25 6 3 26 4 3 27 4 2 28 5 6 29 7 4 30 3 6 31 2 2 32 0 2 33 0 0 34 1 4 35 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations>
+    <animation id="Box001-anim" name="Box001">
+      <animation>
+        <source id="Box001-Matrix-animation-input">
+          <float_array id="Box001-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001-Matrix-animation-output-transform">
+          <float_array id="Box001-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001-Interpolations">
+          <Name_array id="Box001-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box001-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box001-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box001-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box001-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box001-Interpolations"/>
+        </sampler>
+        <channel source="#Box001-Matrix-animation-transform" target="Box001/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Box002-anim" name="Box002">
+      <animation>
+        <source id="Box002-Matrix-animation-input">
+          <float_array id="Box002-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box002-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box002-Matrix-animation-output-transform">
+          <float_array id="Box002-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box002-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box002-Interpolations">
+          <Name_array id="Box002-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box002-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box002-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box002-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box002-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box002-Interpolations"/>
+        </sampler>
+        <channel source="#Box002-Matrix-animation-transform" target="Box002/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Box005-anim" name="Box005">
+      <animation>
+        <source id="Box005-Matrix-animation-input">
+          <float_array id="Box005-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box005-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box005-Matrix-animation-output-transform">
+          <float_array id="Box005-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box005-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box005-Interpolations">
+          <Name_array id="Box005-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box005-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box005-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box005-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box005-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box005-Interpolations"/>
+        </sampler>
+        <channel source="#Box005-Matrix-animation-transform" target="Box005/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Box007-anim" name="Box007">
+      <animation>
+        <source id="Box007-Matrix-animation-input">
+          <float_array id="Box007-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box007-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box007-Matrix-animation-output-transform">
+          <float_array id="Box007-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box007-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box007-Interpolations">
+          <Name_array id="Box007-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box007-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box007-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box007-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box007-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box007-Interpolations"/>
+        </sampler>
+        <channel source="#Box007-Matrix-animation-transform" target="Box007/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Box008-anim" name="Box008">
+      <animation>
+        <source id="Box008-Matrix-animation-input">
+          <float_array id="Box008-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box008-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box008-Matrix-animation-output-transform">
+          <float_array id="Box008-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box008-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box008-Interpolations">
+          <Name_array id="Box008-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box008-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box008-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box008-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box008-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box008-Interpolations"/>
+        </sampler>
+        <channel source="#Box008-Matrix-animation-transform" target="Box008/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Box009-anim" name="Box009">
+      <animation>
+        <source id="Box009-Matrix-animation-input">
+          <float_array id="Box009-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box009-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box009-Matrix-animation-output-transform">
+          <float_array id="Box009-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box009-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box009-Interpolations">
+          <Name_array id="Box009-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box009-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box009-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box009-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box009-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box009-Interpolations"/>
+        </sampler>
+        <channel source="#Box009-Matrix-animation-transform" target="Box009/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Box010-anim" name="Box010">
+      <animation>
+        <source id="Box010-Matrix-animation-input">
+          <float_array id="Box010-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box010-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box010-Matrix-animation-output-transform">
+          <float_array id="Box010-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box010-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box010-Interpolations">
+          <Name_array id="Box010-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box010-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box010-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box010-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box010-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box010-Interpolations"/>
+        </sampler>
+        <channel source="#Box010-Matrix-animation-transform" target="Box010/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai001-anim" name="kai001">
+      <animation>
+        <source id="kai001-Matrix-animation-input">
+          <float_array id="kai001-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai001-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai001-Matrix-animation-output-transform">
+          <float_array id="kai001-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai001-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai001-Interpolations">
+          <Name_array id="kai001-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai001-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai001-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai001-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai001-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai001-Interpolations"/>
+        </sampler>
+        <channel source="#kai001-Matrix-animation-transform" target="kai001/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai002-anim" name="kai002">
+      <animation>
+        <source id="kai002-Matrix-animation-input">
+          <float_array id="kai002-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai002-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai002-Matrix-animation-output-transform">
+          <float_array id="kai002-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai002-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai002-Interpolations">
+          <Name_array id="kai002-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai002-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai002-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai002-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai002-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai002-Interpolations"/>
+        </sampler>
+        <channel source="#kai002-Matrix-animation-transform" target="kai002/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai003-anim" name="kai003">
+      <animation>
+        <source id="kai003-Matrix-animation-input">
+          <float_array id="kai003-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai003-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai003-Matrix-animation-output-transform">
+          <float_array id="kai003-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai003-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai003-Interpolations">
+          <Name_array id="kai003-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai003-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai003-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai003-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai003-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai003-Interpolations"/>
+        </sampler>
+        <channel source="#kai003-Matrix-animation-transform" target="kai003/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai004-anim" name="kai004">
+      <animation>
+        <source id="kai004-Matrix-animation-input">
+          <float_array id="kai004-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai004-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai004-Matrix-animation-output-transform">
+          <float_array id="kai004-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai004-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai004-Interpolations">
+          <Name_array id="kai004-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai004-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai004-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai004-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai004-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai004-Interpolations"/>
+        </sampler>
+        <channel source="#kai004-Matrix-animation-transform" target="kai004/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai005-anim" name="kai005">
+      <animation>
+        <source id="kai005-Matrix-animation-input">
+          <float_array id="kai005-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai005-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai005-Matrix-animation-output-transform">
+          <float_array id="kai005-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai005-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai005-Interpolations">
+          <Name_array id="kai005-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai005-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai005-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai005-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai005-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai005-Interpolations"/>
+        </sampler>
+        <channel source="#kai005-Matrix-animation-transform" target="kai005/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai006-anim" name="kai006">
+      <animation>
+        <source id="kai006-Matrix-animation-input">
+          <float_array id="kai006-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai006-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai006-Matrix-animation-output-transform">
+          <float_array id="kai006-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai006-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai006-Interpolations">
+          <Name_array id="kai006-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai006-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai006-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai006-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai006-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai006-Interpolations"/>
+        </sampler>
+        <channel source="#kai006-Matrix-animation-transform" target="kai006/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai007-anim" name="kai007">
+      <animation>
+        <source id="kai007-Matrix-animation-input">
+          <float_array id="kai007-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai007-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai007-Matrix-animation-output-transform">
+          <float_array id="kai007-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai007-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai007-Interpolations">
+          <Name_array id="kai007-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai007-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai007-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai007-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai007-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai007-Interpolations"/>
+        </sampler>
+        <channel source="#kai007-Matrix-animation-transform" target="kai007/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai008-anim" name="kai008">
+      <animation>
+        <source id="kai008-Matrix-animation-input">
+          <float_array id="kai008-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai008-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai008-Matrix-animation-output-transform">
+          <float_array id="kai008-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai008-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai008-Interpolations">
+          <Name_array id="kai008-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai008-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai008-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai008-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai008-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai008-Interpolations"/>
+        </sampler>
+        <channel source="#kai008-Matrix-animation-transform" target="kai008/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai012-anim" name="kai012">
+      <animation>
+        <source id="kai012-Matrix-animation-input">
+          <float_array id="kai012-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai012-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai012-Matrix-animation-output-transform">
+          <float_array id="kai012-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai012-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai012-Interpolations">
+          <Name_array id="kai012-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai012-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai012-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai012-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai012-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai012-Interpolations"/>
+        </sampler>
+        <channel source="#kai012-Matrix-animation-transform" target="kai012/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai009-anim" name="kai009">
+      <animation>
+        <source id="kai009-Matrix-animation-input">
+          <float_array id="kai009-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai009-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai009-Matrix-animation-output-transform">
+          <float_array id="kai009-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai009-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai009-Interpolations">
+          <Name_array id="kai009-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai009-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai009-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai009-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai009-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai009-Interpolations"/>
+        </sampler>
+        <channel source="#kai009-Matrix-animation-transform" target="kai009/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai011-anim" name="kai011">
+      <animation>
+        <source id="kai011-Matrix-animation-input">
+          <float_array id="kai011-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai011-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai011-Matrix-animation-output-transform">
+          <float_array id="kai011-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai011-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai011-Interpolations">
+          <Name_array id="kai011-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai011-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai011-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai011-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai011-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai011-Interpolations"/>
+        </sampler>
+        <channel source="#kai011-Matrix-animation-transform" target="kai011/matrix"/>
+      </animation>
+    </animation>
+    <animation id="kai010-anim" name="kai010">
+      <animation>
+        <source id="kai010-Matrix-animation-input">
+          <float_array id="kai010-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai010-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai010-Matrix-animation-output-transform">
+          <float_array id="kai010-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#kai010-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kai010-Interpolations">
+          <Name_array id="kai010-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#kai010-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="kai010-Matrix-animation-transform">
+          <input semantic="INPUT" source="#kai010-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#kai010-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#kai010-Interpolations"/>
+        </sampler>
+        <channel source="#kai010-Matrix-animation-transform" target="kai010/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Box003-anim" name="Box003">
+      <animation>
+        <source id="Box003-Matrix-animation-input">
+          <float_array id="Box003-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box003-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box003-Matrix-animation-output-transform">
+          <float_array id="Box003-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box003-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box003-Interpolations">
+          <Name_array id="Box003-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box003-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box003-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box003-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box003-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box003-Interpolations"/>
+        </sampler>
+        <channel source="#Box003-Matrix-animation-transform" target="Box003/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Box004-anim" name="Box004">
+      <animation>
+        <source id="Box004-Matrix-animation-input">
+          <float_array id="Box004-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004-Matrix-animation-output-transform">
+          <float_array id="Box004-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004-Interpolations">
+          <Name_array id="Box004-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box004-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box004-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box004-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box004-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box004-Interpolations"/>
+        </sampler>
+        <channel source="#Box004-Matrix-animation-transform" target="Box004/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Box006-anim" name="Box006">
+      <animation>
+        <source id="Box006-Matrix-animation-input">
+          <float_array id="Box006-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box006-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box006-Matrix-animation-output-transform">
+          <float_array id="Box006-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Box006-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box006-Interpolations">
+          <Name_array id="Box006-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Box006-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Box006-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Box006-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Box006-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Box006-Interpolations"/>
+        </sampler>
+        <channel source="#Box006-Matrix-animation-transform" target="Box006/matrix"/>
+      </animation>
+    </animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Box001" id="Box001" layer="waishi" sid="Box001">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -3.521493 0.000000 0.000000 0.205000 3.595612 0.000000 -0.205000 0.000000 16.259972 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box001-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box002" id="Box002" layer="waishi" sid="Box002">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -36.768005 0.000000 0.000000 0.205000 1.293002 0.000000 -0.205000 0.000000 13.746735 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box002-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box005" id="Box005" layer="waishi" sid="Box005">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -30.123978 0.000000 0.000000 0.205000 4.753880 0.000000 -0.205000 0.000000 0.309626 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box005-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box007" id="Box007" layer="waishi" sid="Box007">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -23.952477 0.000000 0.000000 0.205000 0.234636 0.000000 -0.205000 0.000000 17.475685 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box007-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box008" id="Box008" layer="waishi" sid="Box008">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -8.292801 0.000000 0.000000 0.205000 6.279522 0.000000 -0.205000 0.000000 18.997192 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box008-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box009" id="Box009" layer="waishi" sid="Box009">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -44.310150 0.000000 0.000000 0.205000 -4.941250 0.000000 -0.205000 0.000000 0.926879 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box009-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box010" id="Box010" layer="waishi" sid="Box010">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -34.066864 0.000000 0.000000 0.205000 4.078493 0.000000 -0.205000 0.000000 -0.094119 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box010-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai001" id="kai001" layer="waishi" sid="kai001">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -41.026077 0.000000 0.000000 0.205000 1.937201 0.000000 -0.205000 0.000000 -0.403015 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai001-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai002" id="kai002" layer="waishi" sid="kai002">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 1.689942 0.000000 0.000000 0.205000 3.037606 0.000000 -0.205000 0.000000 17.515083 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai002-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai003" id="kai003" layer="waishi" sid="kai003">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 21.906349 0.000000 0.000000 0.205000 4.721815 0.000000 -0.205000 0.000000 17.299789 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai003-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai004" id="kai004" layer="waishi" sid="kai004">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 45.823685 0.000000 0.000000 0.205000 -2.674455 0.000000 -0.205000 0.000000 -0.416403 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai004-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai005" id="kai005" layer="waishi" sid="kai005">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 21.906349 0.000000 0.000000 0.205000 4.721815 0.000000 -0.205000 0.000000 -18.085556 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai005-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai006" id="kai006" layer="waishi" sid="kai006">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 1.689942 0.000000 0.000000 0.205000 3.037606 0.000000 -0.205000 0.000000 -18.319107 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai006-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai007" id="kai007" layer="waishi" sid="kai007">
+        <matrix sid="matrix">0.117583 -0.000000 0.167926 -34.414230 -0.167926 0.000000 0.117583 21.855301 -0.000000 -0.205000 0.000000 -0.403015 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai007-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai008" id="kai008" layer="waishi" sid="kai008">
+        <matrix sid="matrix">0.086637 0.185793 0.000000 -8.352528 -0.000000 -0.000000 0.205000 3.037606 0.185793 -0.086637 0.000000 31.921982 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai008-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai012" id="kai012" layer="waishi" sid="kai012">
+        <matrix sid="matrix">0.086637 -0.185793 0.000000 -8.352573 -0.000000 0.000000 0.205000 3.037606 -0.185793 -0.086637 0.000000 -32.725967 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai012-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai009" id="kai009" layer="waishi" sid="kai009">
+        <matrix sid="matrix">0.086637 0.185793 0.000000 11.654652 -0.000000 -0.000000 0.205000 4.721815 0.185793 -0.086637 0.000000 31.102722 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai009-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai011" id="kai011" layer="waishi" sid="kai011">
+        <matrix sid="matrix">0.086637 -0.185793 0.000000 11.671158 -0.000000 0.000000 0.205000 4.721815 -0.185793 -0.086637 0.000000 -31.898987 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai011-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="kai010" id="kai010" layer="waishi" sid="kai010">
+        <matrix sid="matrix">0.035598 -0.000000 -0.201886 51.740280 0.201886 0.000000 0.035598 23.836578 0.000000 -0.205000 0.000000 -0.416403 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#kai010-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_24 - Default" target="#_24 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box003" id="Box003" layer="Layer001" sid="Box003">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -5.524744 0.000000 0.000000 0.205000 3.731340 0.000000 -0.205000 0.000000 6.744953 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box003-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_19 - Default" target="#_19 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box004" id="Box004" sid="Box004">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -9.502205 0.000000 0.000000 0.205000 3.924652 0.000000 -0.205000 0.000000 -3.287505 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box004-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_19 - Default" target="#_19 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box006" id="Box006" sid="Box006">
+        <matrix sid="matrix">0.205000 0.000000 0.000000 -6.268917 0.000000 0.000000 0.205000 4.046608 0.000000 -0.205000 0.000000 8.556931 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box006-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_19 - Default" target="#_19 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

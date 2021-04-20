@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 选装包列表  每个车型对应一个选装包列表  \n-->
+	<asset>
+		<explain>>111选装说明选装说明选装说明选装说明选装说明选装说明选装说明选装说明选装说明选装说明..>选装说明选装说明选装说明选装说明选装说明选装..>选装说明选装说明选装说明选装说明..>选装说明选装说明选装说明选装说明..>选装说明选装说明选装说明选装说明..>选装说明选装说明选装说明选装说明..>选装说明选装说明选装说明选装说明..>选装说明选装说明选装说明选装说明..>选装说明选装说明选装说明选装说明..</explain>
+		<features>1.产品特色产品特色产品特色产品特色产品特色\n2.产品特色产品特色产品特色产品特色产品特色</features>
+		<price>200000</price>
+		<code>00Pxcxxx1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明..>选装说明选装..>选装说明选装说明选装说明选装说明..</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>200000</price>
+		<code>11P1xcvxvP1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	<asset>
+		<explain>>选装说明选装说明说明..>选装说明选装说明选装说明选装说明选装说明选装..>选装说明选装说明选装说明选装说明..</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>200000</price>
+		<code>22P1cvbcvP1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明..</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>200000</price>
+		<code>33P1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明..</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>200000</price>
+		<code>44P1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明..</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>200000</price>
+		<code>55P1P1</code> 
+	    <thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明..</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>200000</price>
+		<code>66P1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>400000</price>
+		<code>77P1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>400000</price>
+		<code>77asddddasP1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>400000</price>
+		<code>77P1asdffdsaP1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>400000</price>
+		<code>77P1dfdddgP1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>400000</price>
+		<code>77Pdfgggg1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	
+	
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>400000</price>
+		<code>77dfgggP1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	
+	
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>400000</price>
+		<code>7sdf7P1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+	
+	
+	<asset>
+		<explain>>选装说明选装说明选装说明选装说明</explain>
+		<features>产品特色产品特色产品特色产品特色产品特色</features>
+		<price>400000</price>
+		<code>77Pasd1P1</code> 
+		<thumb>assets/images/4_2.jpg</thumb> 
+		<image>assets/images/4_1.jpg</image> 
+	</asset>
+
+</root>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fontList>
+	<font label="宋体" usName="SimSun"/>
+	<font label="新宋体" usName="NSimSun"/>
+	<font label="仿宋" usName="FangSong"/>
+	<font label="宋体-PUA" usName="SimSun-PUA"/>
+	<font label="黑体" usName="SimHei"/>
+	<font label="标楷体" usName="DFKai-SB"/>
+	<font label="细明体" usName="MingLiU"/>
+	<font label="新细明体" usName="PMingLiU"/>
+	<font label="楷体" usName="KaiTi"/>
+	<font label="仿宋_GB2312" usName="FangSong_GB2312"/>
+	<font label="楷体_GB2312" usName="KaiTi_GB2312"/>
+	<font label="微软正黑" usName="Microsoft JhengHei"/>
+	<font label="微軟正黑體" usName="Microsoft JhengHei" />
+	<font label="微软正黑体" usName="Microsoft JhengHei" />
+	<font label="微软雅黑" usName="Microsoft YaHei"/>
+	<font label="微軟雅黑" usName="Microsoft YaHei" />
+	<font label="隶书" usName="LiSu"/>
+	<font label="幼圆" usName="YouYuan"/>
+	<font label="华文黑体" usName="STHeiti"/>
+	<font label="华文细黑" usName="STXihei"/>
+	<font label="华文楷体" usName="STKaiti"/>
+	<font label="华文宋体" usName="STSong"/>
+	<font label="华文中宋" usName="STZhongsong"/>
+	<font label="华文仿宋" usName="STFangsong"/>
+	<font label="方正舒体" usName="FZShuTi"/>
+	<font label="方正姚体" usName="FZYaoti"/>
+	<font label="华文彩云" usName="STCaiyun"/>
+	<font label="华文琥珀" usName="STHupo"/>
+	<font label="华文隶书" usName="STLiti"/>
+	<font label="华文行楷" usName="STXingkai"/>
+	<font label="华文新魏" usName="STXinwei"/>
+	<font label="丽黑 Pro" usName="LiHei Pro Medium" />
+	<font label="丽宋 Pro" usName="LiSong Pro Light" />
+	<font label="标楷体" usName="BiauKai" />
+	<font label="苹果丽中黑" usName="Apple LiGothic Medium" />
+	<font label="苹果丽细宋" usName="Apple LiSung Light" />
+</fontList> 

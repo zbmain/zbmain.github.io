@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html style="font-size:100px;">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />-->
+<!--<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">-->
+<title>D90</title>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+<script type="text/javascript">
+	//var webSiteURL = "http://datong.yappam.com/File/saic/D90/pc/";
+	//var webSiteURL = "http://static.skoda-1.com/PC/";
+	//var webSiteURL = "http://static.skoda-1.com/datong/PC/";
+	var webSiteURL = "";
+</script>
+
+        <script src="car/D90/unit.js"></script>
+		<script src="car/D90/js/controls/OrbitControls.js"></script>
+		<!-- NodeLibrary -->
+		<script src="car/D90/js/nodes/GLNode.js"></script>
+		<script src="car/D90/js/nodes/RawNode.js"></script>
+		<script src="car/D90/js/nodes/TempNode.js"></script>
+		<script src="car/D90/js/nodes/InputNode.js"></script>
+		<script src="car/D90/js/nodes/ConstNode.js"></script>
+		<script src="car/D90/js/nodes/FunctionNode.js"></script>
+		<script src="car/D90/js/nodes/FunctionCallNode.js"></script>
+		<script src="car/D90/js/nodes/BuilderNode.js"></script>
+		<script src="car/D90/js/nodes/NodeLib.js"></script>
+		<script src="car/D90/js/nodes/NodeMaterial.js"></script>
+		<!-- Accessors -->
+		<script src="car/D90/js/nodes/accessors/PositionNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/NormalNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/UVNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/ScreenUVNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/ColorsNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/CameraNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/ReflectNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/LightNode.js"></script>
+		<!-- Inputs -->
+		<script src="car/D90/js/nodes/inputs/IntNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/FloatNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/ColorNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/Vector2Node.js"></script>
+		<script src="car/D90/js/nodes/inputs/Vector3Node.js"></script>
+		<script src="car/D90/js/nodes/inputs/Vector4Node.js"></script>
+		<script src="car/D90/js/nodes/inputs/TextureNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/CubeTextureNode.js"></script>
+		<!-- Math -->
+		<script src="car/D90/js/nodes/math/Math1Node.js"></script>
+		<script src="car/D90/js/nodes/math/Math2Node.js"></script>
+		<script src="car/D90/js/nodes/math/Math3Node.js"></script>
+		<script src="car/D90/js/nodes/math/OperatorNode.js"></script>
+		<!-- Utils -->
+		<script src="car/D90/js/nodes/utils/SwitchNode.js"></script>
+		<script src="car/D90/js/nodes/utils/JoinNode.js"></script>
+		<script src="car/D90/js/nodes/utils/TimerNode.js"></script>
+		<script src="car/D90/js/nodes/utils/RoughnessToBlinnExponentNode.js"></script>
+		<script src="car/D90/js/nodes/utils/VelocityNode.js"></script>
+		<script src="car/D90/js/nodes/utils/LuminanceNode.js"></script>
+		<script src="car/D90/js/nodes/utils/ColorAdjustmentNode.js"></script>
+		<script src="car/D90/js/nodes/utils/NoiseNode.js"></script>
+		<script src="car/D90/js/nodes/utils/ResolutionNode.js"></script>
+		<!-- Phong Material -->
+		<script src="car/D90/js/nodes/materials/PhongNode.js"></script>
+		<script src="car/D90/js/nodes/materials/PhongNodeMaterial.js"></script>
+		<!-- Standard Material -->
+		<script src="car/D90/js/nodes/materials/StandardNode.js"></script>
+		<script src="car/D90/js/nodes/materials/StandardNodeMaterial.js"></script>
+		<script src="car/D90/js/renderers/Projector.js"></script>
+		
+		<script src="car/D90/js/loaders/AWDLoader.js"></script>
+		<script src="car/D90/js/Tween.js"></script>
+		<script src="car/D90/js/underscore.js"></script>
+		<script type="text/javascript" src="car/D90/js/Detector.js"></script>
+		
+		
+		<style>
+			body {
+				background:#fff;
+				color:#000;
+				padding:0;
+				margin:0;
+				overflow:hidden;
+				font-family:monospace;
+				font-size:13px;
+				text-align:center;
+				
+			}
+
+			a { color:skyblue }
+
+			#info {
+				position: absolute;
+				top: 0px; width: 100%;
+				color: #fff;
+				background:rgba(0,0,0,0.65);
+				padding: 5px;
+				text-align: center;
+				z-index:100;
+				display:block;
+			}
+			
+			#stats { position: absolute; top:5px; left: 0; z-index: 100 }
+			#stats #fps { background: transparent !important }
+			#stats #fps #fpsText { color: #aaa !important }
+			#stats #fps #fpsGraph { display: none }
+			
+			.carsPic {
+			  height:800px;
+			}
+		</style>
+</head>
+<body>
+<div class="carsPic" >
+
+	<div id="container"></div>
+	<div id="info">
+		<div>
+			<button type="button" onclick="buttonClick(33332)">相机位置a</button>
+			<button type="button" onclick="setFeatureList(['M001'])">白色</button>
+			<button type="button" onclick="setFeatureList(['K003'])">红色</button>
+			<button type="button" onclick="setFeatureList(['E002'])">绿色</button>
+			<button type="button" onclick="setFeatureList(['B001'])">蓝色</button>
+			<button type="button" onclick="setFeatureList(['A001'])">灰色</button>
+			<button type="button" onclick="setFeatureList(['F081'])">黑色</button>
+			<button type="button" onclick="setFeatureList(['L001'])">银色</button>
+			<button type="button" onclick="setFeatureList(['C001'])">深金色</button>
+			<button type="button" onclick="setFeatureList(['C002'])">浅金色</button>
+		</div>
+		<div>
+			<button type="button" onclick="setWheelValue('J07A','J05E')">轮毂1J05E</button>
+			<button type="button" onclick="setWheelValue('J07A','J05F')">轮毂2J05F</button>
+			<button type="button" onclick="setWheelValue('J07A','J05G')">轮毂3J05G</button>
+			<button type="button" onclick="setWheelValue('J07A','J05H')">轮毂4J05H</button>
+			<button type="button" onclick="setWheelValue('J07A','J05K')">轮毂5J05K</button>
+			<button type="button" onclick="setWheelValue('J07B','J05E')">轮毂6</button>
+			<button type="button" onclick="setWheelValue('J07B','J05F')">轮毂7</button>
+			<button type="button" onclick="setWheelValue('J07B','J05G')">轮毂8</button>
+			<button type="button" onclick="setWheelValue('J07B','J05H')">轮毂9</button>
+			<button type="button" onclick="setWheelValue('J07B','J05K')">轮毂10</button>
+		</div>
+		<div>
+			<button type="button" onclick="carTypeSelect(0)">1</button>
+			<button type="button" onclick="carTypeSelect(1)">2</button>
+			<button type="button" onclick="carTypeSelect(2)">3</button>
+			<button type="button" onclick="carTypeSelect(3)">4</button>
+		<!--	<button type="button" onclick="setRenderOpen(false);">5</button>
+			<button type="button" onclick="setRenderOpen(true);">6</button>-->
+			
+		</div>
+		<div>
+			<button type="button" onclick="setFeatureList(['215E']);setFeatureAngle('215E')">驱动形式</button>
+			<button type="button" onclick="setFeatureList(['K15M']);setFeatureAngle('K15M')">散热器隔栅1</button>
+			<button type="button" onclick="setFeatureList(['K15N']);setFeatureAngle('K15N')">散热器隔栅2</button>
+			<button type="button" onclick="setFeatureList(['K15P']);setFeatureAngle('K15P')">散热器隔栅3</button>
+			<button type="button" onclick="setFeatureList(['K15Q']);setFeatureAngle('K15Q')">散热器隔栅4</button>
+			<button type="button" onclick="setFeatureList(['S00E']);setFeatureAngle('S00E')">前大灯</button>
+			<button type="button" onclick="setFeatureList(['K04F']);setFeatureAngle('K04F')">前保险杠下饰板</button>
+			<button type="button" onclick="setFeatureList(['S35S']);setFeatureAngle('S35S')">天窗1</button>
+			<button type="button" onclick="setFeatureList(['S35U']);setFeatureAngle('S35U')">天窗2</button>
+			<button type="button" onclick="setFeatureList(['S35X']);setFeatureAngle('S35X')">天窗3</button>
+			<button type="button" onclick="setFeatureList(['K50M']);setFeatureAngle('K50M')">侧踏步</button>
+			<button type="button" onclick="setFeatureList(['K60C']);setFeatureAngle('K60C')">行李架</button>
+			<button type="button" onclick="setFeatureList(['L14C']);setFeatureAngle('L14C')">BC柱侧窗玻璃</button>
+			<button type="button" onclick="setFeatureList(['C31B']);setFeatureAngle('C31B')">排气尾管</button>
+			<button type="button" onclick="setFeatureList(['S25W']);setFeatureAngle('S25W')">倒车影像</button>
+			<button type="button" onclick="setFeatureList(['S30P']);setFeatureAngle('S30P')">无钥匙进入及启动系统</button>
+			<button type="button" onclick="setFeatureList(['S42A']);setFeatureAngle('S42A')">照地灯</button>
+			<button type="button" onclick="setFeatureList(['C08H']);setFeatureAngle('C08H')">国五</button>
+			<button type="button" onclick="setFeatureList(['K35C']);setFeatureAngle('K35C')">挡泥板</button>
+			<button type="button" onclick="setFeatureList(['K35X']);setFeatureAngle('K35X')">无挡泥板</button>
+			<button type="button" onclick="setFeatureList(['K47A']);setFeatureAngle('K47A')">普通轮眉</button>
+			<button type="button" onclick="setFeatureList(['K47B']);setFeatureAngle('K47B')">越野轮眉</button>
+			
+			<button type="button" onclick="setFeatureList(['K48A']);setFeatureAngle('K48A')">速度与激情徽标</button>
+			<button type="button" onclick="setFeatureList(['K48B']);setFeatureAngle('K48B')">心之圣地徽标</button>
+			<button type="button" onclick="setFeatureList(['K48X']);setFeatureAngle('K48X')">无徽标</button>
+			
+			<button type="button" onclick="setFeatureList(['K55A']);setFeatureAngle('K55A')">运动版车身贴膜</button>
+			<button type="button" onclick="setFeatureList(['K55B']);setFeatureAngle('K55B')">越野版车身贴膜</button>
+			<button type="button" onclick="setFeatureList(['K55X']);setFeatureAngle('K55X')">无车身贴膜</button>
+			
+			<button type="button" onclick="setFeatureList(['S47A']);setFeatureAngle('S47A')">恶魔红</button>
+			<button type="button" onclick="setFeatureList(['S47B']);setFeatureAngle('S47B')">天使蓝</button>
+			<button type="button" onclick="setFeatureList(['S47C']);setFeatureAngle('S47C')">越野橙</button>
+			<button type="button" onclick="setFeatureList(['S47X']);setFeatureAngle('S47X')">无装饰色</button>
+			
+			<button type="button" onclick="setFeatureList(['S48A']);setFeatureAngle('S48A')">熏黑</button>
+			<button type="button" onclick="setFeatureList(['S48X']);setFeatureAngle('S48X')">无熏黑</button>
+			
+			<button type="button" onclick="setFeatureList(['K37A']);setFeatureAngle('K37A')">普通翼子板饰板</button>
+			<button type="button" onclick="setFeatureList(['K37B']);setFeatureAngle('K37B')">鲨鱼鳍翼子板饰板</button>
+			
+			
+			<button type="button" onclick="carTypeSelect(1)">2</button>
+			<button type="button" onclick="carTypeSelect(2)">3</button>
+			<button type="button" onclick="carTypeSelect(3)">4</button>
+			
+		</div>
+		<div>
+			<button type="button" onclick="initCarStartFun()">开始</button>
+			<!--<button type="button" onclick="setRenderOpen(false)">停止渲染</button>-->
+		</div>	
+		<div>
+			<button type="button" onclick="initLoaderMode()">加载模型</button>
+			<button type="button" onclick="deleteExt()">删除</button>
+			<button type="button" onclick="addExt()">恢复</button>
+		</div>
+	</div>
+</div>
+
+</body>
+
+
+<script src="car/D90/js/YappamCar.js"></script>
+<script src="car/D90/js/D90Optional.js"></script>
+<script src="car/D90/js/DeviceTesting.js"></script>
+
+<script type="text/javascript">
+
+initCarStartFun();  
+	
+function carStartFunc()
+{
+	$(".loader").hide();
+	if(_deviceType == "Windows")
+	{
+		onWindowResize2();
+	}else{
+	    onWindowResize3();
+	}
+	carTypeSelect(1);
+	//setRenderOpen(true);
+}
+function carExtLoading()
+{
+	//alert("开始加载-");
+}
+function carExtLoadingEnd()
+{
+	//alert("全部完毕-");
+}
+	
+</script>
+</html>

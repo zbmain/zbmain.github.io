@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>D90</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	
+	<style>
+	<!--
+		@-ms-viewport { width:device-width; }
+		@media only screen and (min-device-width:800px) { html { overflow:hidden; } }
+		html { height:100%; }
+		body { height:100%; overflow:hidden; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#ff0000; }-->
+		
+		
+			body {
+				color: #fff;
+				font-family:Monospace;
+				font-size:13px;
+				margin: 0px;
+				text-align:center;
+				overflow: hidden;
+				background-color:#fff;
+			}
+			#info {
+				color: #fff;
+				position: absolute;
+				top: 10px;
+				width: 100%;
+				text-align: center;
+				display:block;
+			}
+			
+	</style>
+</head>
+<body>
+
+<script type="text/javascript">
+	var webSiteURL = "";
+</script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="pano/krpano.js"></script>
+<script src="pano/YappamCarPano.js"></script>
+
+<div id="pano" style="width:100%;height:100%;">
+	<noscript><table style="width:100%;height:100%;"><tr style="vertical-align:middle;text-align:center;"><td>ERROR:<br><br>Javascript not activated<br><br></td></tr></table></noscript>
+	<script>
+		embedpano({swf:webSiteURL+"pano/krpano.swf", xml:webSiteURL+"pano/dt_pano/contextmenu.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true,onready: krpanoReady,id:"pano1"});
+	</script>
+</div>
+
+<script>
+panoStart();
+function panoReady()
+{
+	var intfeatureCodeList = ["A35F","E00P","S35U","F10J","K20M","F15A","Q08A","C06C","U13A","T11B","H30E","M76Q","M10F","S30P","S08G","N25A","N56A","N50T","U00G","R01D","M20A","C09A","215E"];
+	setIntFeatureList(intfeatureCodeList);
+}
+
+function carExtLoading()
+{
+	
+}
+function carExtLoadingEnd()
+{
+}
+
+
+
+</script>
+</body>
+</html>

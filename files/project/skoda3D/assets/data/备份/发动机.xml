@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 发动机列表  -->
+	<asset name="1.4TSI双离合器手自一体优雅版(18W)" image="assets/images/1_0.png" price="185900" code="superb0" modelsfullname="2012款昊锐1.4TSI双离合器手自一体优雅版" />
+	<asset name="1.4TSI双离合器手自一体优雅版" image="assets/images/1_0.png" price="185900" code="superb1" modelsfullname="2012款昊锐1.4TSI双离合器手自一体优雅版" />
+	<asset name="1.4TSI双离合器手自一体优雅版" image="assets/images/1_0.png" price="185900" code="superb2" modelsfullname="2012款昊锐1.4TSI双离合器手自一体优雅版" />
+	<asset name="1.4TSI双离合器手自一体优雅版" image="assets/images/1_0.png" price="185900" code="superb3" modelsfullname="2012款昊锐1.4TSI双离合器手自一体优雅版" />
+	<asset name="1.4TSI双离合器手自一体优雅版" image="assets/images/1_0.png" price="185900" code="superb4" modelsfullname="2012款昊锐1.4TSI双离合器手自一体优雅版" />
+	<asset name="1.4TSI双离合器手自一体优雅版" image="assets/images/1_0.png" price="185900" code="superb5" modelsfullname="2012款昊锐1.4TSI双离合器手自一体优雅版" />
+	<asset name="1.4TSI双离合器手自一体优雅版" image="assets/images/1_0.png" price="185900" code="superb6" modelsfullname="2012款昊锐1.4TSI双离合器手自一体优雅版" />
+	<asset name="1.4TSI双离合器手自一体优雅版--" image="assets/images/1_0.png" price="185900" code="superb7" modelsfullname="2012款昊锐1.4TSI双离合器手自一体优雅版" />
+	<asset name="1.4TSI双离合器手自一体优雅版--" image="assets/images/1_0.png" price="185900" code="superb8" modelsfullname="2012款昊锐1.4TSI双离合器手自一体优雅版" />
+
+
+</root>

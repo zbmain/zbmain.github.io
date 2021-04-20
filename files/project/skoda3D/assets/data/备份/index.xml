@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 昊锐  -->
+	<category name="superb昊锐" image="assets/images/0_0.png" code="Superb">
+		<asset>
+			 <name>superb昊锐</name>
+			 <price>200000</price>
+			 <typeurl>assets/data/发动机.xml</typeurl> 
+			 <colorurl>assets/data/颜色.xml</colorurl> 
+			 <wheelurl>assets/data/轮毂.xml</wheelurl> 
+			 <optionurl>assets/data/选装包.xml</optionurl> 
+			 <defaultcode name="1.4TSI双离合器手自一体优雅版(18W)" price="20000">superb8</defaultcode> 
+			 <defaultcolor name="璀璨金" price="20000">SuperbExtColor0</defaultcolor> 
+			 <defaultinteriorcolor name="棕色内饰" price="20000">P1P1bd</defaultinteriorcolor> 
+			 <defaultwheel name="豪华16铝合金轮毂" price="20000">P1P1adasds</defaultwheel> 
+			 <image>assets/images/0_1.png</image> 
+		</asset>
+		<asset>
+			 <name>superb昊锐Greenline</name>
+			 <price>190000</price>
+			 <typeurl>P1P1.xml</typeurl> 
+			 <colorurl>P1P1.xml</colorurl> 
+			 <wheelurl>P1P1.xml</wheelurl> 
+			 <optionurl>P1P1.xml</optionurl> 
+			 <defaultcode name="1.4TSI双离合器手自一体优雅版(18W)" price="20000">P1P1xcxvdsd</defaultcode> 
+			 <defaultcolor name="璀璨金" price="20000">e2TP1</defaultcolor> 
+			 <defaultinteriorcolor name="棕色内饰" price="20000">P1P1bd</defaultinteriorcolor> 
+			 <defaultwheel name="豪华16铝合金轮毂" price="20000">P1cvadaabdsP1</defaultwheel> 
+			 <image>assets/images/0_1.png</image> 	 
+		</asset>
+	</category>
+	
+	<!-- 明锐  -->
+	<category name="octavia明锐" image="assets/images/0_0.png" code="Octavia">
+		<asset>
+			 <name>octavia明锐</name>
+			 <price>200000</price>
+			 <typeurl>P1P1.xml</typeurl> 
+			 <colorurl>P1P1.xml</colorurl> 
+			 <wheelurl>P1P1.xml</wheelurl> 
+			 <optionurl>P1P1.xml</optionurl> 
+			<defaultcode name="1.4TSI双离合器手自一体优雅版(18W)" price="20000">P1P1xcxvdsd</defaultcode> 
+			 <defaultcolor name="璀璨金" price="20000">e2TP1</defaultcolor> 
+			 <defaultinteriorcolor name="棕色内饰" price="20000">P1P1bd</defaultinteriorcolor> 
+			 <defaultwheel name="豪华16铝合金轮毂" price="20000">P1cvadaabdsP1</defaultwheel> 
+			 <image>assets/images/0_1.png</image> 
+		</asset>
+		<asset>
+			 <name>octavia明锐Greenline</name>
+			 <price>200000</price>
+			 <typeurl>P1P1.xml</typeurl> 
+			 <colorurl>P1P1.xml</colorurl> 
+			 <wheelurl>P1P1.xml</wheelurl> 
+			 <optionurl>P1P1.xml</optionurl> 
+			<defaultcode name="1.4TSI双离合器手自一体优雅版(18W)" price="20000">P1P1xcxvdsd</defaultcode> 
+			 <defaultcolor name="璀璨金" price="20000">e2TP1</defaultcolor> 
+			 <defaultinteriorcolor name="棕色内饰" price="20000">P1P1bd</defaultinteriorcolor> 
+			 <defaultwheel name="豪华16铝合金轮毂" price="20000">P1cvadaabdsP1</defaultwheel> 
+			 <image>assets/images/0_1.png</image> 
+		</asset>
+		<asset>
+			 <name>octavia明锐RS</name>
+			 <price>200000</price>
+			 <typeurl>P1P1.xml</typeurl> 
+			 <colorurl>P1P1.xml</colorurl> 
+			 <wheelurl>P1P1.xml</wheelurl> 
+			 <optionurl>P1P1.xml</optionurl> 
+			<defaultcode name="1.4TSI双离合器手自一体优雅版(18W)" price="20000">P1P1xcxvdsd</defaultcode> 
+			 <defaultcolor name="璀璨金" price="20000">e2TP1</defaultcolor> 
+			 <defaultinteriorcolor name="棕色内饰" price="20000">P1P1bd</defaultinteriorcolor> 
+			 <defaultwheel name="豪华16铝合金轮毂" price="20000">P1cvadaabdsP1</defaultwheel> 
+			 <image>assets/images/0_1.png</image> 
+		</asset>
+	</category>
+	
+	<!-- rapid  -->
+	<category name="rapid" image="assets/images/0_0.png" code="Rapid">
+		<asset>
+			 <name>rapid</name>
+			 <price>200000</price>
+			 <typeurl>assets/data/rapid发动机.xml</typeurl> 
+			 <colorurl>assets/data/rapid颜色.xml</colorurl> 
+			 <wheelurl>assets/data/rapid轮毂.xml</wheelurl> 
+			 <optionurl>assets/data/选装包.xml</optionurl> 
+			 <defaultcode name="rapid1.4TSI双离合器手自一体优雅版(18W)" price="20000">rapid0</defaultcode> 
+			 <defaultcolor name="rapid璀璨金" price="20000">RapidExtColor0</defaultcolor> 
+			 <defaultinteriorcolor name="棕色内饰" price="20000">RapidIntP1P1nd</defaultinteriorcolor> 
+			 <defaultwheel name="豪华16铝合金轮毂" price="20000">P1P1adasds</defaultwheel> 
+			 <image>assets/images/0_1.png</image> 
+		</asset>
+	</category>
+	
+	<!-- 晶锐  -->
+	<category name="fabia晶锐" image="assets/images/0_0.png" code="Fabia">
+		<asset>
+			 <name>新fabia晶锐</name>
+			 <price>200000</price>
+			 <typeurl>P1P1.xml</typeurl> 
+			 <colorurl>P1P1.xml</colorurl> 
+			 <wheelurl>P1P1.xml</wheelurl> 
+			 <optionurl>P1P1.xml</optionurl> 
+			 <defaultcode name="1.4TSI双离合器手自一体优雅版(18W)" price="20000">P1P1xcxvdsd</defaultcode> 
+			 <defaultcolor name="璀璨金" price="20000">e2TP1</defaultcolor> 
+			 <defaultinteriorcolor name="棕色内饰" price="20000">P1P1bd</defaultinteriorcolor> 
+			 <defaultwheel name="豪华16铝合金轮毂" price="20000">P1cvadaabdsP1</defaultwheel>  
+			 <image>assets/images/0_1.png</image> 
+		</asset>
+		<asset>
+			 <name>fabia晶锐scout</name>
+			 <price>200000</price>
+			 <typeurl>P1P1.xml</typeurl> 
+			 <colorurl>P1P1.xml</colorurl> 
+			 <wheelurl>P1P1.xml</wheelurl> 
+			 <optionurl>P1P1.xml</optionurl> 
+			 <defaultcode name="1.4TSI双离合器手自一体优雅版(18W)" price="20000">P1P1xcxvdsd</defaultcode> 
+			 <defaultcolor name="璀璨金" price="20000">e2TP1</defaultcolor> 
+			 <defaultinteriorcolor name="棕色内饰" price="20000">P1P1bd</defaultinteriorcolor> 
+			 <defaultwheel name="豪华16铝合金轮毂" price="20000">P1cvadaabdsP1</defaultwheel> 
+			 <image>assets/images/0_1.png</image> 
+		</asset>
+		<asset>
+			 <name>fabia晶锐sport</name>
+			 <price>200000</price>
+			 <typeurl>P1P1.xml</typeurl> 
+			 <colorurl>P1P1.xml</colorurl> 
+			 <wheelurl>P1P1.xml</wheelurl> 
+			 <optionurl>P1P1.xml</optionurl> 
+			 <defaultcode name="1.4TSI双离合器手自一体优雅版(18W)" price="20000">P1P1xcxvdsd</defaultcode> 
+			 <defaultcolor name="璀璨金" price="20000">e2TP1</defaultcolor> 
+			 <defaultinteriorcolor name="棕色内饰" price="20000">P1P1bd</defaultinteriorcolor> 
+			 <defaultwheel name="豪华16铝合金轮毂" price="20000">P1cvadaabdsP1</defaultwheel> 
+			 <image>assets/images/0_1.png</image> 
+		</asset>
+	</category>
+	
+</root>

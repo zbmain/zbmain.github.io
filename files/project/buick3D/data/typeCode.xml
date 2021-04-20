@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+
+<vehicleserieslist>
+	
+	 <vehicleseries id="119" vehicleseriesname="昂科威">
+      <vehicletype id="853" name="28T四驱精英型"/>
+      <vehicletype id="855" name="28T四驱豪华型"/>
+      <vehicletype id="857" name="28T四驱全能旗舰型"/>
+      <vehicletype id="859" name="28T四驱全能运动旗舰型"/>
+   </vehicleseries>
+   
+</vehicleserieslist>

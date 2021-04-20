@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html style="font-size:100px;">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />-->
+<!--<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">-->
+<title>D90</title>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+        <script src="car/D90/unit.js"></script>
+		<script src="car/D90/js/controls/OrbitControls.js"></script>
+		<!-- NodeLibrary -->
+		<script src="car/D90/js/nodes/GLNode.js"></script>
+		<script src="car/D90/js/nodes/RawNode.js"></script>
+		<script src="car/D90/js/nodes/TempNode.js"></script>
+		<script src="car/D90/js/nodes/InputNode.js"></script>
+		<script src="car/D90/js/nodes/ConstNode.js"></script>
+		<script src="car/D90/js/nodes/FunctionNode.js"></script>
+		<script src="car/D90/js/nodes/FunctionCallNode.js"></script>
+		<script src="car/D90/js/nodes/BuilderNode.js"></script>
+		<script src="car/D90/js/nodes/NodeLib.js"></script>
+		<script src="car/D90/js/nodes/NodeMaterial.js"></script>
+		<!-- Accessors -->
+		<script src="car/D90/js/nodes/accessors/PositionNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/NormalNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/UVNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/ScreenUVNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/ColorsNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/CameraNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/ReflectNode.js"></script>
+		<script src="car/D90/js/nodes/accessors/LightNode.js"></script>
+		<!-- Inputs -->
+		<script src="car/D90/js/nodes/inputs/IntNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/FloatNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/ColorNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/Vector2Node.js"></script>
+		<script src="car/D90/js/nodes/inputs/Vector3Node.js"></script>
+		<script src="car/D90/js/nodes/inputs/Vector4Node.js"></script>
+		<script src="car/D90/js/nodes/inputs/TextureNode.js"></script>
+		<script src="car/D90/js/nodes/inputs/CubeTextureNode.js"></script>
+		<!-- Math -->
+		<script src="car/D90/js/nodes/math/Math1Node.js"></script>
+		<script src="car/D90/js/nodes/math/Math2Node.js"></script>
+		<script src="car/D90/js/nodes/math/Math3Node.js"></script>
+		<script src="car/D90/js/nodes/math/OperatorNode.js"></script>
+		<!-- Utils -->
+		<script src="car/D90/js/nodes/utils/SwitchNode.js"></script>
+		<script src="car/D90/js/nodes/utils/JoinNode.js"></script>
+		<script src="car/D90/js/nodes/utils/TimerNode.js"></script>
+		<script src="car/D90/js/nodes/utils/RoughnessToBlinnExponentNode.js"></script>
+		<script src="car/D90/js/nodes/utils/VelocityNode.js"></script>
+		<script src="car/D90/js/nodes/utils/LuminanceNode.js"></script>
+		<script src="car/D90/js/nodes/utils/ColorAdjustmentNode.js"></script>
+		<script src="car/D90/js/nodes/utils/NoiseNode.js"></script>
+		<script src="car/D90/js/nodes/utils/ResolutionNode.js"></script>
+		<!-- Phong Material -->
+		<script src="car/D90/js/nodes/materials/PhongNode.js"></script>
+		<script src="car/D90/js/nodes/materials/PhongNodeMaterial.js"></script>
+		<!-- Standard Material -->
+		<script src="car/D90/js/nodes/materials/StandardNode.js"></script>
+		<script src="car/D90/js/nodes/materials/StandardNodeMaterial.js"></script>
+		<script src="car/D90/js/renderers/Projector.js"></script>
+		
+		<script src="car/D90/js/loaders/AWDLoader.js"></script>
+		<script src="car/D90/js/Tween.js"></script>
+		<script type="text/javascript" src="car/D90/js/Detector.js"></script>
+		
+		
+		<style>
+			body {
+				background:#000;
+				color:#000;
+				padding:0;
+				margin:0;
+				overflow:hidden;
+				font-family:monospace;
+				font-size:13px;
+				text-align:center;
+				
+			}
+
+			a { color:skyblue }
+
+			#info {
+				position: absolute;
+				top: 0px; width: 100%;
+				color: #fff;
+				background:rgba(0,0,0,0.65);
+				padding: 5px;
+				text-align: center;
+				z-index:100;
+				display:block;
+			}
+			
+			#stats { position: absolute; top:5px; left: 0; z-index: 100 }
+			#stats #fps { background: transparent !important }
+			#stats #fps #fpsText { color: #aaa !important }
+			#stats #fps #fpsGraph { display: none }
+			
+			.carsFlash {
+			  height:800px;
+			}
+		</style>
+</head>
+<body>
+<div class="carsFlash" >
+
+	<div id="container"></div>
+	<div id="info">
+		<div>
+			<button type="button" onclick="buttonClick(33332)">相机位置a</button>
+			<button type="button" onclick="buttonClick(0)">白色</button>
+			<button type="button" onclick="buttonClick(1)">红色</button>
+			<button type="button" onclick="buttonClick(2)">绿色</button>
+			<button type="button" onclick="buttonClick(3)">蓝色</button>
+			<button type="button" onclick="buttonClick(4)">灰色</button>
+			<button type="button" onclick="buttonClick(5)">黑色</button>
+			<button type="button" onclick="buttonClick(6)">银色</button>
+			<button type="button" onclick="buttonClick(7)">深金色</button>
+			<button type="button" onclick="buttonClick(8)">浅金色</button>
+		</div>
+		<div>
+			<button type="button" onclick="wheelClick(0)">轮毂1</button>
+			<button type="button" onclick="wheelClick(1)">轮毂2</button>
+			<button type="button" onclick="wheelClick(2)">轮毂3</button>
+			<button type="button" onclick="wheelClick(3)">轮毂4</button>
+			<button type="button" onclick="wheelClick(4)">轮毂5</button>
+			<button type="button" onclick="wheelClick(5)">轮毂6</button>
+			<button type="button" onclick="wheelClick(6)">轮毂7</button>
+			<button type="button" onclick="wheelClick(7)">轮毂8</button>
+			<button type="button" onclick="wheelClick(8)">轮毂9</button>
+			<button type="button" onclick="wheelClick(9)">轮毂10</button>
+		</div>
+	</div>
+</div>
+
+</body>
+<script src="car/D90/js/YappamCar.js"></script>
+
+<script type="text/javascript">
+
+    var _currenType = "car";  //car or pano
+	var _deviceType="" ; // Windows or Mobile or iPad
+   var chromeList = ["57.0.2987.133","59.0.3047.4","56.0.2906.0","55.0.2883.19","49.0.2623.13","49.0.2593.0","49.0.2587.3","48.0.2564.22","47.0.2526.16","47.0.2522.0","47.0.2508.0","47.0.2503.0","46.0.2486.0","46.0.2478.0","46.0.2467.2","45.0.2454.15","45.0.2421.0","45.0.2414.0","44.0.2398.0","44.0.2391.0","44.0.2383.0","44.0.2376.0","43.0.2357.2","43.0.2351.3","43.0.2342.2","43.0.2334.0","32.0.1671.3 Aura","32.0.1700.107","33.0.1750.117","35.0.1916.153","42.0.2311.9","53.0.2785.104","37.0.0.0","58.0.3029.96","59.0.3047.4"];
+   var operaList = ["21.0.1432.57","22.0.1471.50","23.0.1522.60","24.0.1558.53","30.0.1835.125","31.0.1889.99","32.0.1948.25","35.0.2066.68","37.0.2178.32","38.0.2220.31","39.0.2256.48","43.0.2442.806","44.0.2510.1218"];
+   
+    if ( ! Detector.webgl ) {
+	    $(".container").hide();
+		alert('为了更好的体验, 建议您使用Firefox最新版浏览器。');
+		//initCarFun();
+		//Detector.addGetWebGLMessage();
+	}else{
+	
+	   // testing();
+	   initCarFun();
+    }
+	
+	function testing()
+	{
+	    //判断客户端是ipad,手机还是pc
+		var tag = navigator.userAgent;
+		if(tag.indexOf('iPad')>0){
+		//alert("ipad")
+		   _deviceType = "iPad";
+		}else if(tag.indexOf('Mobile')>0){
+		   _deviceType = "Mobile";
+		  // alert("Mobile")
+		}else if(tag.indexOf('Windows')>0){
+		   _deviceType = "Windows";
+		  // alert("Windows")
+		}
+		
+		if(tag.indexOf('iPhone')>-1 || tag.indexOf('iPad')>-1)
+		{
+		   initCarFun();
+		   return ;
+		}
+		
+		//-------判断浏览器版本---------------------------------------------------------------------------
+		    var Sys = {};
+			var ua = navigator.userAgent.toLowerCase();
+			
+			var s;
+			(s = ua.match(/msie ([\d.]+)/)) ? Sys.ie = s[1] :
+			(s = ua.match(/firefox\/([\d.]+)/)) ? Sys.firefox = s[1] :
+			(s = ua.match(/chrome\/([\d.]+)/)) ? Sys.chrome = s[1] :
+			(s = ua.match(/opera.([\d.]+)/)) ? Sys.opera = s[1] :
+			(s = ua.match(/version\/([\d.]+).*safari/)) ? Sys.safari = s[1] : 0;
+			//以下进行测试
+			if (Sys.ie) {
+			//alert('ie');
+				var list = Sys.ie.split(".");
+				var num;
+
+				if(list && list.length>=2)
+				{
+				   num = Number(list[0])+Number(list[1]);
+				}
+				if(num>=11){
+					initCarFun();
+					//alert(123)
+					return ;
+				}else{
+				   $(".container").hide();
+					alert('为了更好的体验, 建议您使用Firefox最新版浏览器。');
+					return ;
+				}
+			}
+
+			if (Sys.firefox) {
+			//alert('firefox');
+				var list = Sys.firefox.split(".");
+				var num;
+
+				if(list && list.length>=2)
+				{
+				   num = Number(list[0])+Number(list[1]);
+				}
+				//if(num>=42){
+				if(num>=42&&num<=53){
+					initCarFun();
+					return ;
+				}else{
+				    $(".container").hide();
+					alert('为了更好的体验, 建议您使用Firefox最新版浏览器。');;
+					return ;
+				}
+			}
+
+			if (Sys.chrome) {
+		//	alert('chrome');
+			    var list = Sys.chrome.split(".");
+				var vrs = list[0]+"."+list[1]+"."+list[2];
+				//alert(vrs)
+				//alert(chromeList.length)
+				for(var i=0;i<chromeList.length;i++)
+				{
+				   if(chromeList[i].indexOf(vrs)>-1)
+				   {
+					  initCarFun();
+					  //alert("sss")
+					  return ;
+				   }
+				}
+				
+				$(".container").hide();
+				alert('为了更好的体验, 建议您使用Firefox最新版浏览器。');
+				return ;
+			}
+
+			if (Sys.opera) {
+			//alert('opera');
+				var list = Sys.opera.split(".");
+				var vrs = list[0]+"."+list[1]+"."+list[2];
+				//alert(vrs)
+				for(var i=0;i<operaList.length;i++)
+				{
+				   if(operaList[i].indexOf(vrs)>-1)
+				   {
+					  initCarFun();
+					  return ;
+				   }
+				}
+				
+				$(".container").hide();
+				alert('为了更好的体验, 建议您使用Firefox最新版浏览器。');
+				return ;
+			}
+			if (Sys.safari) {
+			//alert('safari');
+			//alert(Sys.safari);
+				var list = Sys.safari.split(".");
+				var num;
+
+				if(list && list.length>=2)
+				{
+				   num = Number(list[0])+Number(list[1]);
+				}
+				if(num>=10){
+				
+				  initCarFun();
+				  return ;
+				}else{
+				    $(".container").hide();
+					alert('为了更好的体验, 建议您使用Firefox最新版浏览器。');
+					return ;
+				}
+			}
+			
+			initCarFun();
+	}
+	
+	function carStartFunc()
+	{
+	   $(".loader").hide();
+	   if(_deviceType == "Windows")
+	   {
+		onWindowResize2();
+		
+	   }else{
+	    onWindowResize3();
+		
+	   }
+	   
+	}
+	
+	 
+	
+	
+</script>
+</html>

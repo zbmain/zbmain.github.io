@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<call>http://www.baidu.com</call>				<!-- 	检测登录状态 -->
+ 	<skip>http://192.168.0.246/auto2013/game.php?gid=</skip>	<!-- 跳转上传地址  -->
+ 	<js>loginFuntion</js>	<!-- 页面JS登录函数  -->
+ 	<open>5</open>
+	<images>
+		<image source="assets/1.jpg" />
+		<image source="assets/2.jpg" />
+		<image source="assets/3.jpg" />
+		<image source="assets/4.jpg" />
+		<image source="assets/5.jpg" />
+	</images>
+</config>

@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='UTF-16'?>
+<root>
+<MesheData>
+	
+	
+		<asset name='AWD' >
+      <_name>AWD</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>230,230,230</_colorMaterialDataName>
+		</asset>
+	
+<asset name='shadow' >
+      <_name>shadow</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>shadow.png</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='jiefeng' >
+      <_name>jiefeng</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>chemen_chengse.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='cheshen' >
+      <_name>cheshen</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>185.0,185.0,185.0</_colorMaterialDataName>
+		</asset>
+		<asset name='checedugeshitiao01' >
+      <_name>checedugeshitiao01</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>230.0,230.0,230.0</_colorMaterialDataName>
+		</asset>
+		<asset name='boliheiqi' >
+      <_name>boliheiqi</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>3.0,3.0,3.0</_colorMaterialDataName>
+		</asset>
+		<asset name='chedingshitiao' >
+      <_name>chedingshitiao</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>220.0,220.0,220.0</_colorMaterialDataName>
+		</asset>
+		<asset name='tianxian' >
+      <_name>tianxian</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>15.0,15.0,15.0</_colorMaterialDataName>
+		</asset>
+		<asset name='cheshendugeshitiao' >
+      <_name>cheshendugeshitiao</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>240.0,240.0,240.0</_colorMaterialDataName>
+		</asset>
+		<asset name='houshexiangtou' >
+      <_name>houshexiangtou</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>weideng.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='zi' >
+      <_name>zi</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>230.0,230.0,230.0</_colorMaterialDataName>
+		</asset>
+		<asset name='biao' >
+      <_name>biao</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>biao.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='cheboli' >
+      <_name>cheboli</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>45.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>13.0,13.0,13.0</_colorMaterialDataName>
+		</asset>
+		<asset name='yushua' >
+      <_name>yushua</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>3.0,3.0,3.0</_colorMaterialDataName>
+		</asset>
+		<asset name='chebaowei' >
+      <_name>chebaowei</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>12.0,12.0,12.0</_colorMaterialDataName>
+		</asset>
+		<asset name='jiaban01' >
+      <_name>jiaban01</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>biao.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='dadengboli' >
+      <_name>dadengboli</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>20.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>181.0,181.0,181.0</_colorMaterialDataName>
+		</asset>
+		<asset name='dadengyin' >
+      <_name>dadengyin</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>173.0,173.0,173.0</_colorMaterialDataName>
+		</asset>
+		<asset name='dadeng' >
+      <_name>dadeng</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>dadeng.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='weidengboli' >
+      <_name>weidengboli</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>30.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>191.0,22.0,22.0</_colorMaterialDataName>
+		</asset>
+		<asset name='weideng' >
+      <_name>weideng</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>weideng.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='dipan' >
+      <_name>dipan</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>0.0,0.0,0.0</_colorMaterialDataName>
+		</asset>
+		<asset name='luntai' >
+      <_name>luntai</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>luntai02.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='menbashouduge' >
+      <_name>menbashouduge</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>biao.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='jiaban02' >
+      <_name>jiaban02</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>12.0,12.0,12.0</_colorMaterialDataName>
+		</asset>
+		<asset name='checedugeshitiao02' >
+      <_name>checedugeshitiao02</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>12.0,12.0,12.0</_colorMaterialDataName>
+		</asset>
+		<asset name='Bzhu' >
+      <_name>Bzhu</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>15.0,15.0,15.0</_colorMaterialDataName>
+		</asset>
+		<asset name='waihoushijing' >
+      <_name>waihoushijing</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>houshijing.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='paiqitong' >
+      <_name>paiqitong</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>173.0,173.0,173.0</_colorMaterialDataName>
+		</asset>
+		<asset name='dadengduge' >
+      <_name>dadengduge</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>178.0,178.0,178.0</_colorMaterialDataName>
+		</asset>
+		<asset name='leida' >
+      <_name>leida</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>0.0,0.0,0.0</_colorMaterialDataName>
+		</asset>
+		<asset name='T' >
+      <_name>T</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>129.0,10.0,10.0</_colorMaterialDataName>
+		</asset>
+		<asset name='DiBan' >
+      <_name>DiBan</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>di_ban.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='ZuoYiKuang' >
+      <_name>ZuoYiKuang</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>ZhiWuZuoYiKuang_heise.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='ZuoYiDizuo' >
+      <_name>ZuoYiDizuo</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>pizuoyikuang_chengse.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='ZhongKongTai1' >
+      <_name>ZhongKongTai1</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>chemen_yinse.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='FangXiangPan' >
+      <_name>FangXiangPan</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>fangxiangpan_dipei.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='ZhongKongTai' >
+      <_name>ZhongKongTai</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>zhongkong_dipei.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='ZuoYidian_ZhiWuZuoYi' >
+      <_name>ZuoYidian_ZhiWuZuoYi</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>ZhiWuZuoYi_heise.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='ZuoYiDian_ZhenPi' >
+      <_name>ZuoYiDian_ZhenPi</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>pizuoyikuang_heise.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='JiaoTaBan_ZiDong' >
+      <_name>JiaoTaBan_ZiDong</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>jiaotaban.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='XianShiPing_DiPei' >
+      <_name>XianShiPing_DiPei</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>gps.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='XianShiPing_7Cun' >
+      <_name>XianShiPing_7Cun</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>gps.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='ShouDang_ZiDong' >
+      <_name>ShouDang_ZiDong</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>zhongkong.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='ShouDang_Shoudong' >
+      <_name>ShouDang_Shoudong</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>zhongkong.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='JiaoTaBan_ShouDong' >
+      <_name>JiaoTaBan_ShouDong</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>jiaotaban.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='KuangJia' >
+      <_name>KuangJia</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>zhongkong.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='CheDing' >
+      <_name>CheDing</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>DingPeng_WuQiNang.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='YanJingHe' >
+      <_name>YanJingHe</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>DingPeng_WuQiNang.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='HouShiJing_DiPei' >
+      <_name>HouShiJing_DiPei</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>DingPeng_WuQiNang.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='HouShiJing_GaoPei' >
+      <_name>HouShiJing_GaoPei</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>DingPeng_WuQiNang.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='CheMen' >
+      <_name>CheMen</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>chemen_yinse.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='CheMen_AnNiu' >
+      <_name>CheMen_AnNiu</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>chemen.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='ChuWuHe_FuJia' >
+      <_name>ChuWuHe_FuJia</_name>
+      <_visible>false</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>pizuoyikuang_chengse.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='AnQuanDai' >
+      <_name>AnQuanDai</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>pizuoyikuang_chengse.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='CeAnQuanQiNang' >
+      <_name>CeAnQuanQiNang</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>pizuoyikuang_chengse.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='taihuan' >
+      <_name>taihuan</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>jinshutai.jpg</_textureMaterialDataName>
+		<_colorMaterialDataName>null</_colorMaterialDataName>
+		</asset>
+		<asset name='taimian' >
+      <_name>taimian</_name>
+      <_visible>true</_visible>
+      <_ReflectionMethodName>null</_ReflectionMethodName>
+	  <_alpha>100.0</_alpha>
+	  <_textureMaterialDataName>null</_textureMaterialDataName>
+		<_colorMaterialDataName>235.0,235.0,235.0</_colorMaterialDataName>
+		</asset>
+		</MesheData>
+</root>

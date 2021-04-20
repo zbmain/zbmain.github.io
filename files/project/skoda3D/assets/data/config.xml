@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 配置-->
+	<asset content="车系" id="0" />
+	<asset content="车型" id="1" />
+	<asset content="颜色" id="2" />
+	<asset content="轮毂" id="3" />
+	<asset content="选装包" id="4" />
+	<asset content="原装附件" id="5" />
+	<asset content="购车方案" id="6" />
+	<asset content="下一步" id="7" />
+	<asset content="返回" id="8" />
+	
+	<!-- 最少月供 -->
+	<asset content="4859" id="9" />
+	
+	<!-- 车系配置地址 -->
+	<asset content="assets/data/index.xml" id="10" />
+	
+	<!-- 原装附件地址 -->
+	<asset content="assets/data/accessories.xml" id="11" />
+	
+	<!-- 斯柯达车系所有车型配置表列表 -->
+	<asset content="assets/data/configurationTable/skoda.xml" id="12" />
+	
+	
+	<!-- 车主俱乐部内容 -->
+	<asset content="是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛是大手大赛" id="13" />
+	
+    <!-- 推荐车型地址 -->
+	<asset content="http://www.superbchina.com.cn/superbsp201208/" id="14" />
+	<!-- 优惠促销地址 -->
+	<asset content="http://www.baidu.com" id="15" />
+	<!-- 预约试驾地址 -->
+	<asset content="http://www.baidu.com" id="16" />
+	<!-- 在线订车地址 -->
+	<asset content="http://www.baidu.com" id="17" />
+	<!-- 售后服务地址 -->
+	<asset content="http://www.baidu.com" id="18" />
+	<!-- E-newsletter地址 -->
+	<asset content="http://www.baidu.com" id="19" />
+
+</root>

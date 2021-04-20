@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<root>
+<CubeMaterial>
+    <asset name="cube0" >
+		<!--
+      <_positiveX_URL>asdasaaa.jpg</_positiveX_URL>
+      <_negativeX_URL>asdasaaa.jpg</_negativeX_URL>
+      <_positiveY_URL>guangtufanshe.jpg</_positiveY_URL>
+      <_negativeY_URL>EnvNegYGarage.jpg</_negativeY_URL>
+      <_positiveZ_URL>asdasaaa.jpg</_positiveZ_URL>
+      <_negativeZ_URL>asdasaaa.jpg</_negativeZ_URL>
+		  -->
+	  <_positiveX_URL>cefanse.jpg</_positiveX_URL>
+      <_negativeX_URL>cefanse.jpg</_negativeX_URL>
+      <_positiveY_URL>fanse.jpg</_positiveY_URL>
+      <_negativeY_URL>cefanse.jpg</_negativeY_URL>
+      <_positiveZ_URL>cefanse.jpg</_positiveZ_URL>
+      <_negativeZ_URL>cefanse.jpg</_negativeZ_URL>
+      <_name>cube0</_name>
+    </asset>
+	<asset name="cube1" >
+      <_positiveX_URL>EnvPosYGarage.jpg</_positiveX_URL>
+      <_negativeX_URL>EnvPosYGarage.jpg</_negativeX_URL>
+      <_positiveY_URL>EnvPosYGarage.jpg</_positiveY_URL>
+      <_negativeY_URL>EnvPosYGarage.jpg</_negativeY_URL>
+      <_positiveZ_URL>EnvPosYGarage.jpg</_positiveZ_URL>
+      <_negativeZ_URL>EnvPosYGarage.jpg</_negativeZ_URL>
+      <_name>cube1</_name>
+	</asset>  
+	
+	
+	<asset name="cube2" >
+      <_positiveX_URL>cefanse01.jpg</_positiveX_URL>
+      <_negativeX_URL>cefanse01.jpg</_negativeX_URL>
+      <_positiveY_URL>fanse.jpg</_positiveY_URL>
+      <_negativeY_URL>cefanse01.jpg</_negativeY_URL>
+      <_positiveZ_URL>cefanse01.jpg</_positiveZ_URL>
+      <_negativeZ_URL>cefanse01.jpg</_negativeZ_URL>
+      <_name>cube2</_name>
+	</asset>  
+	
+  <asset name="cube3" >
+      <_positiveX_URL>aaaatt.jpg</_positiveX_URL>
+      <_negativeX_URL>aaaatt.jpg</_negativeX_URL>
+      <_positiveY_URL>fanse.jpg</_positiveY_URL>
+      <_negativeY_URL>aaaatt.jpg</_negativeY_URL>
+      <_positiveZ_URL>aaaatt.jpg</_positiveZ_URL>
+      <_negativeZ_URL>aaaatt.jpg</_negativeZ_URL>
+      <_name>cube3</_name>
+	</asset>  
+	
+	<asset name="cube4" >
+      <_positiveX_URL>aaaatt.jpg</_positiveX_URL>
+      <_negativeX_URL>aaaatt.jpg</_negativeX_URL>
+      <_positiveY_URL>fanse.jpg</_positiveY_URL>
+      <_negativeY_URL>aaaatt.jpg</_negativeY_URL>
+      <_positiveZ_URL>aaaatt.jpg</_positiveZ_URL>
+      <_negativeZ_URL>aaaatt.jpg</_negativeZ_URL>
+      <_name>cube4</_name>
+	</asset>  
+	
+	<asset name="cube5" >
+      <_positiveX_URL>Hui_EnvPosYGarage.jpg</_positiveX_URL>
+      <_negativeX_URL>Hui_EnvPosYGarage.jpg</_negativeX_URL>
+      <_positiveY_URL>Hui_EnvPosYGarage.jpg</_positiveY_URL>
+      <_negativeY_URL>Hui_EnvPosYGarage.jpg</_negativeY_URL>
+      <_positiveZ_URL>Hui_EnvPosYGarage.jpg</_positiveZ_URL>
+      <_negativeZ_URL>Hui_EnvPosYGarage.jpg</_negativeZ_URL>
+      <_name>cube5</_name>
+	</asset>  
+	<asset name="cube6" >
+      <_positiveX_URL>aaaatt.jpg</_positiveX_URL>
+      <_negativeX_URL>aaaatt.jpg</_negativeX_URL>
+      <_positiveY_URL>aaaatt.jpg</_positiveY_URL>
+      <_negativeY_URL>aaaatt.jpg</_negativeY_URL> 
+      <_positiveZ_URL>aaaatt.jpg</_positiveZ_URL>
+      <_negativeZ_URL>aaaatt.jpg</_negativeZ_URL>
+      <_name>cube6</_name>
+	</asset>  
+	<asset name="cube7" >
+      <_positiveX_URL>aaa.jpg</_positiveX_URL>
+      <_negativeX_URL>aaa.jpg</_negativeX_URL>
+      <_positiveY_URL>assss.jpg</_positiveY_URL>
+      <_negativeY_URL>assss.jpg</_negativeY_URL> 
+      <_positiveZ_URL>aaa.jpg</_positiveZ_URL>
+      <_negativeZ_URL>aaa.jpg</_negativeZ_URL>
+      <_name>cube7</_name>
+	</asset>  
+
+	<asset name="cube8" >
+      <_positiveX_URL>fanse.jpg</_positiveX_URL>
+      <_negativeX_URL>fanse.jpg</_negativeX_URL>
+      <_positiveY_URL>fanse.jpg</_positiveY_URL>
+      <_negativeY_URL>fanse.jpg</_negativeY_URL> 
+      <_positiveZ_URL>fanse.jpg</_positiveZ_URL>
+      <_negativeZ_URL>fanse.jpg</_negativeZ_URL>
+      <_name>cube8</_name>
+	</asset>  
+	
+	<asset name="cube10" >
+      <_positiveX_URL>ffff.jpg</_positiveX_URL>
+      <_negativeX_URL>ffff.jpg</_negativeX_URL>
+      <_positiveY_URL>ffff.jpg</_positiveY_URL>
+      <_negativeY_URL>ffff.jpg</_negativeY_URL>
+      <_positiveZ_URL>ffff.jpg</_positiveZ_URL>
+      <_negativeZ_URL>ffff.jpg</_negativeZ_URL>
+      <_name>cube10</_name>
+	</asset> 
+	
+	
+	<asset name="cube11" >
+      <_positiveX_URL>aaa.jpg</_positiveX_URL>
+      <_negativeX_URL>aaa.jpg</_negativeX_URL>
+      <_positiveY_URL>aaa.jpg</_positiveY_URL>
+      <_negativeY_URL>aaa.jpg</_negativeY_URL>
+      <_positiveZ_URL>aaa.jpg</_positiveZ_URL>
+      <_negativeZ_URL>aaa.jpg</_negativeZ_URL>
+      <_name>cube11</_name>
+	</asset> 
+	<asset name="cube12" >
+      <_positiveX_URL>fff.jpg</_positiveX_URL>
+      <_negativeX_URL>fff.jpg</_negativeX_URL>
+      <_positiveY_URL>fff.jpg</_positiveY_URL>
+      <_negativeY_URL>fff.jpg</_negativeY_URL>
+      <_positiveZ_URL>fff.jpg</_positiveZ_URL>
+      <_negativeZ_URL>fff.jpg</_negativeZ_URL>
+      <_name>cube12</_name>
+	</asset> 
+	
+	<asset name="cube13" > 
+      <_positiveX_URL>cefanse01.jpg</_positiveX_URL>
+      <_negativeX_URL>cefanse01.jpg</_negativeX_URL>
+      <_positiveY_URL>cefanse01.jpg</_positiveY_URL>
+      <_negativeY_URL>ff.jpg</_negativeY_URL>
+      <_positiveZ_URL>ff.jpg</_positiveZ_URL>
+      <_negativeZ_URL>ff.jpg</_negativeZ_URL>
+      <_name>cube13</_name>
+	</asset> 
+	
+	<asset name="zkd" >
+      <_positiveX_URL>jingshu_duge.jpg</_positiveX_URL>
+      <_negativeX_URL>jingshu_duge.jpg</_negativeX_URL>
+      <_positiveY_URL>assss.jpg</_positiveY_URL>
+      <_negativeY_URL>jingshu_duge.jpg</_negativeY_URL>
+      <_positiveZ_URL>jingshu_duge.jpg</_positiveZ_URL>
+      <_negativeZ_URL>jingshu_duge.jpg</_negativeZ_URL>
+      <_name>zkd</_name>
+	</asset> 
+	<asset name="zkdd" >
+      <_positiveX_URL>jingshu_duge.jpg</_positiveX_URL>
+      <_negativeX_URL>jingshu_duge.jpg</_negativeX_URL>
+      <_positiveY_URL>aaaatt.jpg</_positiveY_URL>
+      <_negativeY_URL>jingshu_duge.jpg</_negativeY_URL>
+      <_positiveZ_URL>jingshu_duge.jpg</_positiveZ_URL>
+      <_negativeZ_URL>jingshu_duge.jpg</_negativeZ_URL>
+      <_name>zkdd</_name>
+	</asset>  
+	
+	
+	<asset name="jsfs" >
+      <_positiveX_URL>jsfs.jpg</_positiveX_URL>
+      <_negativeX_URL>jsfs.jpg</_negativeX_URL>
+      <_positiveY_URL>jsfs.jpg</_positiveY_URL>
+      <_negativeY_URL>jsfs.jpg</_negativeY_URL>
+      <_positiveZ_URL>jsfs.jpg</_positiveZ_URL>
+      <_negativeZ_URL>jsfs.jpg</_negativeZ_URL>
+      <_name>jsfs</_name>
+	</asset>  
+	
+	
+</CubeMaterial>
+<ReflectionMethod>
+    <asset name="methods0" >
+      <_CubeTextureDataName>cube0</_CubeTextureDataName>
+      <_alpha>0.3</_alpha>
+      <_name>methods0</_name>
+    </asset>
+    <asset name="methods1" >
+      <_CubeTextureDataName>cube3</_CubeTextureDataName>
+      <_alpha>0.2</_alpha>
+      <_name>methods1</_name>
+    </asset>
+	<asset name="methods2" >
+      <_CubeTextureDataName>cube2</_CubeTextureDataName>
+      <!--<_alpha>0.15</_alpha> -->
+	  <_alpha>0.15</_alpha>
+      <_name>methods2</_name>
+    </asset>
+	<asset name="methods3" >
+      <_CubeTextureDataName>cube1</_CubeTextureDataName>
+      <_alpha>1.0</_alpha>
+      <_name>methods3</_name>
+    </asset>
+    <asset name="methods4" >
+      <_CubeTextureDataName>cube4</_CubeTextureDataName>
+      <_alpha>0.08</_alpha>
+      <_name>methods4</_name>
+    </asset>
+	<asset name="methods5" >
+      <_CubeTextureDataName>cube7</_CubeTextureDataName>
+      <_alpha>0.5</_alpha>
+      <_name>methods5</_name>
+    </asset>
+     <asset name="methods6" >
+      <_CubeTextureDataName>cube6</_CubeTextureDataName>
+      <_alpha>0.6</_alpha>
+      <_name>methods6</_name>
+    </asset>
+    
+    <asset name="duge_che" >
+      <_CubeTextureDataName>cube8</_CubeTextureDataName>
+      <_alpha>0.5</_alpha>
+      <_name>duge_che</_name>
+    </asset>
+    
+    <asset name="methods7" >
+      <_CubeTextureDataName>cube7</_CubeTextureDataName>
+      <_alpha>0.7</_alpha>
+      <_name>methods7</_name>
+    </asset>
+    
+   <asset name="methods8" >
+      <_CubeTextureDataName>cube5</_CubeTextureDataName>
+      <_alpha>0.7</_alpha>
+      <_name>methods8</_name>
+    </asset>
+    <asset name="methods9" >
+      <_CubeTextureDataName>cube10</_CubeTextureDataName>
+      <_alpha>0.8</_alpha>
+      <_name>methods9</_name>
+    </asset>
+    
+     <asset name="methods10" >
+      <_CubeTextureDataName>jsfs</_CubeTextureDataName>
+      <_alpha>0.85</_alpha>
+      <_name>methods10</_name>
+    </asset>
+	<asset name="methods11" >
+      <_CubeTextureDataName>cube11</_CubeTextureDataName>
+      <_alpha>0.3</_alpha>
+      <_name>methods11</_name>
+    </asset>
+	<asset name="methods12" >
+      <_CubeTextureDataName>cube12</_CubeTextureDataName>
+      <_alpha>0.1</_alpha>
+      <_name>methods12</_name>
+    </asset>
+    
+    <asset name="methods13" >
+      <_CubeTextureDataName>cube13</_CubeTextureDataName>
+      <_alpha>0.15</_alpha>
+      <_name>methods13</_name>
+    </asset>
+   
+      <asset name="methods14" >
+      <_CubeTextureDataName>zkd</_CubeTextureDataName>
+      <_alpha>0.9</_alpha>
+      <_name>methods14</_name>
+    </asset>
+    
+    <asset name="methods15" >
+      <_CubeTextureDataName>zkdd</_CubeTextureDataName>
+      <_alpha>0.6</_alpha>
+      <_name>methods15</_name>
+    </asset>
+    
+    <asset name="methodskq" >
+      <_CubeTextureDataName>cube1</_CubeTextureDataName>
+      <_alpha>0.20</_alpha>
+      <_name>methodskq</_name>
+    </asset>
+
+	<asset name="methods_chese" >
+	      <_CubeTextureDataName>cube2</_CubeTextureDataName>
+	      <!--<_alpha>0.15</_alpha> -->
+		  <_alpha>0.06</_alpha>
+	      <_name>methods_chese</_name>
+	    </asset>
+   
+    
+</ReflectionMethod>
+</root>

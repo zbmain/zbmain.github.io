@@ -1,0 +1,1 @@
+function panoStart(){_krpano.call("loadscene(car_zong);")}var _panoBoo=!1,_krpano,_vlookat,_hlookat,_fov,vr_b=!1,krpanoReady=function(o){(_krpano=o).call("cm_normal_view()")};

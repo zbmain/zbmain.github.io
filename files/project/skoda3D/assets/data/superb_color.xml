@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 颜色列表 每个车型对应一个颜色列表 -->
+	<category type="ext">
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="SuperbExtColor0" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="SuperbExtColor1" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="SuperbExtColor2" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="SuperbExtColor3" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="SuperbExtColor4" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="1200" code="SuperbExtColor5" standard="1" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="1200" code="SuperbExtColor6" standard="1" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="1200" code="SuperbExtColor7" standard="1" />
+		<!-- 
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="sdP1P1a" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="e2TfdP1" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="P1fgP1d" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="P1hhP1r" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="P1Pgh1f" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="1200" code="Pghgh1Ps1" standard="1" />
+		
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="P1Phjnb1a" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="e2bnTP1" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="P1Pbn1d" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="P1bnP1r" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="0" code="P1Pnb1f" standard="0" />
+		<asset name="璀璨金" image="assets/images/2_1.jpg" price="1200" code="P1bPs1" standard="1" />
+		 -->
+	</category>
+	<category type="int">
+		<asset name="棕色内饰" image="assets/images/2_3.jpg" price="500" code="P1P1nd" standard="1" />
+		<asset name="棕色内饰" image="assets/images/2_3.jpg" price="0" code="P1P1bd" standard="0" />
+		<asset name="棕色内饰" image="assets/images/2_3.jpg" price="0" code="P1P1fd" standard="0" />
+		<asset name="棕色内饰" image="assets/images/2_3.jpg" price="0" code="P1P1bf" standard="0" />
+	</category>
+
+</root>

@@ -1,0 +1,102 @@
+<?xml version="1.0" standalone="yes"?>
+<provinces>
+<province id="1" proname="北京市">
+	<dealer code="SJ1130" name="北京达世行世纪汽车销售有限公司"/>
+	<dealer code="SJ1120" name="北京首创森美汽车贸易有限公司"/>
+	<dealer code="SJ1150" name="北京加达永通汽车销售有限公司"/>
+</province>
+<province id="2" proname="天津市"> 
+	<dealer code="SJ1617" name="天津市四联汽车贸易有限公司"/>
+</province>
+<province id="3" proname="河北省">
+	<dealer code="SJ1735" name="保定市屹立汽车贸易维修有限责任公司"/>
+	<dealer code="SJ1749" name="河北怡和骏祥汽车销售服务有限公司"/>
+</province>
+<province id="4" proname="山西省"> 
+	<dealer code="SJ1768" name="山西友通汽车贸易有限公司"/>
+</province>
+<province id="6" proname="辽宁省"> 
+	<dealer code="SJ1630" name="沈阳市鑫通汽车销售服务有限公司"/>
+	<dealer code="SJ1639" name="大连上通汽车销售服务有限公司"/>
+	<dealer code="SJ1632" name="辽宁鑫溢汽车销售服务有限公司"/>
+	<dealer code="SJ1645" name="辽宁天合汽车销售服务有限公司"/>
+	<dealer code="SJ1636" name="大连福斯达汽车销售服务有限公司"/>
+	<dealer code="SJ1638" name="大连浩博汽车销售服务有限公司"/>
+</province>
+<province id="9" proname="上海市"> 
+	<dealer code="SJ1020" name="上海名流汽车销售有限公司"/>
+	<dealer code="SJ1030" name="上海万兴世界汽车销售服务有限公司"/>
+	<dealer code="SJ1050" name="上海永达通途汽车销售服务有限公司"/>
+	<dealer code="SJ1070" name="上海协通百联汽车销售服务有限公司"/>
+	<dealer code="SJ1001" name="上海东昌汽车浦东销售服务有限公司"/>
+	<dealer code="SJ1080" name="上海文洋汽车销售服务有限公司"/>
+</province>
+<province id="10" proname="江苏省"> 
+	<dealer code="SJ1311" name="江苏天泓紫金汽车服务有限公司"/>
+	<dealer code="SJ1351" name="常州常通汽车销售服务有限公司"/>
+	<dealer code="SJ1312" name="如皋长江汽车销售服务有限公司"/>
+	<dealer code="SJ1316" name="江苏华通汽车销售服务有限公司"/>
+	<dealer code="SJ1380" name="江阴市上通汽车销售服务有限公司"/>
+	<dealer code="SJ1300" name="苏州华成汽车销售服务有限公司"/>
+</province>
+<province id="11" proname="浙江省"> 
+	<dealer code="SJ1580" name="浙江米家汽车销售有限公司"/>
+	<dealer code="SJ1591" name="湖州弘通汽车销售服务有限公司"/>
+	<dealer code="SJ1502" name="浙江瑞泰汽车有限公司"/>
+	<dealer code="SJ1540" name="宁波市兴欣汽车销售服务有限公司"/>
+	<dealer code="SJ1562" name="嘉兴兴通汽车销售有限公司"/>
+</province>
+<province id="12" proname="安徽省"> 
+	<dealer code="SJ1796" name="安徽省易和福道汽车销售服务有限公司"/>
+</province>
+<province id="13" proname="福建省"> 
+	<dealer code="SJ1665" name="福州中机中泰汽车销售有限公司"/>
+	<dealer code="SJ1666" name="福州永达汽车销售服务有限公司"/>
+</province>
+<province id="14" proname="江西省"> 
+	<dealer code="SJ1843" name="江西运通汽车销售服务有限公司"/>
+</province>
+<province id="15" proname="山东省"> 
+	<dealer code="SJ1430" name="潍坊润达汽车销售服务有限公司"/>
+	<dealer code="SJ1406" name="济宁朗巍弘辉汽车销售服务有限公司"/>
+	<dealer code="SJ1419" name="青岛神龙达汽车销售服务有限公司"/>
+	<dealer code="SJ1460" name="威海市美利达汽车销售服务有限公司"/>
+	<dealer code="SJ1425" name="东营天驰汽车销售服务有限公司"/>
+	<dealer code="SJ1465" name="莱芜鸿发华贸汽车销售服务有限公司"/>
+</province>
+<province id="16" proname="河南省"> 
+	<dealer code="SJ2659" name="河南威佳源通汽车销售服务有限公司"/>
+	<dealer code="SJ1655" name="河南新纪元汽车销售服务有限公司"/>
+	<dealer code="SJ1656" name="河南旭龙汽车销售服务有限公司"/>
+</province>
+<province id="17" proname="湖北省"> 
+	<dealer code="SJ1695" name="湖北三环海通汽车有限公司"/>
+	<dealer code="SJ1700" name="湖北博诚汽车销售服务有限公司"/>
+</province>
+<province id="18" proname="湖南省"> 
+	<dealer code="SJ1705" name="湖南申湘汽车天程销售服务有限公司"/>
+</province>
+<province id="19" proname="广东省"> 
+	<dealer code="SJ1219" name="广州市南菱通汽车销售服务有限公司"/>
+	<dealer code="SJ1293" name="深圳市红润汽车贸易有限公司"/>
+	<dealer code="SJ1221" name="深圳市大兴汽车有限公司"/>
+	<dealer code="SJ1249" name="中山银河汽车有限公司"/>
+	<dealer code="SJ1216" name="广州瑞华粤通汽车销售服务有限公司"/>
+</province>
+<province id="21" proname="广西壮族自治区"> 
+	<dealer code="SJ1827" name="广西桂海通达汽车销售服务有限公司"/>
+</province>
+<province id="22" proname="甘肃省"> 
+	<dealer code="SJ1915" name="甘肃赛亚汽车销售服务有限公司"/>
+</province>
+<province id="23" proname="陕西省"> 
+	<dealer code="SJ1781" name="陕西华兴新世纪汽车服务贸易有限公司"/>
+	<dealer code="SJ1782" name="西安启泰汽车销售服务有限公司"/>
+</province>
+<province id="28" proname="四川省"> 
+	<dealer code="SJ2690" name="四川港宏盛丰汽车销售服务有限公司"/>
+</province>
+<province id="30" proname="云南省"> 
+	<dealer code="SJ1815" name="云南中驰汽车销售服务有限公司"/>
+</province>
+</provinces>

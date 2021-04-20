@@ -1,0 +1,22 @@
+﻿
+<krpano>
+	<scene name="car_zong" title="dt" onstart="" lat="39.796233694" lng="19.70181763" heading="0.0">
+
+		<view hlookat="-11" vlookat="4" fovtype="MFOV" fov="62" fovmin="62" fovmax="62" limitview="auto" />
+
+		<preview url="panos/zong/preview.jpg" />
+
+		<image>
+			<cube url="panos/zong/n_%s.jpg" />
+		</image>
+
+	</scene>
+		
+	<action name="cm_normal_view">
+		cm_look_straight();
+		tween(view.architectural, 0.0, distance(1.0,0.5));
+		tween(view.pannini,       0.0, distance(1.0,0.5));
+		tween(view.fisheye,       0.0, distance(1.0,0.5));
+	</action>
+	
+</krpano>

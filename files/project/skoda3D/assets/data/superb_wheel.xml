@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 轮毂列表  每个车型对应一个轮毂列表-->
+	<asset name="豪华10铝合金轮毂铝合金轮毂铝合金轮毂" image="assets/images/3_1.png" price="300" code="superb_luntai0" standard="1" />
+	<asset name="豪华16铝合金轮毂" image="assets/images/3_1.png" price="400" code="superb_luntai1" standard="0" />
+	<asset name="豪华16铝合金轮毂" image="assets/images/3_1.png" price="0" code="superb_luntai2" standard="0" />
+
+</root>

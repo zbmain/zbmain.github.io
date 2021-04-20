@@ -1,0 +1,32 @@
+﻿
+<krpano>
+	<scene name="car_zong" title="dt" onstart="" lat="39.796233694" lng="19.70181763" heading="0.0">
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="65" fovmin="52" fovmax="72" limitview="auto" />
+
+		<preview url="panos/zong/preview.jpg" />
+
+		<image>
+			<cube url="panos/zong/n_%s.jpg" />
+		</image>
+
+	</scene>
+	
+	<action name="rootCom">
+		js(rootViweComplete())
+	</action>
+		
+	<action name="cm_normal_view">
+		cm_look_straight();
+		tween(view.architectural, 0.0, distance(1.0,0.5));
+		tween(view.pannini,       0.0, distance(1.0,0.5));
+		tween(view.fisheye,       0.0, distance(1.0,0.5));
+	</action>
+	
+	<!--方向盘 -->
+	<hotspot name="houshijing" enabled="false" zorder="10" distorted="true" ath="0" atv="0" edge="lefttop" alpha="0.0" keep="true"/>
+	
+	
+	<events onnewscene="rootCom();"/>
+	
+</krpano>

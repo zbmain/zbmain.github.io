@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 原装附件  -->
+	<category name="内部附件">
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>20000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1P1fgd</code> 
+			 <thumb>assets/images/5_3.png</thumb> 
+			 <image>assets/images/5_1.png</image> 
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>60000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>bnfjP1P1</code> 
+			 <thumb>assets/images/5_3.png</thumb>
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>40000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>bnfjP1dP1s</code> 
+			<thumb>assets/images/5_3.png</thumb>
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+	</category>
+	
+	<category name="外观形象">
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1P1dffgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1P1gfgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1P1ghgjfgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+	</category>
+	
+	<category name="车载电子">
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1fPghj1fgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>Pghj1Pj1fgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1gP1fgjgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+	</category>
+	
+	<category name="辅载运输">
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1Pgh1fghgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1Pghjj1fgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1P1fghggggd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+	</category>
+	
+	
+	<category name="安全升级">
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1P1gfghgggd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1hP1ghhfgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1Pg1fghgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+	</category>
+	
+	
+	<category name="专业养护">
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1Phhhggh1fgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1hPghg1fgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+		<asset>
+			 <name>--斯柯达仿真车模系列</name>
+			 <price>200000</price>
+			 <explain>附件说明附件说明附件说明附件说明附件说明</explain>
+			 <code>P1gPghhh1fgd</code> 
+			  <thumb>assets/images/5_3.png</thumb>  
+			 <image>assets/images/5_1.png</image>  
+		</asset>
+	</category>
+	
+</root>

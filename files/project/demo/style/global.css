@@ -1,0 +1,255 @@
+@charset "utf-8";
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, button,textarea, p, blockquote, th, td {margin:0; padding:0; word-wrap:break-word; word-break:break-all; -webkit-text-size-adjust:none;}
+body {position:relative; font:0.2rem/1.5 "microsoft yahei","SimHei",Tahoma,Helvetica,Arial,sans-serif; color:#474747; background-color:#fff;}
+ol,ul {list-style:none;}
+fieldset,img {border:0;}
+abbr, acronym {border:0; font-variant:normal;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+address, caption, cite, code, dfn, em, var {font-style:normal;}
+table {border-collapse:collapse;}
+caption,th {text-align:left;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;}
+a {color:#474747; text-decoration:none;}
+a:hover {text-decoration:none;}
+input, button, textarea, select, optgroup, option {font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit; resize:none;}
+input, button, textarea, select {*font-size:100%;}
+pre{white-space:pre-wrap; white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; *word-break:break-all; *word-wrap:break-word; _word-break:break-all; _word-wrap:break-word;}
+*{outline:none;}
+button{cursor: pointer;}
+
+
+#overlay { display:none;position:fixed; _position:absolute; left:0; top:0; width:100%; height:100%; z-index:9900; _height:expression(Math.max((document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight ), document.documentElement.clientHeight)+ 'px'); background-color:#000; opacity:0.85; filter:Alpha(Opacity=85);}
+
+#overlay1 { display:none;position:absolute; left:0; top:0; width:100%; height:100%; z-index:9900; _height:expression(Math.max((document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight ), document.documentElement.clientHeight)+ 'px'); background-color:#000; opacity:0.6; filter:Alpha(Opacity=60);}
+
+.fl,.leftSide {float:left;}
+.fr,.rightSide {float:right;}
+.textCenter {text-align: center;}
+.textLeft {text-align: left;}
+.textRight {text-align: right;}
+
+.clear {clear:both;}
+.clearfix:after {content:"."; clear:both; display:block; height:0; font-size:0; visibility:hidden; overflow:hidden;}
+* html .clearfix {height:1%;}
+.clearfix {display: block;}
+*+html .clearfix{min-height:1%;}
+
+img {max-width: 100%;}
+
+.red {color: #f00;}
+.blue{color:#4169e1;}
+
+ a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+
+
+.wboxFlex {display:-webkit-box; display: box; box-sizing: border-box;}
+.wboxFlex > a {display:block; -webkit-box-flex: 1.0; box-flex:1.0; text-align: center; cursor: pointer;}
+
+.wrapper {position: absolute; left: 0; top: 0; right: 0; bottom: 0;}
+
+.carInfo {position: absolute; left: 0; top: 0; right: 0; display:-webkit-box; display: box; box-sizing: border-box; padding: 0.25rem 0.15rem; height: 1.4rem; background: #fff;}
+.carInfoItem {-webkit-box-flex: 1.0; box-flex:1.0; padding: 0 0.1rem;}
+.carInfoItem .carLogo {width: 1.45rem;}
+.carInfoItem .price {text-align: right;}
+
+.operate {position: absolute; left: 0; top: 1.4rem; right: 0; height: 0.85rem; border-top: 1px solid #e3e4e7; padding: 0.15rem 0; background: #fff;}
+.operate > a {border-right:1px solid #9ab8d8; color: #7b9bbe; height: 0.54rem; line-height: 0.54rem;}
+.operate > a:last-child {border-right: 0;}
+.operate > a > i {display: inline-block; width: 0.32rem; height: 0.33rem; background: url(../images/icon.png) no-repeat; background-size: 5rem auto; vertical-align: middle; margin-right: 0.1rem;}
+.operate > a > i.saveIcon {background-position: 0 0;}
+.operate > a > i.shareIcon {background-position: -0.4rem 0;}
+.operate > a > i.downIcon {background-position: -0.8rem 0;}
+.operate > a > i.configIcon {background-position: -1.2rem 0;}
+.operate > a:active > i.saveIcon {background-position: -1.6rem 0;}
+.operate > a:active > i.shareIcon {background-position: -2.0rem 0;}
+.operate > a:active > i.downIcon {background-position: -2.4rem 0;}
+.operate > a:active > i.configIcon {background-position: -2.8rem 0;}
+.operate > a > span {vertical-align: middle;}
+
+.carFlash {position: fixed; left: 0; width: 100%; top: 2.25rem; right: 0; bottom: 2.74rem; background: #ccc;}
+
+.navA {position: fixed; left: 0; bottom: 0.9rem; right: 0; height: 1.84rem; overflow: hidden; background: #fff;}
+.navAItem1 {overflow: hidden; float: left;text-align: center; width: 100%;}
+.navAItem1 .wboxFlex {padding: 0.27rem 0.7rem 0;}
+.navAItem1 a {}
+.navAItem1 .bg {display: inline-block; width: 0.83rem; height: 0.83rem; background: url(../images/bg1.png) no-repeat; background-size: 0.83rem auto; margin-bottom: 0.1rem; text-align: center;}
+.navAItem1 a:active .bg {background-image: url(../images/bg2.png);}
+.navAItem1 .text {display: block;}
+.navAItem1 .bg i {display: inline-block; width: 0.5rem; height: 0.4rem; background: url(../images/icon.png) no-repeat -1.8rem -0.5rem; background-size: 5.0rem auto; margin-top: 0.2rem;}
+.navAItem1 .bg i.appearanceIcon {background-position: -1.8rem -0.5rem;}
+.navAItem1 .bg i.hubIcon {background-position: -2.4rem -0.5rem;}
+.navAItem1 .bg i.trimIcon {background-position: -3.0rem -0.5rem;}
+.navAItem1 .bg i.partsIcon {background-position: -3.6rem -0.5rem;}
+
+.navAItem2 {position: relative; text-align: center; padding: 0.25rem 0 0; width: 0; overflow: hidden; float: left;}
+.navAItem2 .backIcon {position: absolute; top: 0; right: 0; width: 0.34rem; height: 0.39rem; padding: 0.1rem; background: url(../images/icon.png) no-repeat; background-size: 5.0rem auto; background-position: -3.6rem -1.06rem;}
+.navAItem2 .backIcon:active {background-position: -4.2rem -1.06rem;}
+.navAItem2 .item {display: inline-block; display: none;}
+.navAItem2 .item a {float: left; width: 0.98rem; color: #333;}
+.navAItem2 .item .img {width: 0.72rem; height: 0.68rem; display: inline-block; border: 1px solid #fff;}
+.navAItem2 .item .text {display: block;}
+.navAItem2 .item .text i {font-style: normal; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal;}
+.navAItem2 .item .active .img {border-color: #5290df;}
+
+.navAItem2 .item2 {margin-top: -0.1rem;}
+.navAItem2 .item2 a {width: 1.55rem;}
+.navAItem2 .item2 .img {width: 0.87rem; height: 0.87rem; border-radius: 0.5rem;}
+
+.navAItem2 .item3 a {width: 1.3rem;}
+
+.navAItem2 .item4 {height: 1.36rem; overflow: hidden;}
+.navAItem2 .item4 a {width: 1.98rem;}
+.navAItem2 .item4 .img {width: 1.42rem; height: 0.68rem; position: relative;}
+.navAItem2 .item4 .img img {border-radius: 0.06rem;}
+.navAItem2 .item4 .active .img {border-color: #fff;}
+i.radio {display: inline-block; width: 0.37rem; height: 0.37rem; background: url(../images/radio1.png) no-repeat; background-size: 0.37rem auto;}
+.img i.radio {position: absolute; right: 0; top: 50%; margin-top: -0.18rem; margin-right: -0.18rem;}
+.active .img i.radio {background-image: url(../images/radio2.png);}
+
+.navB {position: fixed; left: 0; bottom: 0; right: 0; height: 0.9rem; background: #e9e9ec; display:-webkit-box; display: box; box-sizing: border-box; overflow: hidden;}
+.navB .navBItem1 {float: left; width: 100%;}
+.navB .navBItem2 {float: left; width: 0; overflow: hidden;}
+
+.navB a {color: #5d7294; height: 0.9rem; line-height: 0.9rem; position: relative; text-align: center;}
+.navBItem1 a:before {content: ""; position: absolute; right: 0; top: 0.23rem; width: 0; height: 0.44rem; border-right:1px solid #a3adc0;}
+.navBItem1 a:last-child:before {margin-right: -1px;}
+.navB a > i {display: inline-block; width: 0.5rem; height: 0.4rem; background: url(../images/icon.png) no-repeat; background-size: 5rem auto; vertical-align: middle;}
+.navBItem1 a > i.sceneIcon {background-position: 0 -0.5rem;}
+.navBItem1 a > i.spaceIcon {background-position: -0.6rem -0.5rem;}
+.navBItem1 a > i.brightIcon {background-position: -1.2rem -0.5rem;}
+.navBItem1 a > span {vertical-align: middle; margin-left: 0.1rem;}
+
+.navBItem2 a > i {width: 0.55rem; height: 0.69rem;}
+.navBItem2 a > i.aIcon {background-position: 0 -1.0rem;}
+.navBItem2 a > i.bIcon {background-position: -0.6rem -1.0rem;}
+.navBItem2 a > i.cIcon {background-position: -1.2rem -1.0rem;}
+.navBItem2 a > i.backIcon {background-position: -3.6rem -1.0rem;}
+.navBItem2 a:active > i.aIcon,.navBItem2 a.active > i.aIcon {background-position: -1.8rem -1.0rem;}
+.navBItem2 a:active > i.bIcon,.navBItem2 a.active > i.bIcon {background-position: -2.4rem -1.0rem;}
+.navBItem2 a:active > i.cIcon,.navBItem2 a.active > i.cIcon {background-position: -3.0rem -1.0rem;}
+.navBItem2 a:active > i.backIcon,.navBItem2 a.active > i.backIcon {background-position: -4.2rem -1.0rem;}
+
+
+
+
+
+
+/* 弹出层 */
+.lightBox {display: none; position: fixed; left:50%; right: 0; top:50%; width: 6.0rem; margin-left: -3.0rem; z-index:9999; color: #fff;}
+.lightTitle {width:100%; height:0.32rem; /*padding-bottom: 0.1rem;*/ position: relative;}
+.lightTitle .close {position: absolute; top:0; right: 0.2rem; width: 0.32rem; height:0.32rem; background: url(../images/close1.png) no-repeat; background-size: 0.32rem auto; cursor:pointer;}
+.lightTitle .close:active {background-image: url(../images/close2.png);}
+.lightCon {/*padding: 0.3rem 0;*/ padding: 0.1rem 0;}
+
+/*弹出层-保存*/
+.lightIcon {text-align: center; /*margin-bottom: 0.2rem;*/ margin-bottom: 0.1rem;}
+.lightIcon img {width: 0.83rem; height: 0.94rem;}
+.lightText {padding: 1.0rem 0; text-align: center; color: #fff; font-size: 0.3rem;}
+.lightSubmit {text-align: center;}
+
+.wbtn {border: 0; width: 2.02rem; height: 0.68rem; border-radius: 0.1rem; background: #5988bd; color: #fff; font-size: 0.3rem; text-align: center;}
+.wbtn:active {background: #406387;}
+
+/*弹出层-分享*/
+.pencil {display: inline-block; width: 0.32rem; height: 0.33rem; background: url(../images/icon.png) no-repeat -4.4rem 0; background-size: 0.32rem auto;}
+
+.shareList {overflow: hidden; padding: 0.2rem 0 0.1rem; padding-left: 0.14rem; width: 5.35rem; margin: 0 auto;}
+.shareList > li {float: left; width: 2.48rem; height: 1.75rem; margin-right: 0.14rem; background: #fff; border: 1px solid #878686; margin-bottom: 0.14rem; /*overflow: hidden;*/ position: relative;}
+.shareList > li .img {max-width: 2.48rem; max-height: 1.75rem; vertical-align: middle;}
+.shareList i.radio {position: absolute; right: -0.11rem; top: -0.11rem; z-index: 9;}
+.shareList > li.active i.radio {background-image: url(../images/radio2.png);}
+.carWrap {height: 1.75rem; display: table-cell; vertical-align: middle;}
+
+.lightWrite {text-align: center; width: 5.1rem; margin: 0 auto; margin-bottom: 0.2rem;}
+.lightWriteTitle {text-align: left; color: #fff; margin-bottom: 0.1rem;}
+.pencil {display: inline-block; width: 0.32rem; height: 0.33rem; background: url(../images/icon.png) no-repeat -4.4rem 0; background-size: 5.0rem auto; vertical-align: middle; margin-left: 0.1rem;}
+.textarea {width: 100%; height: 2.0rem; border-radius: 0.2rem; background: #d1d1d1; padding: 0.1rem;}
+
+
+/*弹出层-配置清单*/
+.configCont {padding: 0 0.2rem; font-size: 0.24rem; max-height: 6.5rem; overflow: auto; margin-bottom: 0.6rem;}
+.configTitle {font-size: 0.3rem; font-weight: bold; text-align: center; margin-bottom: 0.2rem;}
+.configList {margin-bottom: 0.2rem;}
+.configList dt {border-bottom: 1px solid #fff; font-weight: bold; padding-bottom: 0.05rem; margin-bottom: 0.05rem; font-size: 0.26rem;}
+.configList dd {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal;}
+.configList .price {float: right; margin-left: 0.1rem;}
+
+.confitTotal {border-top: 1px solid #fff; overflow: hidden; padding-top: 0.24rem;}
+.confitTotal .package {float: left;}
+.confitTotal .totalPrice {float: right;}
+.package {display: inline-block; width: 2.29rem; height: 0.48rem; line-height: 0.48rem; background: #fff; border-radius: 0.1rem; text-align: center;}
+.package i {display: inline-block; width: 0.35rem; height: 0.29rem; background: url(../images/icon.png) no-repeat 0 -1.8rem; background-size: 5.0rem auto; vertical-align: middle; margin-right: 0.1rem;}
+.package span {vertical-align: middle;}
+.package:active {color: #406387;}
+.package:active i {background-image: -0.5rem -1.8rem;}
+.totalPrice span {color: #f80101;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loader {position: absolute; left: 0; top: 50%; right: 0; text-align: center; margin-top: -0.12rem; z-index: 9999;}
+.loader span{display:inline-block; vertical-align:middle; width:0.2rem; height:0.2rem; background:#000; border-radius:0.5rem; animation:loader 0.8s infinite alternate; -webkit-animation:loader 0.8s infinite alternate; -moz-animation:loader 0.8s infinite alternate;}
+.loader span:nth-of-type(2) {-webkit-animation-delay:0.3s; -moz-animation-delay:0.3s;}
+.loader span:nth-of-type(3) {-webkit-animation-delay:0.6s; -moz-animation-delay:0.6s;}
+@keyframes loader {
+	0% {
+		opacity:1;
+	}
+	100% {
+		opacity:0.1;
+	}
+}
+@-webkit-keyframes loader {
+	0% {
+		opacity:1;
+	}
+	100% {
+		opacity:0.1;
+	}
+}
+@-moz-keyframes loader {
+	0% {
+		opacity:1;
+	}
+	100% {
+		opacity:0.1;
+	}
+}
+
+
+
+
+/* 17.2.21新增 */
+.navBItem2.itemB a.back {width: 0;}
+.navBItem2.itemA > a {float:left; width: 1.02rem; height: 0.64rem; margin-right: 0.2rem; border-radius: 0.05rem; margin-top: 0.12rem; padding: 1px; opacity: 0.5;}
+.navBItem2.itemA > a.active {border: 1px solid #508dda; padding: 0; opacity: 1;}
+.navBItem2.itemA > a > img {width: 1.02rem; height: 0.64rem; border-radius: 0.05rem;}
+.navBItem2.itemA > a:first-child {margin-left: 0.4rem;}
+.navBItem2.itemA > a.back {width:0.66rem;height: auto; margin-right: 0; margin-top: 0; padding: 0; opacity: 1;}
+
+.navBItem2.itemC {position: relative;}
+.navBItem2.itemC .back {position: absolute; right: 0; top: 0; width: 0.55rem;}
+#swiperBirght {width: 3.8rem; height: 0.9rem; margin-top: 0.05rem; margin-left: 0.1rem; text-align: center;}
+#swiperBirght .swiper-slide {width: 1.1rem;}
+#swiperBirght.a3 {width: 3.2rem; margin-left: 0.4rem;}
+#swiperBirght.a2 .swiper-slide {width: 1.8rem; margin-left: 0.2rem;}
+#swiperBirght.a1 .swiper-slide {width: 3.8rem;}
+.navBItem2.itemC .swiper-slide {text-align: center;}
+.navBItem2.itemC .swiper-slide img {padding: 1px; display: block;}
+.navBItem2.itemC .swiper-slide.active img {padding: 0; border: 1px solid #4789dd;}
+.navBItem2.itemC .img {width: 0.89rem; height: 0.52rem; display: block; margin: 0 auto 0.05rem; border-radius: 0.05rem;}
+.navBItem2.itemC .text {display: block; font-size: 0.15rem; line-height: 0.25rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal;}
+
+
+
+

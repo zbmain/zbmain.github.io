@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<root>
+<CubeMaterial>
+    <asset name="cube0" >
+      <_positiveX_URL>EnvPosYGarage 副本s.jpg</_positiveX_URL>
+      <_negativeX_URL>EnvPosYGarage 副本s.jpg</_negativeX_URL>
+      <_positiveY_URL>EnvPosYGarage.jpg</_positiveY_URL>
+      <_negativeY_URL>EnvNegYGarage.jpg</_negativeY_URL>
+      <_positiveZ_URL>EnvPosYGarage 副本s.jpg</_positiveZ_URL>
+      <_negativeZ_URL>EnvPosYGarage 副本s.jpg</_negativeZ_URL>
+      <_name>cube0</_name>
+    </asset>
+</CubeMaterial>
+<ReflectionMethod>
+    <asset name="methods0" >
+      <_CubeTextureDataName>cube0</_CubeTextureDataName>
+      <_alpha>0.3</_alpha>
+      <_name>methods0</_name>
+    </asset>
+    <asset name="methods1" >
+      <_CubeTextureDataName>cube0</_CubeTextureDataName>
+      <_alpha>0.1</_alpha>
+      <_name>methods1</_name>
+    </asset>
+</ReflectionMethod>
+</root>

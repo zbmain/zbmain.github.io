@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>D90</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	
+	<style>
+	<!--
+		@-ms-viewport { width:device-width; }
+		@media only screen and (min-device-width:800px) { html { overflow:hidden; } }
+		html { height:100%; }
+		body { height:100%; overflow:hidden; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#ff0000; }-->
+		
+		
+			body {
+				color: #fff;
+				font-family:Monospace;
+				font-size:13px;
+				margin: 0px;
+				text-align:center;
+				overflow: hidden;
+				background-color:#fff;
+			}
+			#info {
+				color: #fff;
+				position: absolute;
+				top: 10px;
+				width: 100%;
+				text-align: center;
+				display:block;
+			}
+			
+	</style>
+</head>
+<body>
+
+<script type="text/javascript">
+	//var webSiteURL = "http://static.skoda-1.com/PC/";
+//var webSiteURL = "http://static.skoda-1.com/datong/PC/";
+	//var webSiteURL = "http://datong.yappam.com/File/saic/D90/pc/";
+	//var webSiteURL = "http://192.168.6.41:9000/datong/D90/D90_wap/PC/";
+	
+	var webSiteURL = "";
+</script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script src="pano/krpano.js"></script>
+<script src="pano/YappamCarPano.js"></script>
+
+<div id="pano" style="width:100%;height:100%;">
+	<noscript><table style="width:100%;height:100%;"><tr style="vertical-align:middle;text-align:center;"><td>ERROR:<br><br>Javascript not activated<br><br></td></tr></table></noscript>
+	<script>
+		embedpano({swf:webSiteURL+"pano/krpano.swf", xml:webSiteURL+"pano/dt_pano/contextmenu.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true,onready: krpanoReady,id:"pano1"});
+	</script>
+</div>
+
+
+<div id="info">
+<button type="button" onclick="zuoBiao_pano()">当前坐标</button>
+<div>
+	<button type="button" onclick="carTypeSelect_pano('A35E')">内饰格调黑色-A35E</button>
+	<button type="button" onclick="carTypeSelect_pano('A35B')">内饰格调米色-A35B</button>
+	<button type="button" onclick="carTypeSelect_pano('A35F')">内饰格调棕色-A35F</button>
+	<button type="button" onclick="carTypeSelect_pano('A35J')">内饰格调蓝黑色-A35J</button>
+	<button type="button" onclick="carTypeSelect_pano('A35K')">内饰格调红黑色-A35K</button>
+</div>	
+<div>
+	<button type="button" onclick="carTypeSelect_pano('E00N');setIntFeatureAngle('E00N')">手动挡E00N</button>
+	<button type="button" onclick="carTypeSelect_pano('E00P');setIntFeatureAngle('E00P')">自动挡E00P</button>
+</div>
+<div>
+	<button type="button" onclick="carTypeSelect_pano('S35S');setIntFeatureAngle('S35S')">小天窗S35S</button>
+	<button type="button" onclick="carTypeSelect_pano('S35U');setIntFeatureAngle('S35U')">全景天窗S35U</button>
+	<button type="button" onclick="carTypeSelect_pano('S35X');setIntFeatureAngle('S35X')">无天窗S35X</button>
+</div>
+	
+	<button type="button" onclick="carTypeSelect_pano('F10J');setIntFeatureAngle('F10J')">方向盘1F10J</button>
+	<button type="button" onclick="carTypeSelect_pano('F10M');setIntFeatureAngle('F10M')">方向盘2F10M</button>
+	
+	
+	<button type="button" onclick="carTypeSelect_pano('K20E');setIntFeatureAngle('K20E')">电动不带加热外后视镜K20E</button>
+	<button type="button" onclick="carTypeSelect_pano('K20M');setIntFeatureAngle('K20M')">电动带加热外后视镜K20M</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('F15A');setIntFeatureAngle('F15A')">带方向盘加热F15A</button>
+	<button type="button" onclick="carTypeSelect_pano('F15X');setIntFeatureAngle('F15X')">无方向盘加热F15X</button>
+	
+	
+	<button type="button" onclick="carTypeSelect_pano('Q08A');setIntFeatureAngle('Q08A')">带双侧前后贯穿气帘Q08A</button>
+	<button type="button" onclick="carTypeSelect_pano('Q08X');setIntFeatureAngle('Q08X')">不带双侧前后贯穿气帘Q08X</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('C06C');setIntFeatureAngle('C06C')">带巡航控制C06C</button>
+	<button type="button" onclick="carTypeSelect_pano('C06X');setIntFeatureAngle('C06X')">不带巡航控制C06X</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('U13A');setIntFeatureAngle('U13A')">带自动泊车辅助系统U13A</button>
+	<button type="button" onclick="carTypeSelect_pano('U13X');setIntFeatureAngle('U13X')">不带自动泊车辅助系统U13X</button>
+	
+
+	<div>
+	<button type="button" onclick="carTypeSelect_pano('T11A');setIntFeatureAngle('T11A')">空调1T11A</button>
+	<button type="button" onclick="carTypeSelect_pano('T11B');setIntFeatureAngle('T11B')">空调2T11B</button>
+	<button type="button" onclick="carTypeSelect_pano('T11H');setIntFeatureAngle('T11H')">空调3T11H</button>
+	</div>
+	
+	
+	<button type="button" onclick="carTypeSelect_pano('H30E');setIntFeatureAngle('H30E')">电子手刹H30E</button>
+	<button type="button" onclick="carTypeSelect_pano('H30H');setIntFeatureAngle('H30H')">机械手刹H30H</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('M96A');setIntFeatureAngle('M96A')">脚垫M96A</button>
+	<button type="button" onclick="carTypeSelect_pano('M96X');setIntFeatureAngle('M96X')">无脚垫M96X</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('M97A');setIntFeatureAngle('M97A')">行李箱网兜M97A</button>
+	<button type="button" onclick="carTypeSelect_pano('M97X');setIntFeatureAngle('M97X')">无行李箱网兜M97X</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('Q07A');setIntFeatureAngle('Q07A')">盲区监测系统Q07A</button>
+	<button type="button" onclick="carTypeSelect_pano('Q07X');setIntFeatureAngle('Q07X')">无盲区监测系统Q07X</button>
+	
+	<div>
+	
+	<button type="button" onclick="carTypeSelect_pano('M76J');setIntFeatureAngle('M76J')">装饰板-水转印M76J</button>
+	<button type="button" onclick="carTypeSelect_pano('M76L');setIntFeatureAngle('M76L')">装饰板-水转印M76L</button>
+	<button type="button" onclick="carTypeSelect_pano('M76N');setIntFeatureAngle('M76N')">装饰板-水转印M76N</button>
+	<button type="button" onclick="carTypeSelect_pano('M76P');setIntFeatureAngle('M76P')">装饰板-水转印M76P</button>
+	<button type="button" onclick="carTypeSelect_pano('M76Q');setIntFeatureAngle('M76Q')">装饰板-全包覆M76Q</button>
+	</div>
+	<button type="button" onclick="carTypeSelect_pano('M10F');setIntFeatureAngle('M10F')">内后视镜1M10F</button>
+	<button type="button" onclick="carTypeSelect_pano('M10H');setIntFeatureAngle('M10H')">内后视镜2M10H</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('S30P');setIntFeatureAngle('S30P')">一键启动S30P</button>
+	<button type="button" onclick="carTypeSelect_pano('S30X');setIntFeatureAngle('S30X')">无一键启动S30X</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('M14B');setIntFeatureAngle('M14B')">中央扶手箱M14B</button>
+	
+	
+	<button type="button" onclick="carTypeSelect_pano('S08G');setIntFeatureAngle('S08G')">阅读灯1S08G</button>
+	<button type="button" onclick="carTypeSelect_pano('S08H');setIntFeatureAngle('S08H')">阅读灯2S08H</button>
+	
+	<div>
+	<button type="button" onclick="setIntFeatureList(['N25A']);setIntFeatureAngle('N25A')">座椅布置(2+3)-N25A</button>
+	<button type="button" onclick="setIntFeatureList(['N25B']);setIntFeatureAngle('N25B')">座椅布置(2+3+2)-N25B</button>
+	<button type="button" onclick="setIntFeatureList(['N25C']);setIntFeatureAngle('N25C')">座椅布置(2+3+3)-N25C</button>
+	<button type="button" onclick="setIntFeatureList(['N25G']);setIntFeatureAngle('N25G')">座椅布置(2+2)-N25G</button>
+	<button type="button" onclick="setIntFeatureList(['N25H']);setIntFeatureAngle('N25H')">座椅布置(2+2+2)-N25H</button>
+	<button type="button" onclick="setIntFeatureList(['N25J']);setIntFeatureAngle('N25J')">座椅布置-N25J(2+2+3)</button>
+	
+	<button type="button" onclick="setIntFeatureList(['N25G','N12A']);setIntFeatureAngle('N25G')">座椅布置(1+2)-N25G&N12A</button>
+	<button type="button" onclick="setIntFeatureList(['N25H','N12A']);setIntFeatureAngle('N25H')">座椅布置(1+2+2)-N25H&N12A</button>
+	</div>
+	<div>
+	<button type="button" onclick="carTypeSelect_pano('N56A');setIntFeatureAngle('N56A')">座椅面料纹路-普通纹路-N56A</button>
+	<button type="button" onclick="carTypeSelect_pano('N56B');setIntFeatureAngle('N56B')">座椅面料纹路-菱形格纹路-N56B</button>
+	</div>
+	<div>
+	<button type="button" onclick="carTypeSelect_pano('N50S');setIntFeatureAngle('N50S')">座椅套面料-N50S</button>
+	<button type="button" onclick="carTypeSelect_pano('N50T');setIntFeatureAngle('N50T')">座椅套面料-N50T</button>
+	<button type="button" onclick="carTypeSelect_pano('N50R');setIntFeatureAngle('N50R')">座椅套面料-N50R</button>
+	<button type="button" onclick="carTypeSelect_pano('N50N');setIntFeatureAngle('N50N')">座椅套面料-N50N</button>
+	<button type="button" onclick="carTypeSelect_pano('N50Y');setIntFeatureAngle('N50Y')">座椅套面料-N50Y</button>
+	</div>
+	
+	<div>
+	<button type="button" onclick="carTypeSelect_pano('U00G');setIntFeatureAngle('U00G')">中控大屏幕U00G</button>
+	<button type="button" onclick="carTypeSelect_pano('U00M');setIntFeatureAngle('U00M')">中控小屏幕U00M</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('R01C');setIntFeatureAngle('R01C')">仪表盘1R01C</button>
+	<button type="button" onclick="carTypeSelect_pano('R01D');setIntFeatureAngle('R01D')">仪表盘2R01D</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('M20A');setIntFeatureAngle('M20A')">有副仪表台拉手M20A</button>
+	<button type="button" onclick="carTypeSelect_pano('M20X');setIntFeatureAngle('M20X')">无副仪表台拉手M20X</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('C09A');setIntFeatureAngle('C09A')">有驾驶模式C09A</button>
+	<button type="button" onclick="carTypeSelect_pano('C09X');setIntFeatureAngle('C09X')">无驾驶模式C09X</button>
+	
+	<button type="button" onclick="carTypeSelect_pano('215C');setIntFeatureAngle('215C')">适时四驱215C</button>
+	<button type="button" onclick="carTypeSelect_pano('215E');setIntFeatureAngle('215E')">无适时四驱215E</button>
+	
+	</div>
+	
+	<div>
+		<button type="button" onclick="carTypeSelect_pano('M77F');setIntFeatureAngle('M77F')">时尚换挡杆M77F</button>
+		<button type="button" onclick="carTypeSelect_pano('M77G');setIntFeatureAngle('M77G')">激情换挡杆M77G</button>
+	</div>
+	
+	
+	
+	
+	<button type="button" onclick="removehotspot()">开始</button>
+	
+	<button type="button" onclick="showHide(false)">隐藏</button>
+	<button type="button" onclick="showHide(true)">显示</button>
+	
+	<button type="button" onclick="sssssss()">1111111</button>
+	
+	
+</div>
+<script>
+panoStart();
+
+function showHide(value)
+{
+	if(value)
+	{
+		$("#pano").show();
+	}else{
+	
+		$("#pano").hide();
+	}
+}
+
+function panoReady()
+{
+
+	//alert(12);
+/*
+	if(_panoBoo)
+	{
+
+		return ;
+	}
+	//var intfeatureCodeList = ["M001", "J05F", "K15M", "S00E", "S35X", "K04E", "K50M", "K60D", "L14C", "C31C", "A35E", "M76L", "N50R", "M95D", "Q08X",  "J15F", "J17X", "H30H", "S25V", "C06C", "Q04X", "Q07X", "F05B", "F10J", "F15X", "S30X", "U13X", "T11B", "K20E", "K23X",  "S42X", "N00M", "N02A", "N06B", "M10F", "440M", "S21X", "S68X", "S54X", "U106", "E00P", "215D", "H18X", "N25B"];
+	var intfeatureCodeList = ["A35E","E00P","S35U","F10J","K20M","F15A","Q08A","C06C","U13A","T11B","H30E","M76P","M10F","S30P","S08G","N25A","N56B","N50T"];
+	setIntFeatureList(intfeatureCodeList);
+	_panoBoo = true;*/
+	
+	//var intfeatureCodeList = ["A35E","E00P","S35U","F10J","K20M","F15A","Q08A","C06C","U13A","T11B","H30E","M76P","M10F","S30P","S08G","N25A","N56B","N50T","U00G","R01D","M20A","C09A","215E"];
+	//var intfeatureCodeList = ["E00P","215D","H18X","N25H","N12X","M001","J05G","J07A","K15M","K17A","K60D","K53B","K08M","K37A","K47A","K48X","K55X","S00T","S47X","S48X","S35S","K04E","C31C","S54X","N50R","N56A","A35E","M95D","M77F","K62X","M97X","M96X","Q08X","J17P","S25V","Q07X","J18A","S70J","H30H","S30P","T11B","S42X","N00M","N02A","N06R","K23X","K20M","M10F","440M","S21X","L15E","L16B","L14D","T09X","F10J","F15X","U07B","M76L","S68X","U13X","R01D","M_009B","U106","S57X","C00B","C25A","C08H","K35X","K36B","S04F","M20X","M41A","Q00D","Q05A","J15F","Q15H","H10K","S41S","F00D","S51C","C09A","F05B","M14E","U08A","R10C","U00G"];
+	var intfeatureCodeList =  ["E00N", "215D", "H18X", "", "", "M001", "J05F", "J07A", "K15M", "K17A", "K60D", "K53B", "K08M", "K50M", "K37A", "K47A", "K48X", "K55X", "S00E", "S47X", "S48X", "S35X", "K04E", "C31A", "S54X", "N50R", "N56A", "A35E", "M76L", "M20X", "M95D", "M77E", "M97X", "M96X", "K62X", "J18A", "Q08X", "J17X", "H30H", "S25V", "Q07X", "S70J", "S30X", "T11A", "S42X", "N00M", "N02A", "N06A", "K23X", "K20E", "M10F", "440M", "S21X", "L15C", "L16A", "L14C", "S67B", "F10J", "F15X", "U07X", "S68X", "U13X", "R01C", "C06C", "Q04X", "Q06X", "U106", "S57X", "T09X", "N25H", "N12A", "M76J", "U00G", "R01C"];
+	setIntFeatureList(intfeatureCodeList);
+}
+
+function carExtLoading()
+{
+	//alert("开始加载-");
+}
+function carExtLoadingEnd()
+{
+	//alert("全部完毕-");
+}
+
+function sssssss()
+{
+	var intfeatureCodeList =  ["N50T","N56A","A35E","M76L","M20X","M95D","M77F","M97X","M96X"];
+	setIntFeatureList(intfeatureCodeList);
+}
+
+
+
+</script>
+</body>
+</html>

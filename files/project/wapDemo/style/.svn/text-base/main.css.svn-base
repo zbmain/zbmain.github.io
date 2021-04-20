@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*header*/
+.header {position: fixed; top:0; left:0; right: 0; text-align: center; line-height: 0.68rem; height: 0.68rem; border-bottom: 0.02rem solid #fff; background: #000; overflow: hidden; color: #fff;}
+.carsPic {position: fixed; left: 0; top: 0; right: 0; bottom: 4.29rem; background:#a0a0a0 url(../images/bg4.jpg) no-repeat center top; background-size: 7.5rem auto;}
+.nav {position: absolute; left: 0; top: 0.8rem; right: 0; text-align: center;z-index: 10;}
+.nav a {display: inline-block; width: 1.2rem; height: 0.72rem; line-height: 0.72rem; background: #d1d1d1; font-size: 0.28rem; color: #000;}
+.nav a.active {background: #a50339; color: #fff;}
+.nav a:first-child {border-top-left-radius: 0.1rem; border-bottom-left-radius: 0.1rem;}
+.nav a:last-child {border-top-right-radius: 0.1rem; border-bottom-right-radius: 0.1rem;}
+.contWrap {position: fixed; left: 0; bottom: 0; right: 0; z-index: 9;}
+
+.tabListWrap {background: #eee;}
+.tabListTop {height: 0.9rem; text-align: center;}
+.tabList {position: absolute; left: 0; right: 0; bottom: 0; height: 4.29rem; z-index: -9;}
+.tabList.active {z-index: 1;}
+
+/*swiper第一层*/
+.firstFloorSwiper {height: 0.98rem; line-height: 0.96rem; position: absolute; left: 0; bottom: 3.31rem; right: 0; background: #f5f5f5;}
+.firstFloorSwiper .swiper-button-prev,.firstFloorSwiper .swiper-button-next {display: none;}
+
+.swiper-button-next, .swiper-button-prev {width: 0.17rem; height: 0.29rem; margin-top: -0.14rem; background-size: 0.17rem auto;}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {background-image: url(../images/arrowLeft.png);}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {background-image: url(../images/arrowRight.png);}
+.firstFloorSwiper .swiper-slide {text-align: center; border-left: 1px solid #c5c5c4; border-bottom: 1px solid #bfbfbf; height: 0.98rem; font-size: 0.28rem; color: #999;}
+.firstFloorSwiper .swiper-slide:first-child {border-left: 0;}
+.firstFloorSwiper .swiper-slide.active {border-bottom: 2px solid #2d98fe; color: #000;}
+
+.secondFloorSwiperWrap {height: 3.31rem; background: #fff; padding: 0.15rem 0.3rem 0;position: absolute; bottom: 0; left: 0; right: 0; z-index: -9;}
+.secondFloorSwiperWrap.active {z-index: 1;}
+.secondFloorSwiperWrap .swiper-button-prev,.secondFloorSwiperWrap .swiper-button-next {display: none;}
+.secondFloorSwiperWrap .text {line-height: 0.48rem; margin: 0 auto; text-align: center; padding: 0.25rem 0; position: relative; color: #333; font-size: 0.24rem;}
+.secondFloorSwiperWrap .text i {position: absolute; right: 0; top: 50%; margin-top: -0.2rem; width: 0.4rem; height: 0.4rem; background: url(../images/tip.png) no-repeat; background-size: 0.4rem auto;}
+.secondFloorSwiper .swiper-container {padding: 0.08rem;}
+.secondFloorSwiper img {display: block;}
+.secondFloorSwiper .swiper-slide {position: relative; width: 1.06rem; margin-right: 0.25rem;}
+.secondFloorSwiper .swiper-slide.active {border: 2px solid #0071c6;}
+i.iconSelect {position: absolute; width: 0.18rem; height: 0.18rem; background: url(../images/iconSelect.png) no-repeat; background-size: 0.18rem auto; display: none;}
+.active > i.iconSelect {display: block; right: -0.08rem; bottom: -0.08rem;}
+.secondFloorSwiper .swiper-slide img {padding: 2px;}
+.secondFloorSwiper .swiper-slide.active img {padding: 0;}
+
+/*.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {opacity:0.1;}*/
+
+
+/*通用*/
+.normalTab .swiper-wrapper {display:inline-block; text-align:center;}
+.normalTab .swiper-slide {display:inline-block;}
+.normalTab .swiper-button-prev,.normalTab .swiper-button-next {display:none;}
+
+
+/*弹出层*/
+.popBox {display:none; position:fixed; left:50%; margin-left:-3rem; width:5.4rem; height:auto; z-index:9999; background:#eee; font-size:0.24rem; color:#333;}
+.popClose {position:absolute; right:-0.3rem; top:-0.3rem; width:0.56rem; height:0.56rem; background:url(../images/close.png) no-repeat; background-size:0.56rem auto;}
+
+.popHighlights {width: 6.52rem; height: 8.75rem; margin-left: -3.26rem; background: url(../images/highlightBg.jpg) no-repeat; background-size: 6.52rem auto;}
+.highlightImg {width: 6.52rem; height: 4.5rem; max-height: 4.5rem; min-height: 4.5rem; display: table-cell; vertical-align: middle; text-align: center; overflow: hidden;}
+.highlightImg video {max-width: 100%; max-height: 100%;}
+.highlightImg img {max-width: 6.52rem; max-height: 4.5rem;}
+.highlightText {height: 4rem; padding: 0.4rem 0.2rem 0.2rem 0.57rem; color: #8bdbfe;}
+.highlightText h1 {padding: 0 0.1rem; border-bottom: 1px solid #8bdbfe; font-size: 0.42rem; line-height: 0.66rem; padding-bottom: 0.17rem;}
+.highlightText p {padding: 0.2rem 0.1rem 0; line-height: 0.36rem;}
+
+/*maskTip*/
+.maskTip {text-align:center; font-size:0.2rem; background:url(../images/maskTip.png) no-repeat center top; background-size:5.96rem auto; height:0.88rem; line-height:0.4rem; padding-top:0.1rem; color:#fff; position:absolute; top:-1.5rem; left:0; right:0; display:none;}
+.maskTip p span {padding:0 0.05rem; color:#0071c6; font-weight:bold;}
+
+
+/*滚动条*/
+.mCSB_inside>.mCSB_container {margin-right: 10px;}
+.mCSB_scrollTools {width: 4px;}
+.mCSB_scrollTools .mCSB_draggerRail {width: 4px; background: none;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {width: 4px; background-color: #666; opacity: 0; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {background-color: #666; opacity: 0.3;}
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {background-color: #666; opacity: 0.3;}
+
+
+
+.waveIcon1 {
+    position: absolute;
+    top:0.6rem;
+    right:0.3rem;
+    width: 50px;
+    height: 50px;
+    z-index:100;
+    background:url(../images/icon1.png) no-repeat;
+    -webkit-animation: waveIcon1 4s steps(62) infinite;
+    animation: waveIcon1 4s steps(62) infinite;
+}
+@keyframes waveIcon1 {
+  to {
+    background-position: -3100px;
+  }
+}
+@-webkit-keyframes waveIcon1 {
+  to {
+    background-position: -3100px;
+  }
+}
+.waveIcon2 {
+    position: absolute;
+    top:0.6rem;
+    left:0.3rem;
+    width: 50px;
+    height: 50px;
+    z-index:100;
+    background:url(../images/icon2.png) no-repeat;
+    -webkit-animation: waveIcon2 4s steps(62) infinite;
+    animation: waveIcon2 4s steps(62) infinite;
+}
+@keyframes waveIcon2 {
+  to {
+    background-position: -3100px;
+  }
+}
+@-webkit-keyframes waveIcon2 {
+  to {
+    background-position: -3100px;
+  }
+}

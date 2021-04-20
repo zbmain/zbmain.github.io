@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html style="font-size:100px;">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>3D看车</title>
+<link type="text/css" rel="stylesheet" href="style/swiper.3.1.7.min.css">
+<link type="text/css" rel="stylesheet" href="style/global.css">
+<script type="text/javascript" src="js2/zepto.min.js"></script>
+<script type="text/javascript" src="js2/touch.js"></script>
+<script type="text/javascript" src="js2/fx.js"></script>
+<script type="text/javascript" src="js2/swiper.3.1.7.min.js"></script>
+<script type="text/javascript" src="js2/base.js"></script>
+
+        <script src="three.js"></script>
+		<script src="js/controls/OrbitControls.js"></script>
+		<script src="js/libs/dat.gui.min.js"></script>
+		<!-- NodeLibrary -->
+		<script src="js/nodes/GLNode.js"></script>
+		<script src="js/nodes/RawNode.js"></script>
+		<script src="js/nodes/TempNode.js"></script>
+		<script src="js/nodes/InputNode.js"></script>
+		<script src="js/nodes/ConstNode.js"></script>
+		<script src="js/nodes/FunctionNode.js"></script>
+		<script src="js/nodes/FunctionCallNode.js"></script>
+		<script src="js/nodes/BuilderNode.js"></script>
+		<script src="js/nodes/NodeLib.js"></script>
+		<script src="js/nodes/NodeMaterial.js"></script>
+
+		<!-- Accessors -->
+		<script src="js/nodes/accessors/PositionNode.js"></script>
+		<script src="js/nodes/accessors/NormalNode.js"></script>
+		<script src="js/nodes/accessors/UVNode.js"></script>
+		<script src="js/nodes/accessors/ScreenUVNode.js"></script>
+		<script src="js/nodes/accessors/ColorsNode.js"></script>
+		<script src="js/nodes/accessors/CameraNode.js"></script>
+		<script src="js/nodes/accessors/ReflectNode.js"></script>
+		<script src="js/nodes/accessors/LightNode.js"></script>
+
+		<!-- Inputs -->
+		<script src="js/nodes/inputs/IntNode.js"></script>
+		<script src="js/nodes/inputs/FloatNode.js"></script>
+		<script src="js/nodes/inputs/ColorNode.js"></script>
+		<script src="js/nodes/inputs/Vector2Node.js"></script>
+		<script src="js/nodes/inputs/Vector3Node.js"></script>
+		<script src="js/nodes/inputs/Vector4Node.js"></script>
+		<script src="js/nodes/inputs/TextureNode.js"></script>
+		<script src="js/nodes/inputs/CubeTextureNode.js"></script>
+
+		<!-- Math -->
+		<script src="js/nodes/math/Math1Node.js"></script>
+		<script src="js/nodes/math/Math2Node.js"></script>
+		<script src="js/nodes/math/Math3Node.js"></script>
+		<script src="js/nodes/math/OperatorNode.js"></script>
+
+		<!-- Utils -->
+		<script src="js/nodes/utils/SwitchNode.js"></script>
+		<script src="js/nodes/utils/JoinNode.js"></script>
+		<script src="js/nodes/utils/TimerNode.js"></script>
+		<script src="js/nodes/utils/RoughnessToBlinnExponentNode.js"></script>
+		<script src="js/nodes/utils/VelocityNode.js"></script>
+		<script src="js/nodes/utils/LuminanceNode.js"></script>
+		<script src="js/nodes/utils/ColorAdjustmentNode.js"></script>
+		<script src="js/nodes/utils/NoiseNode.js"></script>
+		<script src="js/nodes/utils/ResolutionNode.js"></script>
+
+		<!-- Phong Material -->
+		<script src="js/nodes/materials/PhongNode.js"></script>
+		<script src="js/nodes/materials/PhongNodeMaterial.js"></script>
+
+		<!-- Standard Material -->
+		<script src="js/nodes/materials/StandardNode.js"></script>
+		<script src="js/nodes/materials/StandardNodeMaterial.js"></script>
+		
+		<script src="js/renderers/Projector.js"></script>
+		<script src="js/loaders/ColladaLoader.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="carInfo">
+    	<div class="carInfoItem"><img class="carLogo" src="images/carLogo.png"/></div>
+    	<div class="carInfoItem">
+    		<p class="name">2017款 20T前驱豪华型</p>
+    		<p class="matchPrice">选择搭配价格</p>
+    		<p class="totalPrice">总价</p>
+    	</div>
+    	<div class="carInfoItem">
+    		<p class="price">￥245900</p>
+    		<p id="peiJianPrice" class="price">￥0</p>
+    		<p class="price"><b id="zongJiaPrice">￥245900</b></p>
+    	</div>
+    </div>
+    <div class="operate wboxFlex">
+    	<a href="javascript:;" onclick="showBox('saveBox')"><i class="saveIcon"></i><span>保存</span></a>
+    	<a href="javascript:;" onclick="showBox('shareBox')"><i class="shareIcon"></i><span>分享</span></a>
+    	<a href="javascript:;"><i class="downIcon"></i><span>PDF下载</span></a>
+    	<a href="javascript:;" onclick="showBox('configBox')"><i class="configIcon"></i><span>配置详情</span></a>
+    </div>
+    <div class="carFlash">
+	
+    	<div id="container" style="background:url('models/json/car4/images/BJ3.jpg') no-repeat center center;"></div>
+		<img style="position:absolute;left:300px;top:150px;visibility:hidden;" id="dianD_1" src="quan.png" width="20" height="20" onclick="liangDianClick(1)"/>
+		<img style="position:absolute;left:300px;top:150px;visibility:hidden;" id="dianD_2" src="quan.png" width="20" height="20" onclick="liangDianClick(2)"/>
+		<img style="position:absolute;left:300px;top:150px;visibility:hidden;" id="dianD_3" src="quan.png" width="20" height="20" onclick="liangDianClick(3)"/>
+		<img style="position:absolute;left:300px;top:150px;visibility:hidden;" id="dianD_8" src="quan.png" width="20" height="20" onclick="liangDianClick(8)"/>
+    	<!--<iframe src="http://www.baidu.com" frameborder="0" width="100%" height="100%"></iframe>-->
+		
+    	<div id="overlay1" style="display: block;"></div>
+    	<div class="loader">
+	        <span></span>
+	        <span></span>
+	        <span></span>
+       </div>
+	  <!-- <video id="videoDiv" src="1.mp4" controls="controls" autoplay="autoplay" width="100%" height="100%"></video>-->
+    </div>
+    
+    <div class="navA">
+    	<div class="navAItem1">
+    		<div class="wboxFlex">
+	    		<a id="a1" class="active" href="javascript:;">
+	    			<span class="bg">
+	    				<i class="appearanceIcon"></i>
+	    			</span>
+	    			<span class="text">外观</span>
+	    		</a>
+	    		<a id="a2" href="javascript:;">
+	    			<span class="bg">
+	    				<i class="hubIcon"></i>
+	    			</span>
+	    			<span class="text">轮毂</span>
+	    		</a>
+	    		<a id="a3" href="javascript:;">
+	    			<span class="bg">
+	    				<i class="trimIcon"></i>
+	    			</span>
+	    			<span class="text">内饰</span>
+	    		</a>
+	    		<a id="a4" href="javascript:;">
+	    			<span class="bg">
+	    				<i class="partsIcon"></i>
+	    			</span>
+	    			<span class="text">配件</span>
+	    		</a>
+    		</div>
+    	</div>
+    	<div class="navAItem2">
+    		<a href="javascript:;" class="backIcon"></a>
+    		<div class="item item1 active">
+    			<a id="a1_0" class="active" href="javascript:;">
+    				<span class="img">
+    					<img src="images/img1.jpg"/>
+    				</span>
+    				<span class="text">
+    					<i>雪域白</i>
+    					<i>￥0</i>
+    				</span>
+    			</a>
+    			<a id="a1_1" href="javascript:;">
+    				<span class="img">
+    					<img src="images/img2.jpg"/>
+    				</span>
+    				<span class="text">
+    					<i>托帕石棕</i>
+    					<i>￥0</i>
+    				</span>
+    			</a>
+    			<a id="a1_2" href="javascript:;">
+    				<span class="img">
+    					<img src="images/img3.jpg"/>
+    				</span>
+    				<span class="text">
+    					<i>玛瑙红</i>
+    					<i>￥0</i>
+    				</span>
+    			</a>
+    			<a id="a1_3" href="javascript:;">
+    				<span class="img">
+    					<img src="images/img4.jpg"/>
+    				</span>
+    				<span class="text">
+    					<i>卡其金</i>
+    					<i>￥0</i>
+    				</span>
+    			</a>
+    			
+    		</div>
+    		<div class="item item2">
+    			<a id="a2_0" class="active" href="javascript:;">
+    				<span class="img">
+    					<img src="images/hub1.png"/>
+    				</span>
+    				<span class="text">
+    					<i>17寸十辐铝合金轮毂</i>
+    					<i>￥0</i>
+    				</span>
+    			</a>
+    			<a id="a2_1" href="javascript:;">
+    				<span class="img">
+    					<img src="images/hub2.png"/>
+    				</span>
+    				<span class="text">
+    					<i>17寸双五辐铝合金轮毂</i>
+    					<i>￥0</i>
+    				</span>
+    			</a>
+    		</div>
+    		<div class="item item3">
+    			<a id="a3_0" class="active" href="javascript:;">
+    				<span class="img">
+    					<img src="images/trim1.jpg"/>
+    				</span>
+    				<span class="text">
+    					<i>棕色高级真皮</i>
+    					<i>￥0</i>
+    				</span>
+    			</a>
+    			<a id="a3_1" href="javascript:;">
+    				<span class="img">
+    					<img src="images/trim2.jpg"/>
+    				</span>
+    				<span class="text">
+    					<i>黑色高级真皮</i>
+    					<i>￥0</i>
+    				</span>
+    			</a>
+    		</div>
+    		<div class="item item4">
+    			<a id="a4_0" href="javascript:;">
+    				<span class="img">
+    					<img src="images/parts1.png"/>
+    					<i class="radio"></i>
+    				</span>
+    				<span class="text">
+    					<i>合金行李架</i>
+    					<i>￥600</i>
+    				</span>
+    			</a>
+    			<a id="a4_1" href="javascript:;">
+    				<span class="img">
+    					<img src="images/parts2.png"/>
+    					<i class="radio"></i>
+    				</span>
+    				<span class="text">
+    					<i>合金踏板</i>
+    					<i>￥4500</i>
+    				</span>
+    			</a>
+    			<a id="a4_2" href="javascript:;">
+    				<span class="img">
+    					<img src="images/parts3.png"/>
+    					<i class="radio"></i>
+    				</span>
+    				<span class="text">
+    					<i>鲨鱼鳍天线</i>
+						<i>￥100</i>
+    				</span>
+    			</a>
+    		</div>
+    	</div>
+    </div>
+    <div class="navB">
+    	<div class="navBItem1 wboxFlex">
+    		<a class="sceneItem" href="javascript:;"><i class="sceneIcon"></i><span>场景</span></a>
+	    	<a class="spaceItem active" href="javascript:;"><i class="spaceIcon"></i><span>空间</span></a>
+	    	<a id="a6_0" class="brightItem" href="javascript:;"><i class="brightIcon"></i><span>亮点</span></a>
+    	</div>
+    	<div class="navBItem2 itemA wboxFlex">
+            <a id="a5_0" href="javascript:;"><img src="images/scene1.jpg" alt=""></a>
+            <a id="a5_1" class="active" href="javascript:;"><img src="images/scene2.jpg" alt=""></a>
+            <a id="a5_2" href="javascript:;"><img src="images/scene3.jpg" alt=""></a>
+            <a class="back" href="javascript:;"><i class="backIcon"></i></a>    
+        </div>
+    	<div class="navBItem2 itemB wboxFlex">
+    		<a class="active" href="javascript:;"><i class="aIcon"></i></a>
+    		<a href="javascript:;"><i class="bIcon"></i></a>
+    		<a href="javascript:;"><i class="cIcon"></i></a>
+    		<a class="back" href="javascript:;"><i class="backIcon"></i></a>	
+    	</div>
+		<div class="navBItem2 itemC wboxFlex">
+            <a id="a6_1" class="back" href="javascript:;"><i class="backIcon"></i></a>    
+            <div id="swiperBirght" class="swiper-container">
+              <div class="swiper-wrapper">
+			  <!--
+                <div class="swiper-slide"><a id="a7_0" href="javascript:;"><img class="img" src="images/birght1.jpg" alt=""><span class="text">灵动飒爽的车侧</span></a></div>
+                <div class="swiper-slide"><a id="a7_1" href="javascript:;"><img class="img" src="images/birght2.jpg" alt=""><span class="text">发动机自动启</span></a></div>
+                <div class="swiper-slide"><a id="a7_2" href="javascript:;"><img class="img" src="images/birght3.jpg" alt=""><span class="text">展翼型HID感应大灯</span></a></div>
+				-->
+				<div class="swiper-slide"><a id="a7_0" href="javascript:;"><img class="img" src="images/birght1.jpg" alt=""><span class="text">灵动飒爽的车侧</span></a></div>
+                <div class="swiper-slide"><a id="a7_1" href="javascript:;"><img class="img" src="images/birght2.jpg" alt=""><span class="text">发动机自动启</span></a></div>
+                <div class="swiper-slide"><a href="index1.html" target="_blank"><img class="img" src="images/birght3.jpg" alt=""><span class="text">展翼型HID感应大灯</span></a></div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="overlay"></div>
+    <!--保存-弹出层-start-->
+	<div class="lightBox saveBox">
+		<div class="lightTitle">
+	        <a class="close" href="javascript:void(0)" onclick="closeBox('saveBox')"></a>
+	    </div>
+	    <div class="lightCon">
+	    	<div class="lightIcon">
+	    		<img src="images/icon01.png" alt="" />
+	    	</div>
+	    	<div class="lightText">
+	    		确定要保存您的配车方案吗？
+	    	</div>
+	    	<div class="lightSubmit">
+	    		<button class="wbtn" type="button" onclick="closeBox('saveBox')">确 定</button>
+	    	</div>
+	    </div>
+	</div>
+	<!--保存-弹出层-end-->
+	<!--分享-弹出层-start-->
+	<div class="lightBox shareBox">
+		<div class="lightTitle">
+	        <a class="close" href="javascript:void(0)" onclick="closeBox('shareBox')"></a>
+	    </div>
+	    <div class="lightCon">
+	    	<div class="lightIcon">
+	    		<img src="images/icon02.png" alt="" />
+	    	</div>
+	    	<ul class="shareList">
+	    		<li>
+	    			<i class="radio"></i>
+	    			<div class="carWrap">
+	    				<img class="img" src="images/car1.jpg" alt="" />
+	    			</div>
+	    		</li>
+	    		<li>
+	    			<i class="radio"></i>
+	    			<div class="carWrap">
+	    				<img class="img" src="images/car2.jpg" alt="" />
+	    			</div>
+	    		</li>
+	    		<li>
+	    			<i class="radio"></i>
+	    			<div class="carWrap">
+	    				<img class="img" src="images/car1.jpg" alt="" />
+	    			</div>
+	    		</li>
+	    		<li>
+	    			<i class="radio"></i>
+	    			<div class="carWrap">
+	    				<img class="img" src="images/car2.jpg" alt="" />
+	    			</div>
+	    		</li>
+	    	</ul>
+	    	<div class="lightWrite">
+	    		<div class="lightWriteTitle">
+	    			个性宣言<i class="pencil"></i>
+	    		</div>
+	    		<textarea class="textarea"></textarea>
+	    	</div>
+	    	<div class="lightSubmit">
+	    		<button class="wbtn" type="button" onclick="closeBox('shareBox')">确 定</button>
+	    	</div>
+	    </div>
+	</div>
+	<!--分享-弹出层-end-->
+	<!--配置清单-弹出层-start-->
+	<div class="lightBox configBox">
+		<div class="lightTitle">
+	        <a class="close" href="javascript:void(0)" onclick="closeBox('configBox')"></a>
+	    </div>
+	    <div class="lightCon">
+	    	<div class="lightIcon">
+	    		<img src="images/icon03.png" alt="" />
+	    	</div>
+	    	<h1 class="configTitle">已配置清单</h1>
+	    	<div class="configCont">
+	    		<dl class="configList">
+	    			<dt>当前车型</dt>
+	    			<dd><div class="price">￥245900</div>昂科威 2017款 20T前驱豪华型</dd>
+	    		</dl>
+	    		<dl class="configList">
+	    			<dt>车身配置</dt>
+	    			<dd><div class="price">￥0</div><i id="carColor">车身颜色 雪域白</i></dd>
+	    			<dd><div class="price">￥0</div><i id="carWheel">17寸十辐铝合金轮毂</i></dd>
+	    		</dl>
+	    		<dl class="configList">
+	    			<dt>内饰配置</dt>
+	    			<dd><div class="price">￥0</div><i id="carIntColor">黑色高级真皮</i></dd>
+	    		</dl>
+	    		<dl class="configList">
+	    			<dt>选装配置</dt>
+					<div id="carConfig">
+					</div>
+	    			<!--<dd><div class="price">￥600</div>合金行李架</dd>
+	    			<dd><div class="price">￥4,500</div>合金踏板</dd>-->
+	    		</dl>
+	    		<div class="confitTotal">
+	    			<a href="javascript:;" class="package"><i></i><span>选装包方案 ></span></a>
+	    			<div class="totalPrice">总价：<span id="pzbZongJia">305,900</span></div>
+	    		</div>
+	    	</div>
+	    	<div class="lightSubmit">
+	    		<button class="wbtn" type="button" onclick="closeBox('configBox')">确 定</button>
+	    	</div>
+	    </div>
+	</div>
+	<!--配置清单-弹出层-end-->
+</div>
+<script> 
+var mySwiper1 = new Swiper('#swiperBirght', {
+    slidesPerView : 'auto',
+})
+</script>
+<script src="js/YappamCar.js"></script>
+</body>
+</html>

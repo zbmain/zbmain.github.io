@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/*header*/
+.header {position: fixed; top:0; left:0; right: 0; text-align: center; line-height: 0.68rem; height: 0.68rem; border-bottom: 0.02rem solid #fff; background: #000; overflow: hidden; color: #fff;}
+.carFlash {position: fixed; left: 0; top: 0.7rem; right: 0; bottom: 0;}
+.carsFlash {position: fixed; left: 0; top: 0.7rem; right: 0; bottom: 5.06rem;}
+.carsPic {position: fixed; left: 0; top: 0.7rem; right: 0; bottom: 5.06rem; z-index: 9; background: url(../images/yinx1.jpg) no-repeat center center; background-size: 6.4rem auto; display: none;}
+.contWrap {position: fixed; left: 0; bottom: 0; right: 0; z-index: 9;}
+
+.back {float: left; width: 0.76rem; height: 0.68rem; background: url(../images/back.png) no-repeat center center; background-size: 0.33rem auto; border-right: 0.02rem solid #fff;}
+.totalPrice {float: left; width: 3rem; text-align: center; font-size: 0.22rem;}
+.totalPrice span {margin-left: 0.05rem;}
+.totalPrice span i {font-style: normal; font-size: 0.18rem;}
+.inventory {float: left; width: 1.84rem;}
+.inventory i {display: inline-block; width: 0.2rem; height: 0.17rem; background: url(../images/menu.png) no-repeat; background-size: 0.2rem auto; margin-right: 0.1rem;}
+.hear {float: right; width: 0.76rem; height: 0.68rem; background: url(../images/hear.png) no-repeat center center; background-size: 0.48rem auto; border-left: 0.02rem solid #fff;}
+
+.nav {background: #fff; border-bottom: 1px solid #ddd;}
+.nav a {color: #8f8e8e; font-size: 0.22rem; height: 1rem; width: 33.3%; background: url(../images/line1.png) no-repeat right center; background-size:auto 0.77rem;}
+.nav a:last-child {background: none;}
+.nav a i {display: block; width: 0.43rem; height: 0.34rem; background: url(../images/iconA.png) no-repeat; background-size: 1.5rem auto; margin: 0.16rem auto 0;}
+.nav a.navItme2 i {background-position: -0.5rem 0;}
+.nav a.navItme3 i {background-position: -1rem 0;}
+.nav a.navItme1.active i {background-position: 0 -0.4rem;}
+.nav a.navItme2.active i {background-position: -0.5rem -0.4rem;}
+.nav a.navItme3.active i {background-position: -1rem -0.4rem;}
+.nav a span {line-height: 0.44rem; display: block;}
+.nav a.active span {color: #0071c6;}
+
+/*.tabList {display:none;}
+.secondFloorSwiperWrap {display:none;}*/
+.tabListWrap {background: #eee;}
+.tabListTop {height: 0.9rem; text-align: center;}
+
+/*swiper第一层*/
+.firstFloorSwiper {height: 0.9rem; line-height: 0.9rem; position: relative;}
+.firstFloorSwiper .swiper-container {width: 5rem;}
+.firstFloorSwiper .swiper-container:after {content: ""; position: absolute; left: 0; bottom: 0; right: 0; border-bottom: 1px solid #ddd;}
+.firstFloorSwiper .swiper-button-prev {left: 0.3rem;}
+.firstFloorSwiper .swiper-button-next {right: 0.3rem;}
+.swiper-button-next, .swiper-button-prev {width: 0.17rem; height: 0.29rem; margin-top: -0.14rem; background-size: 0.17rem auto;}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {background-image: url(../images/arrowLeft.png);}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {background-image: url(../images/arrowRight.png);}
+.firstFloorSwiper .swiper-slide {text-align: center;}
+.firstFloorSwiper .swiper-slide.active {border-bottom: 1px solid #0071c6;}
+
+.secondFloorSwiperWrap {padding-bottom: 0.3rem; height: 2.05rem;}
+.secondFloorSwiperWrap .text {line-height: 0.78rem; width: 4.2rem; margin: 0 auto; text-align: center; padding: 0 0.4rem; position: relative; color: #333;}
+.secondFloorSwiperWrap .text i {position: absolute; right: 0; top: 50%; margin-top: -0.2rem; width: 0.4rem; height: 0.4rem; background: url(../images/tip.png) no-repeat; background-size: 0.4rem auto;}
+.secondFloorSwiper {position: relative;}
+.secondFloorSwiper .swiper-container {width: 5rem; padding: 0.05rem;}
+.secondFloorSwiper img {display: block; box-sizing: border-box;}
+.secondFloorSwiper .swiper-slide {position: relative; box-sizing: border-box; width: 1.02rem;}
+.secondFloorSwiper .swiper-slide.active {border: 2px solid #0071c6;}
+i.iconSelect {position: absolute; width: 0.18rem; height: 0.18rem; background: url(../images/iconSelect.png) no-repeat; background-size: 0.18rem auto; display: none;}
+.active i.iconSelect {display: block; right: -0.06rem; bottom: -0.06rem;}
+.secondFloorSwiper .swiper-slide img {padding: 2px;}
+.secondFloorSwiper .swiper-slide.active img {padding: 0;}
+
+/*.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {opacity:0.1;}*/
+
+.btnBlock {display: block; height: 0.8rem; line-height: 0.8rem; background: #000; color: #fff; font-size: 0.3rem; text-align: center;}
+
+.lgTab .swiper-slide {padding: 0.08rem;}
+
+
+/*内饰*/
+.NScolorTab .swiper-wrapper {display:inline-block; text-align:center;}
+.NScolorTab .swiper-slide {display:inline-block;}
+.NScolorTab .swiper-button-prev,.NScolorTab .swiper-button-next {display:none;}
+
+/*座椅*/
+.ZYTab .swiper-wrapper {display:inline-block; text-align:center;}
+.ZYTab .swiper-slide {display:inline-block;}
+.ZYTab .swiper-button-prev,.ZYTab .swiper-button-next {display:none;}
+
+/*胎压*/
+.TYTab .swiper-wrapper {display:inline-block; text-align:center;}
+.TYTab .swiper-slide {display:inline-block;}
+.TYTab .swiper-button-prev,.TYTab .swiper-button-next {display:none;}
+
+/*方向盘材质*/
+.fxpCzTab .swiper-wrapper {display:inline-block; text-align:center;}
+.fxpCzTab .swiper-slide {display:inline-block;}
+.fxpCzTab .swiper-button-prev,.fxpCzTab .swiper-button-next {display:none;}
+
+/*音响*/
+.YXTab .swiper-wrapper {display:inline-block; text-align:center;}
+.YXTab .swiper-slide {display:inline-block;}
+.YXTab .swiper-button-prev,.YXTab .swiper-button-next {display:none;}
+
+/*通用*/
+.normalTab .swiper-wrapper {display:inline-block; text-align:center;}
+.normalTab .swiper-slide {display:inline-block;}
+.normalTab .swiper-button-prev,.normalTab .swiper-button-next {display:none;}
+
+
+/*弹出层*/
+.popBox {display:none; position:fixed; left:50%; margin-left:-3rem; width:5.4rem; height:auto; z-index:9999; background:#eee; padding:0.4rem; padding-right:0.2rem; font-size:0.24rem; line-height:0.34rem; color:#333;}
+.popClose {position:absolute; right:0.3rem; top:0.3rem; width:0.5rem; height:0.5rem; background:url(../images/close.png) no-repeat; background-size:0.5rem auto;}
+.listUl {overflow:hidden; padding-top:0.2rem; padding-bottom:0.3rem;}
+.listUl li {float:left; width:0.92rem; height:0.92rem; box-sizing:border-box; margin-right:0.1rem; padding:0.06rem; position:relative;}
+.listUl>li.active {border:2px solid #0071c6;}
+
+.popBoxCont img {display:block; margin:0 auto 0.3rem;}
+.popBoxCont h2 {font-weight:normal; margin-bottom:0.2rem;}
+
+
+/*maskTip*/
+.maskTip {text-align:center; font-size:0.2rem; background:url(../images/maskTip.png) no-repeat center top; background-size:5.96rem auto; height:0.88rem; line-height:0.4rem; padding-top:0.1rem; color:#fff; position:absolute; top:-1.5rem; left:0; right:0; display:none;}
+.maskTip p span {padding:0 0.05rem; color:#0071c6; font-weight:bold;}
+
+
+
+
+

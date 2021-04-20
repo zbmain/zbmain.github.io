@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 配置-->
+	<asset name="车系" id="0" />
+	<asset name="车型" id="1" />
+	<asset name="颜色" id="2" />
+	<asset name="轮毂" id="3" />
+	<asset name="选装包" id="4" />
+	<asset name="原装附件" id="5" />
+	<asset name="购车方案" id="6" />
+	<asset name="下一步" id="7" />
+	<asset name="返回" id="8" />
+	
+	<!-- 最少月供 -->
+	<asset name="4859" id="9" />
+	
+	<!-- 车系配置地址 -->
+	<asset name="assets/data/index.xml" id="10" />
+	
+	<!-- 原装附件地址 -->
+	<asset name="assets/data/原装附件.xml" id="11" />
+	
+	
+
+</root>

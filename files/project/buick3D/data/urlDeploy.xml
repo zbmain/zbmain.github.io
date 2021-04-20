@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<disposition> <!--英朗XT excelleXT-->
+
+ 
+<deploy id="1" url="http://www.ebuick-1.com/{cityurl}/vehicleType/vehicleView/aaa/bbb/0.html"></deploy>      <!--车型详解-->
+
+<deploy id="2" url="http://www.ebuick-1.com/{cityurl}/vehicleType/compare.html"></deploy>            <!--配置对比--> 
+
+<deploy id="3" url="http://www.ebuick-1.com/{cityurl}/trydrive/firstschedule/aaa/bbb.html"></deploy>            <!--抢先预定 -->
+
+<deploy id="4" url="http://www.ebuick-1.com/{cityurl}/trydrive/trydriver/aaa/bbb.html"></deploy>        <!--申请试驾-->
+
+
+
+<deploy id="5" url="http://www.ebuick-1.com/3D/envision/envision.html"></deploy>        <!--微博分享中的‘当前页面的URL’链接-->
+
+<deploy id="6" url="http://m.ebuick.com.cn/indexAllCar/119"></deploy>        <!--微信分享中生成二维码地址-->
+
+<deploy id="7" url="http://www.ebuick-1.com/buick/interceptor/checkLogin.html"></deploy>        <!--登陆接口地址-->
+
+<deploy id="8" url="http://www.ebuick-1.com/buick/user/public/login.html"></deploy>        <!--登陆页面地址-->
+
+<deploy id="9" url="http://www.ebuick-1.com/buick/user/content/attentCarAjax.html"></deploy>        <!--关注车型接口地址-->
+
+<deploy id="10" url="http://www.ebuick-1.com/3D/images/excelleXT.jpg"></deploy>              <!--微博分享中‘车型图片地址’链接-->
+
+
+
+<deploy id="11" url="http://www.ebuick-1.com/{cityurl}/vehicleType/memberPrice/1/bbb.html"></deploy>    <!--经销商报价-->
+ 
+<deploy id="12" url="http://www.ebuick-1.com/{cityurl}/vehicleType/vehicleView/daogou/aaa/bbb.html"></deploy>     <!--导购信息-->
+
+
+</disposition>
