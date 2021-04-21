@@ -1,3 +1,9 @@
+$(function(){
+    $('#tips').delay(3000).slideUp(500);
+});
+// $(".tips").click(function(){
+//     $(".tips").slideUp(500);
+// });
 //背景随机
 $(function () {
     var length = 4;
@@ -120,5 +126,5 @@ $(window).resize(function () {
     }
 });
 function _alert(){
-    alert('保密协议，不开源，待整理脱敏后开放！')
+    alert('待整理后开放！')
 }

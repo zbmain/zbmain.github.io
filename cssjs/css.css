@@ -26,3 +26,15 @@ html *{
 .nav div{
     margin-top: 50px;
 }
+.tooltip {
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
