@@ -9,8 +9,11 @@ html *{
 }
 .info{
     margin-top: 5vh;
-    font-size:100px;
+}
+.info h1{
+    font-size:80px;
     color: lightslategrey;
+    font-family: cursive,'Lato', sans-serif;
 }
 .button {
     border: none;
@@ -19,7 +22,7 @@ html *{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 35px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
