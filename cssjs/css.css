@@ -7,6 +7,23 @@ html *{
     background-attachment: fixed;
     background-size: auto 100vh;
 }
+#cv-tips{
+    /*background: #f9d272;*/
+    display: none;
+}
+#cv-tips p{
+    background: #f9d272;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 3vh;
+    padding-top: 1vh;
+    font-size: 3vh;
+}
+#cv-tips span{
+    color: palevioletred;
+    background: #f9d272;
+}
 .info{
     margin-top: 5vh;
 }
