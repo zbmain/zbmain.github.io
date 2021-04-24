@@ -55,6 +55,7 @@ html *{
     margin-top: 5vh;
 }
 .tooltip {
+    display: none;
 }
 .tooltip .tooltiptext {
     visibility: hidden;

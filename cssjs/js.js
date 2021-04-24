@@ -12,8 +12,9 @@ function getParamKey(key){
 }
 // cvtips
 function cvTips(){
-  $('#cv-tips').css('display',state);
-  $('#cv-tips').delay(3000).slideUp(1000);
+    $('.tooltip').css('display',state);
+    $('#cv-tips').css('display',state);
+    $('#cv-tips').delay(3000).slideUp(1000);
 }
 
 // 百度统计
